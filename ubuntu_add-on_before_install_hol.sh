@@ -19,5 +19,6 @@ sudo snap install remmina -y
 . /etc/os-release
 sudo apt install -t ${VERSION_CODENAME}-backports cockpit -y
 
+# After you already have Cockpit on your server, point your web browser to: https://ip-address-of-machine:9090
 
 sudo apt install ubuntu-desktop -y
