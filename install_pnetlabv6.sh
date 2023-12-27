@@ -189,6 +189,10 @@ uname -a | grep -q -- "-azure " && azure_kernel_tune
 
 apt autoremove -y -q
 apt autoclean -y -q
+
+sudo apt update -y 
+sudo apt upgrade shim-signed
+# Lệnh trên sẽ cập nhật shim-signed lên phiên bản mới nhất có sẵn trong kho lưu trữ Ubuntu.
 echo -e "${GREEN}Upgrade has been done successfully ${NO_COLOR}"
 echo -e "${GREEN}Default credentials: username=root password=pnet Make sure reboot if you install pnetlab first time ${NO_COLOR}"
 
