@@ -142,14 +142,14 @@ echo -e "${GREEN}   systemctl ishare2_gui status: Check ishare2 GUI service stat
 
 function install_python3_11_from_ppa() {
     # Install the required dependency package
-    sudo apt-get update
+    sudo apt-get update -y
     sudo apt-get install -y software-properties-common
 
     # Add the deadsnakes PPA to the APT package manager sources list
     sudo add-apt-repository ppa:deadsnakes/ppa
 
     # Proceed with the installation of Python 3.11
-    sudo apt-get update
+    sudo apt-get update -y
     sudo apt-get install -y python3.11
 
     # Verify the installation
