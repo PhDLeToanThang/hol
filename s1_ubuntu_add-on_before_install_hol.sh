@@ -12,7 +12,7 @@ sudo systemctl enable xrdp
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
-sudo snap install remmina -y
+sudo snap install remmina --classic --quiet
 
 # Cách cấu hình điều khiển HĐH Linux qua Web HTML 5
 # https://thangletoan.wordpress.com/2022/05/22/cach-cau-hinh-dieu-khien-hdh-linux-qua-web-html-5/
