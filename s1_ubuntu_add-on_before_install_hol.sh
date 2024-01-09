@@ -12,7 +12,7 @@ sudo systemctl enable xrdp
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
-# hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn?
+# hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn ?
 sudo snap install remmina --classic
 
 # Cách cấu hình điều khiển HĐH Linux qua Web HTML 5
