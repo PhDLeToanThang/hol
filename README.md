@@ -1,8 +1,10 @@
-# handonlabs
+# Hand-on-labs
 Hand on labs include documents, topology, guide to self practices for cloud computing science environment laboratory 
 
 # Bài luận về đề tài Hand On Labs:
-search: "Hand on labs include documents, topology, guide to self practices for students such as cloud computing, IoT gateway, edge cloud and Fog computing, stem science environment laboratory"
+search: "Hand on labs include documents, topology, guide to self practices for students such as cloud computing, IoT gateway, edge cloud and Fog computing, stem science environment laboratory".
+
+Phác thảo 1: Bài giới thiệu về 
 [https://dev.azure.com/ThangLeRobusta/Hand%20On%20Labs%20for%20Training%20Labs%20Center]
 
 và
@@ -64,5 +66,12 @@ Specify the image number, which can be obtained using \fBishare2 search\fR comma
 - ishare2 changelog
 - ishare2 help
 - ishare2 test
+Tham khảo: 
 
-https://t.me/NetLabHub
+# Phần 4. Phiên bản:
+- 3.3.3-main Project Hand-on-Lab
+- Source code: 
+- 1. pnetlab version 6.0 trở lên.
+- 2. ishare 2.5 trở lên.
+- 3. Cloud Edge - Guacamole 1.5.3 trở lên.
+- 4. Base OS: Linux Ubuntu 20.04 LTS trở lên.
