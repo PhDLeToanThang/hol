@@ -12,6 +12,7 @@ sudo systemctl enable xrdp
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
+sudo apt install ifupdown
 
 # hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn ?
 # sudo snap install remmina --classic
@@ -26,3 +27,4 @@ sudo apt install ubuntu-desktop -y
 
 sudo apt-get install openvswitch-switch -y
 sudo systemctl start openvswitch-switch
+systemctl restart systemd-networkd
