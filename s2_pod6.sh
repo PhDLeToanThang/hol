@@ -3,8 +3,8 @@ clear
 export LC_ALL=C
 export DEBIAN_FRONTEND=noninteractive
 
-# Script designed to upgrade dependencies in PNETLab UBUNTU 22.04
-# Requirement: You need to have UBUNTU 22.04
+# Script designed to upgrade dependencies in PNETLab UBUNTU 20.04
+# Requirement: You need to have UBUNTU 20.04
 # CONSTANTS
 GREEN='\033[32m'
 RED='\033[31m'
@@ -26,9 +26,9 @@ URL_PNET_PNETLAB=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetl
 URL_PNET_WIRESHARK=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
 URL_PNET_TPM=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/T/swtpm-focal.zip
 
-lsb_release -r -s | grep -q 22.04
+lsb_release -r -s | grep -q 20.04
 if [ $? -ne 0 ]; then
-    echo -e "${RED}Upgrade has been rejected. You need to have UBUNTU 22.04 to use this script${NO_COLOR}"
+    echo -e "${RED}Upgrade has been rejected. You need to have UBUNTU 20.04 to use this script${NO_COLOR}"
     exit 0
 fi
 
