@@ -8,11 +8,14 @@ sudo apt upgrade -y
 # Cấu hình Remote Desktop Access RDP 3389 tới máy chủ vật lý hoặc máy ảo Ubuntu 20.x/22.x LTS server
 # https://thangletoan.wordpress.com/2023/10/31/cau-hinh-remote-desktop-access-rdp-3389-toi-may-chu-vat-ly-hoac-may-ao-ubuntu-20-x-22-x-lts-server/
 sudo apt install xrdp -y
-sudo systemctl enable xrdp
+sudo apt install xserver-xorg-core -y
+sudo apt install xserver-xorg-input-all -y
+sudo apt install xorgxrdp -y
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
-sudo apt install ifupdown
+sudo apt install ifupdown -y
+sudo systemctl enable xrdp
 
 # hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn ?
 # sudo snap install remmina --classic
@@ -28,3 +31,7 @@ sudo apt install ubuntu-desktop -y
 sudo apt-get install openvswitch-switch -y
 sudo systemctl start openvswitch-switch
 systemctl restart systemd-networkd
+
+sudo ufw allow rdp
+sudo ufw allow ssh
+sudo ufw enable
