@@ -10,7 +10,7 @@ sudo apt upgrade -y
 sudo apt install xrdp -y
 sudo apt install xserver-xorg-core -y
 sudo apt install xserver-xorg-input-all -y
-sudo apt install xorgxrdp -y
+sudo apt install xorgxrdp -y  # instal xrpd remote type xord is kernel VGA, Console direct GPU 
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
