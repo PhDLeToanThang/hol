@@ -15,7 +15,9 @@ sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
 sudo apt install ifupdown -y
+sudo adduser xrdp ssl-cert # add xrdp into ssl-cert group
 sudo systemctl enable xrdp
+sudo systemctl start xrdp # start xrdp service
 
 # hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn ?
 # sudo snap install remmina --classic
@@ -32,6 +34,9 @@ sudo apt-get install openvswitch-switch -y
 sudo systemctl start openvswitch-switch
 systemctl restart systemd-networkd
 
+#Firewall configuration:
 sudo ufw allow rdp
 sudo ufw allow ssh
 sudo ufw enable
+
+# sudo ufw allow from 192.168.100.0/24 to any port 3389   # (có thể thêm dải ipv4 cho guacamole tới con VM cần điều khiển) 
