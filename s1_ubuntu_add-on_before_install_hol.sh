@@ -35,7 +35,7 @@ sudo systemctl start openvswitch-switch
 systemctl restart systemd-networkd
 
 #Firewall configuration:
-sudo ufw allow rdp
+sudo ufw allow 3389
 sudo ufw allow ssh
 sudo ufw enable
 
