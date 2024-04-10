@@ -29,7 +29,7 @@ ishare2 GUI is a web interface for the ishare2 project, designed to provide a gr
 
 ## Screenshots
 
-![alt ishare2-GUI's Homepage](web_app/src/static/images/Homepage%20-%20ishare2.png)
+![image](https://github.com/PhDLeToanThang/handonlabs/assets/106635733/fd2cd2f6-85de-4df3-939f-33fb6dc231ed)
 
 The ishare2 GUI is currently under development and may not be stable yet. It has only been tested on PNetLab, but it may be adaptable to work on other network emulators.
 
@@ -68,6 +68,10 @@ sudo apt-get install python3 python3-pip python3-venv -y
 ```bash
 sudo su
 ```
+
+### Download the latest version of ishare2 from the GitHub repository:
+wget raw.githubusercontent.com/PhDLeToanThang/handonlabs/main/s3_ishare2_cli_install.sh
+bash s3_ishare2_cli_install.sh
 
 ### Clone the repository
 
