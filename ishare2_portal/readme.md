@@ -70,8 +70,11 @@ sudo su
 ```
 
 ### Download the latest version of ishare2 from the GitHub repository:
+
 wget raw.githubusercontent.com/PhDLeToanThang/handonlabs/main/s3_ishare2_cli_install.sh
+
 bash s3_ishare2_cli_install.sh
+
 
 ### Clone the repository
 
