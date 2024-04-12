@@ -28,7 +28,8 @@ sudo systemctl start xrdp # start xrdp service
 #sudo apt install -t ${VERSION_CODENAME}-backports cockpit -y
 
 # After you already have Cockpit on your server, point your web browser to: https://ip-address-of-machine:9090
-sudo apt install ubuntu-desktop -y
+#sudo apt install ubuntu-desktop -y
+sudo apt install xubuntu-desktop -y
 
 sudo apt-get install openvswitch-switch -y
 sudo systemctl start openvswitch-switch
@@ -37,6 +38,5 @@ systemctl restart systemd-networkd
 #Firewall configuration:
 sudo ufw allow 3389
 sudo ufw allow ssh
-sudo ufw enable
-
+#sudo ufw enable -y
 # sudo ufw allow from 192.168.100.0/24 to any port 3389   # (có thể thêm dải ipv4 cho guacamole tới con VM cần điều khiển) 
