@@ -19,9 +19,6 @@ sudo adduser xrdp ssl-cert
 sudo adduser pod ssl-cert 
 # add xrdp into ssl-cert group
 
-sudo systemctl start xrdp 
-# start xrdp service
-
 systemctl is-active xrdp 
 # check xrdp state
 
@@ -31,7 +28,8 @@ sudo systemctl enable xrdp-sesman
 
 # start xrdp on system start
 sudo systemctl start xrdp-sesman
-systemctl start xrdp
+sudo systemctl start xrdp 
+# start xrdp service
 
 #3. Firewall configuration:   
 sudo ufw allow 3389
