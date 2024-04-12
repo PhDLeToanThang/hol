@@ -16,6 +16,7 @@ sudo apt install xorgxrdp -y
 
 #You also need to grant access to the /etc/ssl/private/ssl-cert-snakeoil.key file for xrdp user. It is available to members of the ssl-cert group by default.
 sudo adduser xrdp ssl-cert 
+sudo adduser pod ssl-cert 
 # add xrdp into ssl-cert group
 
 sudo systemctl start xrdp 
