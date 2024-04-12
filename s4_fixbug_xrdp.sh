@@ -26,8 +26,10 @@ systemctl is-active xrdp
 
 # active
 sudo systemctl enable xrdp 
+sudo systemctl enable xrdp-sesman
 
 # start xrdp on system start
+sudo systemctl start xrdp-sesman
 systemctl start xrdp
 
 #3. Firewall configuration:   
@@ -35,4 +37,4 @@ sudo ufw allow 3389
 # sudo ufw allow from 192.168.100.0/24 to any port 3389   # (dải ipv4 cho guacamole tới con VM cần điều khiển) 
 
 #4. Reboot system OS:
-sudo reboot
+#sudo reboot
