@@ -16,20 +16,13 @@ sudo apt install net-tools -y
 sudo apt install gparted -y
 sudo apt install ifupdown -y
 sudo adduser xrdp ssl-cert # add xrdp into ssl-cert group
+sudo adduser pod ssl-cert # add pod into ssl-cert group
 sudo systemctl enable xrdp
 sudo systemctl start xrdp # start xrdp service
 
-# hỏi AI: Tôi muốn cài remmina qua snap của ubuntu như lại chọn kiểu silent thì dùng lệnh cli ntn ?
-# sudo snap install remmina --classic
-
-# Cách cấu hình điều khiển HĐH Linux qua Web HTML 5
-# https://thangletoan.wordpress.com/2022/05/22/cach-cau-hinh-dieu-khien-hdh-linux-qua-web-html-5/
-#. /etc/os-release
-#sudo apt install -t ${VERSION_CODENAME}-backports cockpit -y
-
 # After you already have Cockpit on your server, point your web browser to: https://ip-address-of-machine:9090
 #sudo apt install ubuntu-desktop -y
-sudo apt install xubuntu-core -y
+sudo apt install xubuntu -y
 sudo apt remove libreoffice-*
 sudo apt install firefox -y
 
