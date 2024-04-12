@@ -3,16 +3,16 @@ clear
 # 1.	Remove previously installed xrdp:
 sudo systemctl disable xrdp
 sudo systemctl stop xrdp
-sudo apt purge xrdp
-sudo apt purge xserver-xorg-core
-sudo apt purge xserver-xorg-input-all
-sudo apt purge xorgxrdp
+sudo apt purge xrdp -y
+sudo apt purge xserver-xorg-core -y
+sudo apt purge xserver-xorg-input-all -y
+sudo apt purge xorgxrdp -y
 
 #2. Re-install xrdp & required packages:
-sudo apt install xrdp
-sudo apt install xserver-xorg-core
-sudo apt install xserver-xorg-input-all
-sudo apt install xorgxrdp
+sudo apt install xrdp -y
+sudo apt install xserver-xorg-core -y
+sudo apt install xserver-xorg-input-all -y
+sudo apt install xorgxrdp -y
 
 #You also need to grant access to the /etc/ssl/private/ssl-cert-snakeoil.key file for xrdp user. It is available to members of the ssl-cert group by default.
 sudo adduser xrdp ssl-cert 
