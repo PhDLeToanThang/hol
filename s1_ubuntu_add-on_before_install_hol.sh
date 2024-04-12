@@ -38,5 +38,5 @@ systemctl restart systemd-networkd
 #Firewall configuration:
 sudo ufw allow 3389
 sudo ufw allow ssh
-#sudo ufw enable -y
+#sudo ufw enable 
 # sudo ufw allow from 192.168.100.0/24 to any port 3389   # (có thể thêm dải ipv4 cho guacamole tới con VM cần điều khiển) 
