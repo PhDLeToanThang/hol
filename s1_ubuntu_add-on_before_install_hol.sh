@@ -29,7 +29,9 @@ sudo systemctl start xrdp # start xrdp service
 
 # After you already have Cockpit on your server, point your web browser to: https://ip-address-of-machine:9090
 #sudo apt install ubuntu-desktop -y
-sudo apt install xubuntu-desktop -y
+sudo apt install xubuntu-core -y
+sudo apt remove libreoffice-*
+sudo apt install firefox -y
 
 sudo apt-get install openvswitch-switch -y
 sudo systemctl start openvswitch-switch
