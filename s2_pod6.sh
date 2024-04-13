@@ -14,17 +14,38 @@ KERNEL=pnetlab_kernel.zip
 rm /var/lib/dpkg/lock* &> /dev/null
 dpkg --configure -a &> /dev/null
 
-URL_KERNEL=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
-URL_PRE_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/D/pre-docker.zip
-URL_PNET_GUACAMOLE=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-7_amd64.deb
-URL_PNET_DYNAMIPS=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
-URL_PNET_SCHEMA=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
-URL_PNET_VPC=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
-URL_PNET_QEMU=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
-URL_PNET_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
-URL_PNET_PNETLAB=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/pnetlab_6.0.0-100_amd64.deb
-URL_PNET_WIRESHARK=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
-URL_PNET_TPM=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/T/swtpm-focal.zip
+#URL_KERNEL=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
+URL_KERNEL=https://storage.googleapis.com/drive-bulk-export-anonymous/20240413T135239.152Z/4133399871716478688/edd8e3f9-3ed4-4427-83d7-53009624dd07/1/b74e057e-936b-41e2-8bfd-6d1901306146?authuser
+
+#URL_PRE_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/D/pre-docker.zip
+URL_PRE_DOCKER=https://drive.usercontent.google.com/download?id=1CJwyH5uDFJleVIv_0ZDDbXFF0jHX3nmh&export=download&confirm=t&uuid=42fbf1d7-b8fe-4a52-9b62-ae445155bb4e
+
+#URL_PNET_GUACAMOLE=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-30_amd64.deb
+URL_PNET_GUACAMOLE=https://drive.usercontent.google.com/download?id=13stqJYYnoyglUUb7rK8VMQAu2nDgY2uQ&export=download&confirm=t&uuid=a58a042a-3eda-4809-9b39-82f473b46e45
+
+#URL_PNET_DYNAMIPS=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
+URL_PNET_DYNAMIPS=https://drive.usercontent.google.com/download?id=14GpDmiVvgytap1H_oMxE9UEYyV1mYwRm&export=download&confirm=t&uuid=70d54ba3-b3e7-4226-b924-89d8167a6270
+
+#URL_PNET_SCHEMA=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
+URL_PNET_SCHEMA=https://drive.usercontent.google.com/download?id=1RPLoUINiNnKCYmJgOD3a0kncCo_ylWbL&export=download&confirm=t&uuid=e4ee6471-ffda-4c50-b07f-c8603065ed1e
+
+#URL_PNET_VPC=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
+URL_PNET_VPC=https://drive.usercontent.google.com/download?id=1nNUQhcLRKUxYJGXwZRwiHxUJ6YYY2xm7&export=download&confirm=t&uuid=d4887f45-f101-43ff-9603-58631953951e
+
+#URL_PNET_QEMU=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
+URL_PNET_QEMU=https://drive.usercontent.google.com/download?id=1d3Czr1YLZ5SjDfTdGuzCGkWErSmKgMAB&export=download&confirm=t&uuid=bcf1011c-6583-4c3d-b6f3-b09d9b27df39
+
+#URL_PNET_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
+URL_PNET_DOCKER=https://drive.usercontent.google.com/download?id=1rMqGkgcyevzcY38JEs5NoCjf0Gf0H-bI&export=download&confirm=t&uuid=fa4e8f6f-2c4f-4f61-b4a6-42cf8d3f3750
+
+#URL_PNET_PNETLAB=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/pnetlab_6.0.0-100_amd64.deb
+URL_PNET_PNETLAB=https://drive.usercontent.google.com/download?id=1OOgeRlOXtgHh56Q9rRtAy_jfiXUCLk99&export=download&confirm=t&uuid=7f9fc6d9-ba1f-4910-8e4e-c365bd9fb2e9
+
+#URL_PNET_WIRESHARK=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
+URL_PNET_WIRESHARK=https://drive.usercontent.google.com/download?id=1l6Pc_fjHOl0u-eN3JvzupMk1L5546FNr&export=download&confirm=t&uuid=d67b8576-654f-4dde-8aab-2173f883fa8d
+
+#URL_PNET_TPM=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/T/swtpm-focal.zip
+URL_PNET_TPM=https://drive.usercontent.google.com/download?id=1pmtHBtDHL81z9t6LmYxdvfWklwcjiLWL&export=download&confirm=t&uuid=2ac78889-26ed-45ee-9710-d9888d142005
 
 lsb_release -r -s | grep -q 20.04
 if [ $? -ne 0 ]; then
