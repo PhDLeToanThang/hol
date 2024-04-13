@@ -144,7 +144,7 @@ wget --content-disposition -q --show-progress    $URL_PNET_SCHEMA
 dpkg -i /tmp/pnetlab-schema_*.deb
 fi
 
-dpkg-query -l | grep pnetlab-guacamole | grep 6.0.0-7 -q 
+dpkg-query -l | grep pnetlab-guacamole | grep 6.0.0-30 -q 
 if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_GUACAMOLE
 dpkg -i /tmp/pnetlab-guacamole_*.deb
