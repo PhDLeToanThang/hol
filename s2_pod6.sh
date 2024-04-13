@@ -21,31 +21,32 @@ URL_KERNEL=https://www.cloud.edu.vn/pnetlab6/Focal/L/linux-5.17.15-pnetlab-uksm/
 URL_PRE_DOCKER=https://www.cloud.edu.vn/pnetlab6/Focal/D/pre-docker.zip
 
 #URL_PNET_GUACAMOLE=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-30_amd64.deb
-URL_PNET_GUACAMOLE=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-30_amd64.deb
+URL_PNET_GUACAMOLE=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_GUACAMOLE.zip
 
 #URL_PNET_DYNAMIPS=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
-URL_PNET_DYNAMIPS=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
+URL_PNET_DYNAMIPS=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DYNAMIPS.zip
 
 #URL_PNET_SCHEMA=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
-URL_PNET_SCHEMA=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
+URL_PNET_SCHEMA=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_SCHEMA.zip
 
 #URL_PNET_VPC=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
-URL_PNET_VPC=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
+URL_PNET_VPC=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_VPC.zip
 
 #URL_PNET_QEMU=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
-URL_PNET_QEMU=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
+URL_PNET_QEMU=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_QEMU.zip
 
 #URL_PNET_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
-URL_PNET_DOCKER=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
+URL_PNET_DOCKER=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DOCKER.zip
 
 #URL_PNET_PNETLAB=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/pnetlab_6.0.0-100_amd64.deb
-URL_PNET_PNETLAB=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_PNETLAB/pnetlab_6.0.0-100_amd64.deb
+URL_PNET_PNETLAB=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_PNETLAB.zip
 
 #URL_PNET_WIRESHARK=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
-URL_PNET_WIRESHARK=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
+URL_PNET_WIRESHARK=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_WIRESHARK.zip
 
 #URL_PNET_TPM=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/T/swtpm-focal.zip
 URL_PNET_TPM=https://www.cloud.edu.vn/pnetlab6/Focal/T/swtpm-focal.zip
+
 
 lsb_release -r -s | grep -q 20.04
 if [ $? -ne 0 ]; then
@@ -135,50 +136,59 @@ fi
 dpkg-query -l | grep pnetlab-docker  | grep 6.0.0-30 -q 
  if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_DOCKER
-dpkg -i /tmp/pnetlab-docker_*.deb
+    unzip /tmp/PNET_DOCKER.zip &> /dev/null
+dpkg -i /tmp/PNET_DOCKER/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-schema  | grep 6.0.0-30 -q 
  if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_SCHEMA
-dpkg -i /tmp/pnetlab-schema_*.deb
+	unzip /tmp/PNET_SCHEMA.zip &> /dev/null
+dpkg -i /tmp/PNET_SCHEMA/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-guacamole | grep 6.0.0-30 -q 
 if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_GUACAMOLE
-dpkg -i /tmp/pnetlab-guacamole_*.deb
+	unzip /tmp/PNET_GUACAMOLE.zip &> /dev/null
+dpkg -i /tmp/PNET_GUACAMOLE/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-vpcs  | grep 6.0.0-30 -q 
 if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_VPC
-dpkg -i /tmp/pnetlab-vpcs_*.deb
+	unzip /tmp/PNET_VPC.zip &> /dev/null
+dpkg -i /tmp/PNET_VPC/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-dynamips  | grep 6.0.0-30 -q 
 if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_DYNAMIPS
-dpkg -i /tmp/pnetlab-dynamips_*.deb
+	unzip /tmp/PNET_DYNAMIPS.zip &> /dev/null
+dpkg -i /tmp/PNET_DYNAMIPS/*.deb
 fi
 
 dpkg-query -l | grep pnetlab-wireshark  | grep 6.0.0-30 -q 
 if [ $? -ne 0 ]; then
     wget --content-disposition -q --show-progress    $URL_PNET_WIRESHARK
-    dpkg -i pnetlab-wireshark_6.0.0-30_amd64.deb
+	unzip /tmp/PNET_WIRESHARK.zip &> /dev/null
+    dpkg -i /tmp/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
 fi 
 
 dpkg-query -l | grep pnetlab-qemu |  grep 6.0.0-30 -q
  if [ $? -ne 0 ]; then
 wget --content-disposition -q --show-progress    $URL_PNET_QEMU
-dpkg -i /tmp/pnetlab-qemu_*.deb
+	unzip /tmp/PNET_QEMU.zip &> /dev/null
+dpkg -i /tmp/PNET_QEMU/*.deb
 fi
+
 fgrep "127.0.1.1 pnetlab.example.com pnetlab" /etc/hosts  || echo 127.0.2.1 pnetlab.example.com pnetlab >> /etc/hosts 2> /dev/null
 echo pnetlab > /etc/hostname 2> /dev/null
 
 echo -e "${GREEN}installing pnetlab...${NO_COLOR}"
 wget --content-disposition -q --show-progress    $URL_PNET_PNETLAB
-dpkg -i /tmp/pnetlab_6*.deb
+	unzip /tmp/PNET_PNETLAB.zip &> /dev/null
+dpkg -i /tmp/PNET_PNETLAB/*.deb
 
 # Detect cloud
 
@@ -212,4 +222,3 @@ apt autoremove -y -q
 apt autoclean -y -q
 echo -e "${GREEN}Upgrade has been done successfully ${NO_COLOR}"
 echo -e "${GREEN}Default credentials: username=root password=pnet Make sure reboot if you install pnetlab first time ${NO_COLOR}"
-
