@@ -3,10 +3,11 @@ clear
 # 1.	Remove previously installed xrdp:
 sudo systemctl disable xrdp
 sudo systemctl stop xrdp
-sudo apt purge xrdp -y
-sudo apt purge xserver-xorg-core -y
-sudo apt purge xserver-xorg-input-all -y
-sudo apt purge xorgxrdp -y
+sudo apt purge xrdp
+sudo apt purge xserver-xorg-core
+sudo apt purge xserver-xorg-input-all
+sudo apt purge xorgxrdp
+sudo apt autoremove -y
 
 #2. Re-install xrdp & required packages:
 sudo apt install xrdp -y
@@ -15,12 +16,11 @@ sudo apt install xserver-xorg-input-all -y
 sudo apt install xorgxrdp -y
 
 #You also need to grant access to the /etc/ssl/private/ssl-cert-snakeoil.key file for xrdp user. It is available to members of the ssl-cert group by default.
-sudo adduser xrdp ssl-cert 
-sudo adduser pod ssl-cert 
 # add xrdp into ssl-cert group
+sudo adduser xrdp ssl-cert 
 
-systemctl is-active xrdp 
 # check xrdp state
+systemctl is-active xrdp 
 
 # active
 sudo systemctl enable xrdp 
@@ -28,12 +28,15 @@ sudo systemctl enable xrdp-sesman
 
 # start xrdp on system start
 sudo systemctl start xrdp-sesman
-sudo systemctl start xrdp 
+
 # start xrdp service
+sudo systemctl start xrdp 
 
 #3. Firewall configuration:   
 sudo ufw allow 3389
-# sudo ufw allow from 192.168.100.0/24 to any port 3389   # (dải ipv4 cho guacamole tới con VM cần điều khiển) 
+
+# (dải ipv4 cho guacamole tới con VM cần điều khiển) 
+sudo ufw allow from 192.168.100.0/24 to any port 3389   
 
 #4. Reboot system OS:
 #sudo reboot
