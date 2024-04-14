@@ -10,15 +10,35 @@ sudo apt upgrade -y
 sudo apt install xrdp -y
 sudo apt install xserver-xorg-core -y
 sudo apt install xserver-xorg-input-all -y
-sudo apt install xorgxrdp -y  # instal xrpd remote type xord is kernel VGA, Console direct GPU 
+sudo apt install xorgxrdp -y
+
+#You also need to grant access to the /etc/ssl/private/ssl-cert-snakeoil.key file for xrdp user. 
+#It is available to members of the ssl-cert group by default.
+# add xrdp into ssl-cert group
+sudo adduser xrdp ssl-cert
+
+# start xrdp service
+sudo systemctl start xrdp
+
+# check xrdp state
+systemctl is-active xrdp 
+
+#active
+sudo systemctl enable xrdp # start xrdp on system start
+
+#Firewall configuration:   
+sudo ufw allow 3389
+
+# (dải ipv4 cho guacamole Server tới con VM cần điều khiển) 
+sudo ufw allow from 192.168.100.0/24 to any port 3389   
+
+#Reboot system:  (không cần thiết)
+#sudo reboot
+
 sudo apt install ufw -y
 sudo apt install net-tools -y
 sudo apt install gparted -y
 sudo apt install ifupdown -y
-sudo adduser xrdp ssl-cert # add xrdp into ssl-cert group
-sudo adduser pod ssl-cert # add pod into ssl-cert group
-sudo systemctl enable xrdp
-sudo systemctl start xrdp # start xrdp service
 
 # After you already have Cockpit on your server, point your web browser to: https://ip-address-of-machine:9090
 sudo apt install ubuntu-desktop -y
@@ -31,6 +51,6 @@ systemctl restart systemd-networkd
 #Firewall configuration:
 sudo ufw allow 3389
 sudo ufw allow ssh
+
 #sudo ufw enable 
-# sudo ufw allow from 192.168.100.0/24 to any port 3389   # (có thể thêm dải ipv4 cho guacamole tới con VM cần điều khiển) 
 sudo reboot
