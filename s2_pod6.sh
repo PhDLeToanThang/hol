@@ -181,7 +181,6 @@ wget --content-disposition -q --show-progress    $URL_PNET_QEMU
 	unzip /tmp/PNET_QEMU.zip &> /dev/null
 dpkg -i /tmp/PNET_QEMU/*.deb
 fi
-
 fgrep "127.0.1.1 pnetlab.example.com pnetlab" /etc/hosts  || echo 127.0.2.1 pnetlab.example.com pnetlab >> /etc/hosts 2> /dev/null
 echo pnetlab > /etc/hostname 2> /dev/null
 
