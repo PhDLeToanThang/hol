@@ -76,14 +76,17 @@ Cisco IOU License Generator - Kal 2011, python port of 2006 C version
 Modified to work with python3 by c_d 2014
 hostid=007f0101, hostname=pod, ioukey=7f0343 Add the following text to /opt/unetlab/addons/iol/bin/iourc
 [license]
-
 pod = 972f30267ef51616;
 
 Now, we will create licenses for IOU/IOL images
+paste the license and press ctrl+x to save
 
 nano /opt/unetlab/addons/iol/bin/iourc
 
-paste the license and press ctrl+x to save
+[license]
+pod = 972f30267ef51616;
+
+Tương tự cũng copy vào: nano ~/.iourc
 
 [license]
 pod = 972f30267ef51616;
