@@ -11,19 +11,25 @@ You can download Cisco IOU/IOL images from the below links.
 1. Download Cisco IOU/IOL Images.
 
 3. Add Cisco IOU/IOL images to pod
-IOL or IOS On Linux also called IOU or IOS On Unix. IOL is a simulator available for Cisco internal use only. IOL refers to the Linux version, compiled for i386 architecture. IOU refers to the Unix (Solaris) version compiled for Sparc architecture. The term IOU usually refers to IOL too.
+IOL or IOS On Linux also called IOU or IOS On Unix.
+IOL is a simulator available for Cisco internal use only.
+IOL refers to the Linux version, compiled for i386 architecture.
+IOU refers to the Unix (Solaris) version compiled for Sparc architecture. The term IOU usually refers to IOL too.
 
 Because IOL is an internal IOS version, IOL can be used by Cisco employees or by authorized customers only.
 
-Upload the downloaded image to the EVE using for example FileZilla or WinSCP to:  /opt/unetlab/addons/iol/bin
+Upload the downloaded image to the EVE using for example FileZilla or WinSCP to:  
+
+cd /opt/unetlab/addons/iol/bin
 
 Type the following command to fix permissions:
 
 /opt/unetlab/wrappers/unl_wrapper -a fixpermissions
-3. License for Cisco IOU/IOL images: CiscoIOUKeygen.py
+
+3. License for Cisco IOU/IOL images:
+python CiscoIOUKeygen.py
+
 #! /usr/bin/python
-print("*********************************************************************")
-print("Cisco IOU License Generator - Kal 2011, python port of 2006 C version")
 print("Modified to work with python3 by c_d 2014")
 import os
 import socket
@@ -50,17 +56,22 @@ print("You can disable the phone home feature with something like:")
 print(" echo '127.0.0.127 xml.cisco.com' >> /etc/hosts\n")
 
 Copy the above text and create a text file and save as with the name CiscoIOUKeygen.py
-After creating the license python script, upload it to the pod directory
-–/opt/unetlab/addons/iol/bin/
+After creating the license python script, upload it to the pod directory /opt/unetlab/addons/iol/bin/
+
 After uploading the script go to the directory by using the below command-
 cd /opt/unetlab/addons/iol/bin/
+
 Check the directory content by below command-
 ls -l
+
 you will be able to see a file with the name – CiscoIOUKeygen.py
+
 Now run the python script by using the below command-
 python CiscoIOUKeygen.py
+
 it will give you some like the below output
 root@pod:/opt/unetlab/addons/iol/bin# python CiscoIOUKeygen.py
+
 Cisco IOU License Generator - Kal 2011, python port of 2006 C version
 Modified to work with python3 by c_d 2014
 hostid=007f0101, hostname=pod, ioukey=7f0343 Add the following text to /opt/unetlab/addons/iol/bin/iourc
