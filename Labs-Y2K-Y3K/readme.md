@@ -9,7 +9,7 @@
 ```python
 from google import genai
 
-client = genai.Client(api_key="AIzaSyCot9bdPiq448_aI83Srk6PnU_u3Ugu00E")
+client = genai.Client(api_key="Abcxyz")
 
 response = client.models.generate_content(
     model="gemini-2.5-flash", contents="""
@@ -111,8 +111,8 @@ LAAS_PROPOSAL_PATH = r'D:\Documents\Downloads\ebook_Labs\Đề tài Xây dựng 
 # llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3, google_api_key="YOUR_GOOGLE_API_KEY_HERE")
 
 # Ví dụ: Đặt API key vào biến môi trường trước khi chạy Jupyter cell này
-# os.environ["GOOGLE_API_KEY"] = "AIzaSyCot9bdPiq448_aI83Srk6PnU_u3Ugu00E" # THAY THẾ BẰNG API KEY CỦA BẠN!
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3, google_api_key="AIzaSyCot9bdPiq448_aI83Srk6PnU_u3Ugu00E") 
+# os.environ["GOOGLE_API_KEY"] = "Abcxyz" # THAY THẾ BẰNG API KEY CỦA BẠN!
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3, google_api_key="Abcxyz") 
 # Lưu ý: Model "gemini-2.5-flash" có thể là tên thử nghiệm hoặc chưa công khai rộng rãi.
 # Nếu gặp lỗi, hãy thử "gemini-1.5-flash" hoặc "gemini-1.5-pro" nếu có quyền truy cập.
 
