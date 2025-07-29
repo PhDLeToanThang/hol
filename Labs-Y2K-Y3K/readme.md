@@ -16,7 +16,8 @@ response = client.models.generate_content(
 Tôi đã tải các tệp về: Đề cương các khóa học, Giáo trình một số môn học, Pentest, Cybersecurity, Security+, Cyber Analytics, Data Scientist, Power BI, MS-SQL Data warehouse, SIEM, ELK, Trivy scan, Wazuh, ElasticSearch, AI Private Local, AI Security, ISO 27001, CSA,
 Tiêu chí An ninh an toàn kỹ thuật CNTT, EVE-NG Labs network, PNETLAB for Labs network, Kiến trúc giải pháp Ảo hóa, Điện toán đám mây, Cổng thông tin SharePoint, Email Exchange, Các bài thực hành và mô hình miêu tả các bước dựng Labs thực hành
 trong thư mục: r'D:\Documents\Downloads\ebook_Labs\' và trong thư mục: r'D:\Documents\Downloads\ITInternalAuditBook\' và trong thư mục r'D:\Documents\GitHub\ai-llm\dataframework\' và trong thư mục r'D:\Documents\GitHub\ai-llm\Workshop_Training\', 
-và trong thư mục r'D:\Documents\GitHub\ai-ml-dl\' và r'D:\Documents\GitHub\pentesting_it-audit\' và r'D:\Documents\GitHub\handonlabs\'.
+và trong thư mục r'D:\Documents\GitHub\ai-ml-dl\' và r'D:\Documents\GitHub\pendtesing_it-audit\'
+và r'D:\Documents\GitHub\handonlabs\'.
 
 Hãy viết cho tôi hàm python 3.11 Jupyter Notebook sao cho có thể đọc tất cả các tệp pdf, docx, md, txt, csv, xlsx nói trên và thực hiện 4 yêu cầu sau:
 
