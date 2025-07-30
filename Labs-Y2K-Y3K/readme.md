@@ -131,45 +131,278 @@ Dựa trên tư duy Dữ liệu và xu hướng thị trường, tôi sẽ phân
 
 ## 2.1. Phân loại Nhóm Bộ môn:
 
-Cybersecurity & Security: 2020-10-17_new_scientist.pdf, 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf ...
-Data & AI/ML: 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Programming & Development: 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 2.model data in power bi desktop fundamentals.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 2.get started building with power bi fundamentals.pdf ...
-DevOps & CI/CD: 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 2.model data in power bi desktop fundamentals.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 2.get started building with power bi fundamentals.pdf ...
-Network & Infrastructure: 2020-10-17_new_scientist.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Microsoft Technologies: 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 2.model data in power bi desktop fundamentals.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
-Cloud & Virtualization: 2020-10-17_new_scientist.pdf, 20778a-analyzing_data_with_powerbi.pdf, 55293-sharepoint-end-user-2019-training.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf ...
-IT Management & Audit: he thong thong tin quan ly.pdf, labs setup_curriculum_advanced_sharepoint2010_farm_perfomance_tuning_and_ha_vi.pdf, pnetlab-v6 giới thiệu về các mô hình labs thực hành máy tính.pdf, labs_curriculum_advanced_sharepoint2010_farm_perfomance_tuning_and_ha.vi.pdf, giao_trinh_pentest_chi_tiet_exb.pdf ...
-Chung/Khác: readme.bat.md, changelog.md, session_4_our-experience-with-knime-as-e-auditors.pdf, requirements.txt ...
-IoT: readme.md
-3.1.2.2. 2.2. Phân loại Đối tượng Học viên & Vai trò
-Chuyên gia CNTT Đa năng: 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Sinh viên/Người mới: 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Data Analyst/Scientist: 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 1.power bi desktop fundamentals.pdf, 2.model data in power bi desktop fundamentals.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
-Business Intelligence: 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 1.power bi desktop fundamentals.pdf, 2.model data in power bi desktop fundamentals.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
-Kỹ sư Hạ tầng/Cloud: 55293-sharepoint-end-user-2019-training.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, administering microsoft exchange server 2016.pdf ...
-Quản trị viên Hệ thống: 55293-sharepoint-end-user-2019-training.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, administering microsoft exchange server 2016.pdf ...
-Chuyên gia An ninh: comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, cách tạo lại file iso bootable có thêm các drivers nic-hba-hca-raid cho vsphere esxi 8.pdf, ai-ml-dl_ai-ml-security_public-ai-from_comm_to_opensource.vi.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf, ai_model_comparison.csv ...
-IT Auditor: comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, cách tạo lại file iso bootable có thêm các drivers nic-hba-hca-raid cho vsphere esxi 8.pdf, ai-ml-dl_ai-ml-security_public-ai-from_comm_to_opensource.vi.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf, ai_model_comparison.csv ...
-Kỹ sư Phát triển/DevOps: data analytics world with an example in python code.vi.pdf, devops with github azure devops-part2.pdf, devops with github azure devops-part1.pdf, các bước dựng labs jupyter notebook làm việc với huggingeface để tích hợp models chạy cùng python 3.11.pdf, digital-government-and-open-data-readiness-assessment.pdf ...
-3.1.2.3. 2.3. Phân loại Khóa học
-Khóa học Chuyên đề: 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Khóa học Thực hành/Workshop: cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, bài labs thực hành nâng cấp dwh - mssql2000 analytic thành mssql 2017 với pbidrd.pdf ...
-Tài liệu Tham khảo: vmware-vsphere-tanzu-ebook-mof.pdf, jupyter notebook_mega6ball45.pdf, microsoft_press_ebook_introducing_power_bi_pdf.pdf, readme_jupyternotebook.md, microsoft_press_ebook_introducing_microsoft_sql_server_2014.pdf
-3.1.2.4. 2.4. Phân loại Nhóm Yêu cầu về Hạ tầng Thiết bị
-GPU Computing: 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Nền tảng Big Data & Analytics: 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
-Môi trường Mô phỏng Mạng (EVE-NG/PNETLAB): 2020-10-17_new_scientist.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 01.dellemc_big data journey (12.6.17).pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
-Microsoft Enterprise Stack: 2.model data in power bi desktop fundamentals.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
-Kubernetes/Container Platform: 2020-10-17_new_scientist.pdf, 20778a-analyzing_data_with_powerbi.pdf, 55293-sharepoint-end-user-2019-training.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf ...
-Nền tảng Ảo hóa (VMware/OpenStack): cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, bài lab 0051_triển khai fs ibm storage-iscsi-fcoe_dellesxi8u3_v1.3.pdf, bigdata-vsphere65-perf.pdf, 20250626-vietinbank_ai-dataframework_internalaudit-sent.pdf ...
-Nền tảng Bảo mật & Log Management: các phương pháp tích hợp phần đăng nhập 1 lần sso.pdf, comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, eve-ng-calc2.0.xlsx, ai_dataframework_knime_priceindex-bds.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf ...
-Máy chủ/Máy trạm tiêu chuẩn: chủ_đề_1-3_knime_case_studies_banking_internal_audit.pdf, readme.bat.md, requirements.txt, power-bi _ ga-deck.pdf, session_4_our-experience-with-knime-as-e-auditors.pdf ...
-    **Lưu ý chung cho Labs Đào tạo:**
-    *   Các hệ thống Labs đều làm thực hành Online qua Web HTML5 hoặc nhúng tích hợp với LMS (Moodle 3/4x).
-    *   Tích hợp OTP/MFA tăng cường bảo mật users session/device là bắt buộc.
-    *   Mỗi Lab cần có khả năng reset về trạng thái ban đầu nhanh chóng.
-    *   Hỗ trợ nhiều nền tảng HĐH (Windows, Linux, macOS VMs).
+1. **Cybersecurity & Security:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf ...
+2. **Data & AI/ML:** Danh sách các tài liệu liên quan 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+3. **Programming & Development:** Danh sách các tài liệu liên quan 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 2.model data in power bi desktop fundamentals.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 2.get started building with power bi fundamentals.pdf ...
+4. **DevOps & CI/CD:** Danh sách các tài liệu liên quan 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 2.model data in power bi desktop fundamentals.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 2.get started building with power bi fundamentals.pdf ...
+5. **Network & Infrastructure:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+6. **Microsoft Technologies:** Danh sách các tài liệu liên quan 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 2.model data in power bi desktop fundamentals.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
+7. **Cloud & Virtualization:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 20778a-analyzing_data_with_powerbi.pdf, 55293-sharepoint-end-user-2019-training.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf ...
+8. **IT Management & Audit:** Danh sách các tài liệu liên quan he thong thong tin quan ly.pdf, labs setup_curriculum_advanced_sharepoint2010_farm_perfomance_tuning_and_ha_vi.pdf, pnetlab-v6 giới thiệu về các mô hình labs thực hành máy tính.pdf, labs_curriculum_advanced_sharepoint2010_farm_perfomance_tuning_and_ha.vi.pdf, giao_trinh_pentest_chi_tiet_exb.pdf ...
+9. **Data Scientisc/AI Private Local with Data Thinking vs Workflow/CI-CD và Agile Scrum:** Danh sách các tài liệu liên quan AI Private Local trend, session_4_our-experience-with-knime-as-e-auditors.pdf, requirements.txt ...
+10. **IoT/MQTT/Network Frog:** Danh sách các tài liệu liên quan MQTT, Pi5, Sensors in Network frog and Hub.
+    
+## 2.2. Phân loại Đối tượng Học viên & Vai trò:
 
+**1. Chuyên gia CNTT Đa năng:** Danh sách các tài liệu liên quan 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+
+**2. Sinh viên/Người mới:** Danh sách các tài liệu liên quan 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+
+**3. Data Analyst/Scientist:** Danh sách các tài liệu liên quan 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 1.power bi desktop fundamentals.pdf, 2.model data in power bi desktop fundamentals.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
+Business Intelligence: 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 1.power bi desktop fundamentals.pdf, 2.model data in power bi desktop fundamentals.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
+
+**4. Kỹ sư Hạ tầng/Cloud:** Danh sách các tài liệu liên quan 55293-sharepoint-end-user-2019-training.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, administering microsoft exchange server 2016.pdf ...
+Quản trị viên Hệ thống: 55293-sharepoint-end-user-2019-training.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf, administering microsoft exchange server 2016.pdf ...
+
+**5. Chuyên gia An ninh:** Danh sách các tài liệu liên quan comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, cách tạo lại file iso bootable có thêm các drivers nic-hba-hca-raid cho vsphere esxi 8.pdf, ai-ml-dl_ai-ml-security_public-ai-from_comm_to_opensource.vi.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf, ai_model_comparison.csv ...
+
+**6. IT Auditor:** Danh sách các tài liệu liên quan comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, cách tạo lại file iso bootable có thêm các drivers nic-hba-hca-raid cho vsphere esxi 8.pdf, ai-ml-dl_ai-ml-security_public-ai-from_comm_to_opensource.vi.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf, ai_model_comparison.csv ...
+
+**7. Kỹ sư Phát triển/DevOps:** Danh sách các tài liệu liên quan data analytics world with an example in python code.vi.pdf, devops with github azure devops-part2.pdf, devops with github azure devops-part1.pdf, các bước dựng labs jupyter notebook làm việc với huggingeface để tích hợp models chạy cùng python 3.11.pdf, digital-government-and-open-data-readiness-assessment.pdf ...
+
+## 2.3. Phân loại Khóa học:
+
+**Khóa học Chuyên đề:** Danh sách các tài liệu liên quan 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+
+**Khóa học Thực hành/Workshop:** Danh sách các tài liệu liên quan cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, 20767b_setupguide_labs-ms-sql_dwh.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, bài labs thực hành nâng cấp dwh - mssql2000 analytic thành mssql 2017 với pbidrd.pdf ...
+
+***Tài liệu Tham khảo:*** vmware-vsphere-tanzu-ebook-mof.pdf, jupyter notebook_mega6ball45.pdf, microsoft_press_ebook_introducing_power_bi_pdf.pdf, readme_jupyternotebook.md, microsoft_press_ebook_introducing_microsoft_sql_server_2014.pdf
+
+## 2.4. Phân loại Nhóm Yêu cầu về Hạ tầng Thiết bị
+
+**GPU Computing:** Danh sách các tài liệu liên quan 05. ducnguyen_improve data quality - a commercial bank case study.pdf, 02. veeam - daniel omardin - availability for always-on business (bav, june 2017).pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+
+**Nền tảng Big Data & Analytics:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 01.dellemc_big data journey (12.6.17).pdf, 03-1. salesforce_presentation - financial services event hanoi june 15.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
+
+**Môi trường Mô phỏng Mạng (EVE-NG/PNETLAB):** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 01.dellemc_big data journey (12.6.17).pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf ...
+
+**Microsoft Enterprise Stack:** Danh sách các tài liệu liên quan 2.model data in power bi desktop fundamentals.pdf, 20345-1b_setupguide-labs_exchange2016.pdf, 03-2. banking and financial conference - be8 and gimasys-2.pdf, 1.introduction power bi desktop fundamentals.pdf, 2.get started building with power bi fundamentals.pdf ...
+
+**Kubernetes/Container Platform:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 20778a-analyzing_data_with_powerbi.pdf, 55293-sharepoint-end-user-2019-training.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf ...
+
+**Nền tảng Ảo hóa (VMware/OpenStack):** Danh sách các tài liệu liên quan cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, bài lab 0051_triển khai fs ibm storage-iscsi-fcoe_dellesxi8u3_v1.3.pdf, bigdata-vsphere65-perf.pdf, 20250626-vietinbank_ai-dataframework_internalaudit-sent.pdf ...
+
+**Nền tảng Bảo mật & Log Management:** Danh sách các tài liệu liên quan các phương pháp tích hợp phần đăng nhập 1 lần sso.pdf, comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, eve-ng-calc2.0.xlsx, ai_dataframework_knime_priceindex-bds.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf ...
+Máy chủ/Máy trạm tiêu chuẩn: chủ_đề_1-3_knime_case_studies_banking_internal_audit.pdf, readme.bat.md, requirements.txt, power-bi _ ga-deck.pdf, session_4_our-experience-with-knime-as-e-auditors.pdf ...
+
+**Lưu ý chung cho Labs Đào tạo:**
+    1.   Các hệ thống Labs đều làm thực hành Online qua Web HTML5 hoặc nhúng tích hợp với LMS (Moodle 3/4x).
+    2.   Tích hợp OTP/MFA tăng cường bảo mật users session/device là bắt buộc.
+    3.   Mỗi Lab cần có khả năng reset về trạng thái ban đầu nhanh chóng.
+    4.   Cần có khả năng lưu/tải trạng thái Labs (Snapshot/Restore) cho các dự án dài hạn.
+    5.   Hỗ trợ nhiều nền tảng HĐH (Windows, Linux, macOS VMs).
+    6.   Dạng lập trình Python phát triển AI cho nhiều lập trình viên trên Web như Colab google thường ưu tiến giải pháp JupyterHub có plugin tích hợp với LMS chuẩn HTML5. 
+    7.   Hỗ trợ cài đặt phần mềm/công cụ tùy chỉnh theo yêu cầu dự án.
+
+---
+
+# Phần 3. Phân loại các hệ thống Labs dành cho Doanh nghiệp & Cá nhân (Dịch vụ thuê Labs):
+
+## 3.1. Phân loại Nhóm Doanh nghiệp & Lĩnh vực Hoạt động
+
+**1. Nhóm Doanh nghiệp phổ biến:** SMB (Small & Medium Business), Large Enterprise, Government Sector, Finance & Banking, Healthcare, Manufacturing, Education, IT & Tech Companies
+
+**2. Lĩnh vực Hoạt động & Nghiệp vụ:** IT Infrastructure Management, Software Development & QA, Cybersecurity & Compliance, Data Science & AI/ML, Cloud Migration & Transformation, Digital Workplace Solutions, Business Intelligence
+
+## 3.2. Phân loại Các Chương trình đào tạo/tập huấn phù hợp:
+
+**1. SMB:** Cơ bản về An ninh mạng, Quản trị Hệ thống Windows/Linux, Sử dụng hiệu quả Microsoft 365/SharePoint, Phân tích Dữ liệu cơ bản với Power BI.
+
+**2. Large Enterprise/FDI:** DevOps/DevSecOps Pipeline, Triển khai Kubernetes trên môi trường On-premise/Cloud, Quản lý dữ liệu lớn với Hadoop/Spark, Xây dựng hệ thống SIEM cho SOC, Kiểm thử thâm nhập (Pentest) chuyên sâu, Chuyển đổi lên Cloud (AWS/Azure/GCP)
+
+**3. Finance & Banking:** An ninh thông tin trong lĩnh vực tài chính (ISO 27001, PCI DSS), Phân tích dữ liệu giao dịch, Triển khai Blockchain cho thanh toán/chứng khoán.
+
+**4. Healthcare:** Bảo mật dữ liệu bệnh nhân (HIPAA/GDPR), Phân tích dữ liệu y tế với AI/ML.
+
+**5. IT & Tech Companies:** Phát triển AI/ML/DL Model, Triển khai MLOps, CI/CD với Microservices, Kiến trúc Multi-Cloud.
+
+**6. Tập đoàn thương mại đa ngành:** Phát triển hạ tầng DC Ảo hóa on-prem, ITSM, CI/CD với K8s, Kiến trúc Private Cloud vs Cloud AI Private Local.
+
+## 3.3. Phân loại các Công nghệ & Môi trường phù hợp:
+
+**1. General IT:** Virtualization Platforms (VMware, Hyper-V, KVM), Linux/Windows Servers, Networking devices (Cisco, Juniper), Storage (SAN/NAS).
+
+**2. Multi-Cloud Computing/ Edge Computing:** CloudStack, Ansible+Teraform/vRA suite (Cloud Automation+Orchestration),Guacamole HTML5, 
+
+**3. Cloud-native:** Kubernetes (K8s, K3S), Docker, OpenShift, Serverless Functions (Lambda, Azure Functions).
+Data & AI: Apache Spark, Hadoop, Kafka, JupyterHub, TensorFlow, PyTorch, Azure ML, AWS SageMaker, GCP AI Platform, SQL/NoSQL Databases.
+
+**4.Security:** SIEM (ELK, Splunk, Wazuh), Vulnerability Scanners (Trivy, Nessus), IDS/IPS (Snort, Suricata), Firewalls (pfSense, Palo Alto VM), Endpoint Security (EDR/XDR).
+
+**5.DevOps:** Git (GitLab CE, GitHub CE, GitEA CE), Jenkins, Ansible, Terraform, Puppet, Chef, SonarQube, Nexus, Artifactory.
+
+**6. DevSecOps:** (GitLab CE, GitHub CE with Python and LM Studio/Copilot Studio code, GitEA CE) Jenkins, Ansible, Terraform, Puppet, Chef, SonarQube CE, Nexus, Artifactory and HashiCorp Vault (OSS) with Trivy scan, OWASP ZAP, ELK Stack.
+
+**7. Microsoft Stack:** Active Directory, Exchange Server, SharePoint Server, MS SQL Server, Azure AD, Microsoft 365.
+
+**8. IoT:** MQTT Brokers (Mosquitto), Kafka, Raspberry Pi (VMs), Edge Computing gateways.
+
+## 3.4. Mục tiêu Phổ biến:
+
+1. Hỗ trợ đào tạo nội bộ Doanh nghiệp
+2. Nâng cao năng lực đội ngũ CNTT
+3. Tiết kiệm thời gian và tận dụng tối đa tài nguyên nội bộ sẵn có
+4. Thử nghiệm công nghệ mới (PoC)
+5. Kiểm thử giải pháp trước khi triển khai
+6. Đảm bảo tuân thủ tiêu chuẩn (Compliance Labs)
+
+## 3.5. Kịch bản, thử nghiệm, bài thực hành Labs theo nghiệp vụ Doanh nghiệp:
+
+**1. Labs cho Tài chính:**
+*   **Kịch bản:** Mô phỏng tấn công tài khoản khách hàng và quy trình ứng phó sự cố theo quy định ngân hàng.
+*   **Yêu cầu Labs:** Môi trường Banking App (Web/Mobile), SIEM (Splunk/ELK), Endpoint Security, Data Loss Prevention (DLP) tools,iAM Security Platform for SSO/MFA.
+
+**2. Labs cho Sản xuất:**
+*   **Kịch bản:** Triển khai và bảo mật hệ thống SCADA/ICS trên môi trường ảo, kiểm tra lỗ hổng PLC.
+*   **Yêu cầu Labs:** Hệ thống PLC/SCADA mô phỏng, network segmentation, firewall, IDS/IPS chuyên biệt cho OT, SSO Proxy Local.
+
+**3. Labs cho IT/Tech:**
+*   **Kịch bản:** Xây dựng CI/CD Pipeline hoàn chỉnh với Jenkins, Docker, Kubernetes, và tích hợp Trivy scan để DevSecOps.
+*   **Yêu cầu Labs:** GitLab/GitHub Enterprise, Jenkins master/agent, Kubernetes cluster, Docker Registry, Trivy scanner.
+
+**4. Labs cho Y tế:**
+*   **Kịch bản:** Triển khai hệ thống EMR/EHR trên Cloud và đảm bảo tuân thủ HIPAA/GDPR.
+*   **Yêu cầu Labs:** Cloud tenant (AWS/Azure/GCP), EMR/EHR demo app, database với dữ liệu ẩn danh, công cụ kiểm tra compliance.
+
+**5. Labs cho Đào tạo nội bộ:**
+*   **Kịch bản:** Nâng cao năng lực cho đội ngũ quản trị viên hệ thống về VMware vSphere 8.x hoặc Microsoft Exchange Server 2019 HA, SharePoint 2019, NextCloud/Alfreshco DCM, Minio, Ceph.
+*   **Yêu cầu Labs:** vCenter Server, ESXi hosts, Shared Storage (iSCSI/NFS), thunderbird-Hmail Server/ Outlook-Exchange Servers (DAG), Domain Controller, SharePoint 2019, NextCloud/Alfreshco DCM, Minio, Ceph.
+
+## 3.6. Tóm tắt các PoC/Showcase/Case study:
+    
+**1. Mastering Kubernetes:**
+**PoC:** Triển khai ứng dụng Microservices trên K8s với Ingress Controller và Persistent Storage.
+**Case Study:** Chuyển đổi một ứng dụng Monolithic truyền thống sang kiến trúc Microservices trên K8s.
+
+**2. Cookbook ELK Stack:**
+**Showcase:** Xây dựng Dashboard giám sát Security Events từ Firewall/Server Logs bằng Kibana.
+**PoC:** Tích hợp Wazuh Agent với ELK Stack để giám sát tuân thủ CIS Benchmarks.
+
+**3. Triển khai ISO 27001/27002/EU/ Luật AN-ATTT VN:**
+**Case Study:** Mô phỏng quá trình đánh giá rủi ro và áp dụng kiểm soát an ninh thông tin cho một phòng ban cụ thể theo ISO 27001.
+**Lab:** Cung cấp mẫu hệ thống quản lý tài liệu và quy trình liên quan đến ISMS.
+
+**4. Data Scientist Handbook:**
+**PoC:** Xây dựng mô hình dự đoán churn khách hàng sử dụng Python/Scikit-learn trên môi trường JupyterHub.
+**Showcase:** Trực quan hóa dữ liệu kinh doanh với Power BI kết nối đến Data Warehouse.
+    
+**Lưu ý chung cho Labs Doanh nghiệp/Cá nhân:**
+    1.   Các hệ thống Labs đều làm thực hành Online qua Web HTML5 hoặc nhúng tích hợp với LMS (Moodle 3/4x).
+    2.   Tích hợp OTP/MFA tăng cường bảo mật users session/device là bắt buộc.
+    3.   Mỗi Lab cần có khả năng reset về trạng thái ban đầu nhanh chóng.
+    4.   Cần có khả năng lưu/tải trạng thái Labs (Snapshot/Restore) cho các dự án dài hạn.
+    5.   Hỗ trợ nhiều nền tảng HĐH (Windows, Linux, macOS VMs).
+    6.   Dạng lập trình Python phát triển AI cho nhiều lập trình viên trên Web như Colab google thường ưu tiến giải pháp JupyterHub có plugin tích hợp với LMS chuẩn HTML5. 
+    7.   Hỗ trợ cài đặt phần mềm/công cụ tùy chỉnh theo yêu cầu dự án.
+
+---
+
+# Phần 4. Phân tích Dấu hiệu và So sánh các mô hình Labs:
+
+## 4.1. Bảng Dashboard Insight:
+
+| Danh sách Môn/Chủ đề Chính | Danh sách Khóa học (Đề xuất) | Danh sách Labs (Dự kiến) |
+|---|---|---|
+| 1 Ai Private Local | Khóa học Ai Private Local | Lab AI Private Local |
+| 2 CSA Events | Đàm luận CSA | UCs-Webinar CSA |
+| 3 CompTIA CyberSecurity | Khóa học CyberSecurity | Lab CyberSecurity |
+| 4 DevSecOps tích hợp Agile Scrum | Khóa học DevSecOps | Lab DevSecOps CI-CD Pipeline Data |
+| 5 EVE-NG hướng dẫn sử dụng | Khóa học EVE-NG self-learn | Lab EVE-NG self-practise |
+| 6 PNETLab sử dụng triển khai | Khóa học PNETLab design | Lab PNETLab v6 |
+| 7 ElasticSearch Triển khai Quản trị | Khóa học ElasticSearch Video-learn | Lab ElasticSearch |
+| 8 Exchange Quản trị cấu hình | Khóa học Exchange Administrator | Lab Exchange 2019 |
+| 9 Gits sử dụng và Lập trình | Khóa học GitLab Self-learn | Lab Gits Self-practise |
+| 10 MS-SQL Triển khai Quản trị | Khóa học MS-SQL Implement DWH | Lab MS-SQL |
+| 11 PENTEST thâm nhập, đánh giá | Khóa học CompTIA PENTEST+ | Lab PENTEST |
+| 12 POWER BI và Portal Reports | Khóa học POWER BI Design | Lab POWER BI |
+| 13 Python với AI models | Khóa học Python | Lab Python Jupyterhub |
+| 14 SharePoint Quản trị | Khóa học SharePoint DCM 2019 | Lab SharePoint Farm |
+| 15 SoC and SIEM ELK Quản trị | Khóa học Soc vs Siem 2025 | Lab SIEM ELK vs SoC |
+| 16 vSphere 8.x | Khóa học vSphere 8.x | Lab vSphere 8.x |
+| 17 vRealize Automation 8.x | Khóa học vRA 8.x | Lab vRA 8.x |
+| 18 CEH v13 | Khóa học CEH v13 | Lab CEH v13 |
+| 19 CompTIA Security+ | Khóa học Security+ | Lab Security+ |
+| 20 Apache Spark BigData | Khóa học Apache Spark BigData | Lab Apache Spark BigData |
+| 21 CompTIA Cloud+ | Khóa học Cloud+ | Lab CompTIA Cloud+ |
+| 22 CompTIA DataX | Khóa học Data Scientics | Lab CompTIA DataX+ |
+| 23 vSphere vSAN specialist | Khóa học VMware vSAN Storage | Lab VMware vSAN Storage |
+| 24 Minio Storage specialist | Khóa học Minio Objects Storage | Lab Minio Object Storages |
+| 25 Ceph Storage specialist | Khóa học Ceph DC Storage | Lab Ceph DC Storage |
+| 26 CloudStack Specialist | Khóa học CloudStack Admin | Lab CloudStack Deploy Admin |
+| 27 NextCloud Specialist | Khóa học NextCloud tùy biến | Lab CloudStack Develoment |
+| 28 Alfreshco Specialist | Khóa học Alfreshco ECM | Lab Alfreshco Develoment |
+| 29 Giải pháp Quản lý Quy trình | Khóa học Python+AI+Dataframework | Lab BPMN Solutions |
+| 30 ORACLE Cloud | Khóa học về Cloud ORACLE | Lab Cloud Oracle |
+
+## 4.2. Cấu hình tối thiểu của các bài Labs (Tham khảo):
+
+- AI/ML Lab: GPU (NVIDIA/AMD), RAM >= 32GB, CPU >= 8 cores, Ubuntu/CentOS, Python, TensorFlow/PyTorch, JupyterLab.
+- Microsoft Enterprise Lab: Windows Server VMs, RAM >= 16GB/VM, SQL Server, SharePoint/Exchange binaries, AD Domain Controller.
+- SEM/Log Mgmt Lab: CentOS/Ubuntu VMs, RAM >= 8GB/VM, ELK Stack (Elasticsearch, Logstash, Kibana), Wazuh Server/Agents.
+- Network Lab: Powerful physical server (32GB+ RAM, 8+ cores), KVM/VMware Workstation, EVE-NG/PNETLAB VM, IOS/vEOS images.
+- Kubernetes Lab: 3 VMs (1 master, 2 workers), RAM >= 8GB/VM, CPU >= 4 cores/VM, Ubuntu/CentOS, Docker, Kubeadm.
+
+***Phương pháp tìm ra cấu hình tối thiểu:***
+
+- Dùng AI Private Local upload tệp pdf/txt/md/docx/pptx hướng dẫn dựng Labs của các khóa học và hỏi cấu hình.
+
+## 4.3. Mô hình Labs thực hành:
+
+| Mô hình Labs | Ưu điểm | Nhược điểm | Khả năng & Tính năng | Yêu cầu kỹ thuật chính |
+|---|---|---|---|---|
+| On-premise Local/Co-location (VMware/OpenStack) | Kiểm soát hoàn toàn, bảo mật dữ liệu cao, tận dụng hạ tầng có sẵn, latency thấp, chi phí vận hành có thể thấp hơn nếu sử dụng tối đa. | Chi phí đầu tư ban đầu cao, cần đội ngũ vận hành chuyên sâu, khó mở rộng nhanh chóng, rủi ro điểm lỗi đơn. | Phù hợp cho Labs chuyên sâu, yêu cầu tài nguyên lớn (GPU), tuân thủ bảo mật nội bộ, đào tạo nội bộ Doanh nghiệp lớn. | Máy chủ vật lý mạnh, SAN/NAS Storage, Hypervisor (ESXi, Proxmox, OpenStack), Network gear, UPS. |
+| Container-based (Kubernetes/Docker) | Triển khai nhanh, nhẹ, linh hoạt, hiệu quả tài nguyên cao, tính nhất quán môi trường. | Phức tạp trong quản lý mạng và lưu trữ cho các Labs phức tạp, yêu cầu kiến thức chuyên sâu về Kubernetes. | Lý tưởng cho Labs phát triển, DevSecOps, IoT, các Labs nhẹ, triển khai nhanh, số lượng lớn users/labs. | Máy chủ vật lý/VMs chạy Linux, Docker Engine, Kubernetes Cluster (Kubeadm, RKE, OpenShift), Persistent Storage. |
+| Hybrid Cloud (Kết nối On-prem với Public Cloud) | Linh hoạt mở rộng tài nguyên không giới hạn, tận dụng lợi ích của cả On-prem và Cloud, Disaster Recovery. | Phức tạp trong quản lý và bảo mật, chi phí vận hành có thể cao hơn, yêu cầu kết nối mạng ổn định giữa On-prem và Cloud. | Phù hợp cho PoC/Demo tích hợp Cloud, đào tạo Multi-cloud, Disaster Recovery, các dự án có yêu cầu mở rộng tức thời. | Hạ tầng On-premise + Gateway/VPN kết nối Cloud (Direct Connect/ExpressRoute), IaC (Terraform, Ansible), Kubernetes Clusters. |
+| Public Cloud Native (AWS/Azure/GCP) | Khả năng mở rộng gần như vô hạn, không cần đầu tư ban đầu, đa dạng dịch vụ managed service, tập trung vào code/nội dung. | Chi phí vận hành có thể rất cao nếu không tối ưu, phụ thuộc vào nhà cung cấp, rủi ro Lock-in, vấn đề chủ quyền dữ liệu. | Phù hợp cho Labs về Cloud-native, AI/ML Service, Big Data Analytics, các khóa học về dịch vụ Cloud cụ thể. | Tài khoản Public Cloud (AWS, Azure, GCP), dịch vụ Managed Kubernetes (EKS, AKS, GKE), Serverless Compute, Database as a Service. |
+
+## 4.4. Yếu tố chung để quyết định xây dựng đầu tư Hệ thống Labs:
+
+Việc quyết định đầu tư xây dựng hệ thống Labs On-premise Local/Co-location từ hạ tầng ảo hóa đến các Containers, VM, Dockers, API, Database cho Labs đào tạo-giáo dục online và cho PoC/Demo theo yêu cầu của nhóm Doanh nghiệp cần dựa trên các yếu tố sau:
+
+1.  **Chi phí (CAPEX vs. OPEX):**
+-   **On-premise/Co-location:** Chi phí đầu tư ban đầu (CAPEX) cao cho phần cứng, giấy phép phần mềm, hạ tầng trung tâm dữ liệu. Tuy nhiên, chi phí vận hành (OPEX) có thể thấp hơn về lâu dài nếu tải sử dụng ổn định và tận dụng tối đa tài nguyên.
+-   **Public Cloud:** CAPEX thấp, nhưng OPEX có thể tăng rất nhanh nếu không quản lý tốt tài nguyên, đặc biệt với các Labs cần GPU hoặc tài nguyên lớn.
+-   **Quyết định:** Nếu có kế hoạch sử dụng lâu dài, ổn định, và nhu cầu về bảo mật/chủ quyền dữ liệu cao, On-premise có thể kinh tế hơn. Nếu cần linh hoạt, mở rộng nhanh chóng, và không muốn gánh nặng quản lý hạ tầng, Public Cloud là lựa chọn tốt.
+
+2.  **Khả năng mở rộng (Scalability):**
+-   **On-premise:** Mở rộng bị giới hạn bởi phần cứng vật lý và không gian DC. Cần kế hoạch mua sắm và triển khai trước.
+-   **Cloud:** Khả năng mở rộng theo chiều ngang (scale-out) gần như không giới hạn, theo nhu cầu tức thời.
+-   **Quyết định:** Đối với nhu cầu đào tạo biến động theo đợt hoặc các PoC ngắn hạn với tài nguyên lớn, Public Cloud có lợi thế. Đối với hệ thống Labs cốt lõi, ổn định, On-premise vẫn đáp ứng được.
+
+3.  **Bảo mật và Tuân thủ (Security & Compliance):**
+-   **On-premise:** Kiểm soát hoàn toàn về vật lý, mạng, dữ liệu. Dễ dàng đáp ứng các tiêu chuẩn nội bộ hoặc quy định ngành (như ISO 27001, PCI DSS) nếu có đội ngũ chuyên môn.
+-   **Cloud:** Chia sẻ trách nhiệm bảo mật (Shared Responsibility Model). Phụ thuộc vào nhà cung cấp dịch vụ Cloud tuân thủ các chứng chỉ, nhưng cần cấu hình đúng.
+-   **Quyết định:** Nếu dữ liệu nhạy cảm hoặc yêu cầu tuân thủ nghiêm ngặt, On-premise hoặc Private Cloud có thể được ưu tiên.
+
+4.  **Hiệu suất và Độ trễ (Performance & Latency):**
+-   **On-premise:** Độ trễ thấp nếu người dùng gần trung tâm dữ liệu. Tối ưu hóa hiệu suất tùy chỉnh.
+-   **Cloud:** Độ trễ có thể cao hơn tùy thuộc vị trí vùng miền và kết nối mạng.
+-   **Quyết định:** Đối với các Labs yêu cầu tính tương tác cao, đồ họa nặng, hoặc các kịch bản real-time, On-premise có thể cung cấp trải nghiệm tốt hơn.
+
+5.  **Quản lý và Vận hành (Management & Operations):**
+-   **On-premise:** Yêu cầu đội ngũ IT lớn, chuyên môn cao để quản lý phần cứng, phần mềm, mạng, bảo mật, và cập nhật.
+-   **Cloud:** Giảm gánh nặng quản lý hạ tầng, tập trung vào ứng dụng và nội dung Labs.
+-   **Quyết định:** Nếu có nguồn lực và muốn kiểm soát sâu, On-premise là khả thi. Nếu muốn tối ưu nguồn lực IT, Cloud là lựa chọn tốt.
+
+6.  **Tận dụng tài nguyên hiện có:**
+-   Nếu Doanh nghiệp đã có sẵn hạ tầng vật lý, server, thiết bị mạng, việc tận dụng chúng để xây dựng Labs On-premise sẽ giúp giảm chi phí đầu tư ban đầu đáng kể.
+
+ **Kết luận về đầu tư:**
+    - Để đáp ứng cả nhu cầu đào tạo-giáo dục online và PoC/Demo theo yêu cầu của Doanh nghiệp, mô hình **Hybrid Cloud** hoặc tập trung vào **On-premise với khả năng mở rộng mạnh mẽ (qua ảo hóa, container và tự động hóa)** là tối ưu nhất.
+    - Đặc điểm của các bài toán Demo/PoC và Labs thực hành dạy học về thiết bị phần cứng (tài nguyên) sẽ cần cân nhắc công nghệ mới:
+    1. Vấn đề xóa, sửa, thêm mới, snapshot rất nhiều về ổ cứng, nên tuổi đời cần cao, tốc độ, capacity lớn, iops cao, độ chễ thấp, băng thông truy xuất giữa các ổ cứng lớn, không nên dùng RAID Card vì bị bottleneck bị giới hạn mảng ổ tối đa 8, hạn chế khả năng scale-out và hotplug khi có sự cố ổ, giới hạn số ổ hotspare khi có sự cố cần thay 'nóng'. 
+    >> Ổ cứng NVME chuẩn U.2 form 7,68 - 16TB/1 NVME cắm PCie16 hoặc 
+    >> Card NVME Tag cắm 2-4-8 ổ SSD (2-4TB/1 SSD) là tối ưu nhất.
+    >> Các ổ cứng này đều cắm trực tiếp vào Bus PCie3/4 nên BUS PCI16/PCI8 đều có Băng thông 8/12/16/24 Gbps (gọi chung là mô hình ổ cứng cắm trực tiếp - DAS.
+    >> Không có hoặc có Card RAID nhưng cấu hình Level 0, mảng ổ 0 sẽ tự nhận bất cứ thay đổi ổ, vị trí, dung lượng sẽ nhận tất cả khi thay 'nóng'.
+    >> Các ổ cứng chuẩn cũ SATA, SAS nên chuyển sang dịch vụ quản lý bởi hệ thống Backup/Snapshot/Restore để làm lưu trữ các Templates VM, ISO phần mềm cài đặt, các bản VBK, vbm giảm dần nhu cầu đọc/ghi mà chuyển sang trạng thái có lịch trình đọc/ghi mật độ giảm dần, giúp kéo dài tuổi thọ.
+    2. Máy chủ cấu hình thiết bị tối thiểu với số lượng: 4 máy là mô hình HCI "siêu hội tụ" căn bản phù hợp với các bài toán thực hành labs như: vcenter HA, vSAN Strestred, SD-WAN, VMware Cloud Foundation Nested, Replicate DC-DR nested... hoặc vận hành Demo/PoC: Healthcare/SCM/HRM/CRM/ERP/SAP HANA Cluster/SalePoint/Power BI Report Server, Migration Cloud Services, Backup DC- Replicate DR and Restore DR - DC...
+
+**Giai đoạn ban đầu:** Tập trung đầu tư vào hạ tầng On-premise mạnh mẽ (server, storage, network) với nền tảng ảo hóa (VMware vSphere/OpenStack) và containerization (Kubernetes). Đồng thời, xây dựng hệ thống tự động hóa (IaC) để dễ dàng provision/deprovision Labs. Đây là nền tảng vững chắc cho cả đào tạo và PoC nội bộ.
+
+**Giai đoạn Mở rộng:** Khi nhu cầu tăng cao hoặc cần các tài nguyên chuyên biệt/môi trường đa dạng (ví dụ: GPU cho AI, Public Cloud specific services), xem xét tích hợp với Public Cloud thông qua các mô hình Hybrid hoặc Bursting. Điều này cho phép mở rộng linh hoạt mà không cần đầu tư phần cứng liên tục.
+
+**Trọng tâm kỹ thuật:** Đầu tư vào các công nghệ tạo Labs tự động, cách ly môi trường (multi-tenancy), giám sát tài nguyên, và giao diện web thân thiện cho người dùng.
 
 ---
 
