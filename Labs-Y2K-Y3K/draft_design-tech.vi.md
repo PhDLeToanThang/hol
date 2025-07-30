@@ -1,5 +1,6 @@
->>> AI Private Local Context:
+# Phần 5. Bản thảo thiết kế triển khai Kiến trúc
 
+>>> AI Private Local Context:
 ```py
 from google import genai
 
