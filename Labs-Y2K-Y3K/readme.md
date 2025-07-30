@@ -388,21 +388,40 @@ Việc quyết định đầu tư xây dựng hệ thống Labs On-premise Local
 -   Nếu Doanh nghiệp đã có sẵn hạ tầng vật lý, server, thiết bị mạng, việc tận dụng chúng để xây dựng Labs On-premise sẽ giúp giảm chi phí đầu tư ban đầu đáng kể.
 
  **Kết luận về đầu tư:**
-    - Để đáp ứng cả nhu cầu đào tạo-giáo dục online và PoC/Demo theo yêu cầu của Doanh nghiệp, mô hình **Hybrid Cloud** hoặc tập trung vào **On-premise với khả năng mở rộng mạnh mẽ (qua ảo hóa, container và tự động hóa)** là tối ưu nhất.
-    - Đặc điểm của các bài toán Demo/PoC và Labs thực hành dạy học về thiết bị phần cứng (tài nguyên) sẽ cần cân nhắc công nghệ mới:
-    1. Vấn đề xóa, sửa, thêm mới, snapshot rất nhiều về ổ cứng, nên tuổi đời cần cao, tốc độ, capacity lớn, iops cao, độ chễ thấp, băng thông truy xuất giữa các ổ cứng lớn, không nên dùng RAID Card vì bị bottleneck bị giới hạn mảng ổ tối đa 8, hạn chế khả năng scale-out và hotplug khi có sự cố ổ, giới hạn số ổ hotspare khi có sự cố cần thay 'nóng'. 
-    >> Ổ cứng NVME chuẩn U.2 form 7,68 - 16TB/1 NVME cắm PCie16 hoặc 
-    >> Card NVME Tag cắm 2-4-8 ổ SSD (2-4TB/1 SSD) là tối ưu nhất.
-    >> Các ổ cứng này đều cắm trực tiếp vào Bus PCie3/4 nên BUS PCI16/PCI8 đều có Băng thông 8/12/16/24 Gbps (gọi chung là mô hình ổ cứng cắm trực tiếp - DAS.
-    >> Không có hoặc có Card RAID nhưng cấu hình Level 0, mảng ổ 0 sẽ tự nhận bất cứ thay đổi ổ, vị trí, dung lượng sẽ nhận tất cả khi thay 'nóng'.
-    >> Các ổ cứng chuẩn cũ SATA, SAS nên chuyển sang dịch vụ quản lý bởi hệ thống Backup/Snapshot/Restore để làm lưu trữ các Templates VM, ISO phần mềm cài đặt, các bản VBK, vbm giảm dần nhu cầu đọc/ghi mà chuyển sang trạng thái có lịch trình đọc/ghi mật độ giảm dần, giúp kéo dài tuổi thọ.
-    2. Máy chủ cấu hình thiết bị tối thiểu với số lượng: 4 máy là mô hình HCI "siêu hội tụ" căn bản phù hợp với các bài toán thực hành labs như: vcenter HA, vSAN Strestred, SD-WAN, VMware Cloud Foundation Nested, Replicate DC-DR nested... hoặc vận hành Demo/PoC: Healthcare/SCM/HRM/CRM/ERP/SAP HANA Cluster/SalePoint/Power BI Report Server, Migration Cloud Services, Backup DC- Replicate DR and Restore DR - DC...
+- Để đáp ứng cả nhu cầu đào tạo-giáo dục online và PoC/Demo theo yêu cầu của Doanh nghiệp, mô hình **Hybrid Cloud** hoặc tập trung vào **On-premise với khả năng mở rộng mạnh mẽ (qua ảo hóa, container và tự động hóa)** là tối ưu nhất.
+    
+- Đặc điểm của các bài toán Demo/PoC và Labs thực hành dạy học về thiết bị phần cứng (tài nguyên) sẽ cần cân nhắc công nghệ mới:
+    
+1. Vấn đề xóa, sửa, thêm mới, snapshot rất nhiều về ổ cứng, nên tuổi đời cần cao, tốc độ, capacity lớn, iops cao, độ chễ thấp, băng thông truy xuất giữa các ổ cứng lớn, không nên dùng RAID Card vì bị bottleneck bị giới hạn mảng ổ tối đa 8, hạn chế khả năng scale-out và hotplug khi có sự cố ổ, giới hạn số ổ hotspare khi có sự cố cần thay 'nóng'.
+ 
+>>> Ổ cứng NVME chuẩn U.2 form 7,68 - 16TB/1 NVME cắm PCie16 hoặc 
+>>> Card NVME Tag cắm 2-4-8 ổ SSD (2-4TB/1 SSD) là tối ưu nhất.
+>>> Các ổ cứng này đều cắm trực tiếp vào Bus PCie3/4 nên BUS PCI16/PCI8 đều có Băng thông 8/12/16/24 Gbps (gọi chung là mô hình ổ cứng cắm trực tiếp - DAS.
+>>> Không có hoặc có Card RAID nhưng cấu hình Level 0, mảng ổ 0 sẽ tự nhận bất cứ thay đổi ổ, vị trí, dung lượng sẽ nhận tất cả khi thay 'nóng'.
+>>> Các ổ cứng chuẩn cũ SATA, SAS nên chuyển sang dịch vụ quản lý bởi hệ thống Backup/Snapshot/Restore để làm lưu trữ các Templates VM, ISO phần mềm cài đặt, các bản VBK, vbm giảm dần nhu cầu đọc/ghi mà chuyển sang trạng thái có lịch trình đọc/ghi mật độ giảm dần, giúp kéo dài tuổi thọ.
 
-**Giai đoạn ban đầu:** Tập trung đầu tư vào hạ tầng On-premise mạnh mẽ (server, storage, network) với nền tảng ảo hóa (VMware vSphere/vRA/CloudStack) và containerization (Kubernetes). Đồng thời, xây dựng hệ thống tự động hóa (IaC) để dễ dàng provision/deprovision Labs. Đây là nền tảng vững chắc cho cả đào tạo và PoC nội bộ.
+2. Máy chủ cấu hình thiết bị tối thiểu với số lượng: 4 máy là mô hình HCI "siêu hội tụ" căn bản phù hợp với các bài toán thực hành labs như:
+- vcenter HA,
+- vSAN Strestred,
+- SD-WAN,
+- VMware Cloud Foundation Nested,
+- Replicate DC-DR nested...
+- hoặc vận hành Demo/PoC: Healthcare/SCM/HRM/CRM/ERP/SAP HANA Cluster/SalePoint/Power BI Report Server,
+- Migration Cloud Services,
+- Backup DC- Replicate DR and Restore DR - DC...
 
-**Giai đoạn Mở rộng:** Khi nhu cầu tăng cao hoặc cần các tài nguyên chuyên biệt/môi trường đa dạng (ví dụ: GPU cho AI, Public Cloud specific services), xem xét tích hợp với Public Cloud thông qua các mô hình Hybrid hoặc Bursting. Điều này cho phép mở rộng linh hoạt mà không cần đầu tư phần cứng liên tục.
+**Giai đoạn ban đầu:** 
+- Tập trung đầu tư vào hạ tầng On-premise mạnh mẽ (server, storage, network) với nền tảng ảo hóa (VMware vSphere/vRA/CloudStack) và containerization (Kubernetes). Đồng thời, xây dựng hệ thống tự động hóa (IaC) để dễ dàng provision/deprovision Labs. Đây là nền tảng vững chắc cho cả đào tạo và PoC nội bộ.
 
-**Trọng tâm kỹ thuật:** Đầu tư vào các công nghệ tạo Labs tự động, cách ly môi trường (multi-tenancy), giám sát tài nguyên, và giao diện web thân thiện cho người dùng.
+**Giai đoạn Mở rộng:** 
+- Khi nhu cầu tăng cao hoặc cần các tài nguyên chuyên biệt/môi trường đa dạng (ví dụ: GPU cho AI, Public Cloud specific services), xem xét tích hợp với Public Cloud thông qua các mô hình Hybrid hoặc Bursting. Điều này cho phép mở rộng linh hoạt mà không cần đầu tư phần cứng liên tục.
+
+**Trọng tâm kỹ thuật:** 
+- Đầu tư vào các công nghệ tạo Labs tự động, 
+cách ly môi trường (multi-tenancy), 
+giám sát tài nguyên, và 
+giao diện web HTML5 thân thiện cho người dùng và
+tích hợp đầy đủ SSO, MFA nhằm tăng cường thống nhất bảo mật đồng nhất dữ liệu người dùng.
 
 ---
 
