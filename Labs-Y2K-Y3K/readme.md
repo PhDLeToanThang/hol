@@ -69,7 +69,7 @@ Dựa trên tư duy Dữ liệu và xu hướng thị trường, tôi sẽ phân
     
 ### 1.4. Chú trọng kỹ thuật và đầu tư nên tập trung vào hệ thống Labs nào?
 
-1. **Hạ tầng lõi ảo hóa & Container hóa mạnh mẽ:** Tập trung vào các nền tảng như VMware vSphere/VCF, OpenStack hoặc Kubernetes. Kubernetes là lựa chọn chiến lược cho tương lai nhờ khả năng triển khai ứng dụng microservices và Labs dạng container nhanh chóng.
+1. **Hạ tầng lõi ảo hóa & Container hóa mạnh mẽ:** Tập trung vào các nền tảng như VMware vSphere+vRA, CloudStack hoặc Kubernetes. Kubernetes là lựa chọn chiến lược cho tương lai nhờ khả năng triển khai ứng dụng microservices và Labs dạng container nhanh chóng.
 
 2. **Tự động hóa toàn diện (Infrastructure as Code - IaC):** Đầu tư mạnh vào các công cụ như Terraform, Ansible để tự động hóa hoàn toàn quá trình Provisioning, Configuration, và De-provisioning Labs.
 
@@ -107,7 +107,7 @@ Dựa trên tư duy Dữ liệu và xu hướng thị trường, tôi sẽ phân
 
 9. **Enterprise Applications:** SAP Basis, Oracle Database Admin (DBA), Microsoft Dynamics.
 
-10. **Nền tảng hạ tầng mở rộng:** OpenStack, Ceph Storage.
+10. **Nền tảng hạ tầng mở rộng:** Minio Storage, Ceph Storage, CloudStack.
 
 **Yêu cầu Labs thực tế chung:**
 
@@ -180,7 +180,7 @@ Quản trị viên Hệ thống: 55293-sharepoint-end-user-2019-training.pdf, 20
 
 **Kubernetes/Container Platform:** Danh sách các tài liệu liên quan 2020-10-17_new_scientist.pdf, 20778a-analyzing_data_with_powerbi.pdf, 55293-sharepoint-end-user-2019-training.pdf, 20767b-implementing a sql data warehouse-trainerhandbook-enu.pdf, 20767b_implementaion_data-ware-house_ms-sql.pdf ...
 
-**Nền tảng Ảo hóa (VMware/OpenStack):** Danh sách các tài liệu liên quan cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, bài lab 0051_triển khai fs ibm storage-iscsi-fcoe_dellesxi8u3_v1.3.pdf, bigdata-vsphere65-perf.pdf, 20250626-vietinbank_ai-dataframework_internalaudit-sent.pdf ...
+**Nền tảng Ảo hóa (vSphere/vRA8x/ CloudStack):** Danh sách các tài liệu liên quan cách tải xuống vcenter appliance 7.x-8.x ova để đưa vào eve-ng cloud edge và labs online.pdf, bài labs 007_cấu hình key provider native trên vsphere 7x.8x.pdf, bài lab 0051_triển khai fs ibm storage-iscsi-fcoe_dellesxi8u3_v1.3.pdf, bigdata-vsphere65-perf.pdf, 20250626-vietinbank_ai-dataframework_internalaudit-sent.pdf ...
 
 **Nền tảng Bảo mật & Log Management:** Danh sách các tài liệu liên quan các phương pháp tích hợp phần đăng nhập 1 lần sso.pdf, comptia-security-study-guide-with-over-500-practice-test-questions-exam-sy0-701-9th-edition.pdf, eve-ng-calc2.0.xlsx, ai_dataframework_knime_priceindex-bds.pdf, comptia cybersecurity analyst (csa+) study guide exam cs0-001.pdf ...
 Máy chủ/Máy trạm tiêu chuẩn: chủ_đề_1-3_knime_case_studies_banking_internal_audit.pdf, readme.bat.md, requirements.txt, power-bi _ ga-deck.pdf, session_4_our-experience-with-knime-as-e-auditors.pdf ...
@@ -350,7 +350,7 @@ Data & AI: Apache Spark, Hadoop, Kafka, JupyterHub, TensorFlow, PyTorch, Azure M
 
 | Mô hình Labs | Ưu điểm | Nhược điểm | Khả năng & Tính năng | Yêu cầu kỹ thuật chính |
 |---|---|---|---|---|
-| On-premise Local/Co-location (VMware/OpenStack) | Kiểm soát hoàn toàn, bảo mật dữ liệu cao, tận dụng hạ tầng có sẵn, latency thấp, chi phí vận hành có thể thấp hơn nếu sử dụng tối đa. | Chi phí đầu tư ban đầu cao, cần đội ngũ vận hành chuyên sâu, khó mở rộng nhanh chóng, rủi ro điểm lỗi đơn. | Phù hợp cho Labs chuyên sâu, yêu cầu tài nguyên lớn (GPU), tuân thủ bảo mật nội bộ, đào tạo nội bộ Doanh nghiệp lớn. | Máy chủ vật lý mạnh, SAN/NAS Storage, Hypervisor (ESXi, Proxmox, OpenStack), Network gear, UPS. |
+| On-premise Local/Co-location (vSphere/vRA/CloudStack) | Kiểm soát hoàn toàn, bảo mật dữ liệu cao, tận dụng hạ tầng có sẵn, latency thấp, chi phí vận hành có thể thấp hơn nếu sử dụng tối đa. | Chi phí đầu tư ban đầu cao, cần đội ngũ vận hành chuyên sâu, khó mở rộng nhanh chóng, rủi ro điểm lỗi đơn. | Phù hợp cho Labs chuyên sâu, yêu cầu tài nguyên lớn (GPU), tuân thủ bảo mật nội bộ, đào tạo nội bộ Doanh nghiệp lớn. | Máy chủ vật lý mạnh, SAN/NAS Storage, Hypervisor (ESXi, Proxmox, CloudStack), Network gear, UPS. |
 | Container-based (Kubernetes/Docker) | Triển khai nhanh, nhẹ, linh hoạt, hiệu quả tài nguyên cao, tính nhất quán môi trường. | Phức tạp trong quản lý mạng và lưu trữ cho các Labs phức tạp, yêu cầu kiến thức chuyên sâu về Kubernetes. | Lý tưởng cho Labs phát triển, DevSecOps, IoT, các Labs nhẹ, triển khai nhanh, số lượng lớn users/labs. | Máy chủ vật lý/VMs chạy Linux, Docker Engine, Kubernetes Cluster (Kubeadm, RKE, OpenShift), Persistent Storage. |
 | Hybrid Cloud (Kết nối On-prem với Public Cloud) | Linh hoạt mở rộng tài nguyên không giới hạn, tận dụng lợi ích của cả On-prem và Cloud, Disaster Recovery. | Phức tạp trong quản lý và bảo mật, chi phí vận hành có thể cao hơn, yêu cầu kết nối mạng ổn định giữa On-prem và Cloud. | Phù hợp cho PoC/Demo tích hợp Cloud, đào tạo Multi-cloud, Disaster Recovery, các dự án có yêu cầu mở rộng tức thời. | Hạ tầng On-premise + Gateway/VPN kết nối Cloud (Direct Connect/ExpressRoute), IaC (Terraform, Ansible), Kubernetes Clusters. |
 | Public Cloud Native (AWS/Azure/GCP) | Khả năng mở rộng gần như vô hạn, không cần đầu tư ban đầu, đa dạng dịch vụ managed service, tập trung vào code/nội dung. | Chi phí vận hành có thể rất cao nếu không tối ưu, phụ thuộc vào nhà cung cấp, rủi ro Lock-in, vấn đề chủ quyền dữ liệu. | Phù hợp cho Labs về Cloud-native, AI/ML Service, Big Data Analytics, các khóa học về dịch vụ Cloud cụ thể. | Tài khoản Public Cloud (AWS, Azure, GCP), dịch vụ Managed Kubernetes (EKS, AKS, GKE), Serverless Compute, Database as a Service. |
@@ -398,7 +398,7 @@ Việc quyết định đầu tư xây dựng hệ thống Labs On-premise Local
     >> Các ổ cứng chuẩn cũ SATA, SAS nên chuyển sang dịch vụ quản lý bởi hệ thống Backup/Snapshot/Restore để làm lưu trữ các Templates VM, ISO phần mềm cài đặt, các bản VBK, vbm giảm dần nhu cầu đọc/ghi mà chuyển sang trạng thái có lịch trình đọc/ghi mật độ giảm dần, giúp kéo dài tuổi thọ.
     2. Máy chủ cấu hình thiết bị tối thiểu với số lượng: 4 máy là mô hình HCI "siêu hội tụ" căn bản phù hợp với các bài toán thực hành labs như: vcenter HA, vSAN Strestred, SD-WAN, VMware Cloud Foundation Nested, Replicate DC-DR nested... hoặc vận hành Demo/PoC: Healthcare/SCM/HRM/CRM/ERP/SAP HANA Cluster/SalePoint/Power BI Report Server, Migration Cloud Services, Backup DC- Replicate DR and Restore DR - DC...
 
-**Giai đoạn ban đầu:** Tập trung đầu tư vào hạ tầng On-premise mạnh mẽ (server, storage, network) với nền tảng ảo hóa (VMware vSphere/OpenStack) và containerization (Kubernetes). Đồng thời, xây dựng hệ thống tự động hóa (IaC) để dễ dàng provision/deprovision Labs. Đây là nền tảng vững chắc cho cả đào tạo và PoC nội bộ.
+**Giai đoạn ban đầu:** Tập trung đầu tư vào hạ tầng On-premise mạnh mẽ (server, storage, network) với nền tảng ảo hóa (VMware vSphere/vRA/CloudStack) và containerization (Kubernetes). Đồng thời, xây dựng hệ thống tự động hóa (IaC) để dễ dàng provision/deprovision Labs. Đây là nền tảng vững chắc cho cả đào tạo và PoC nội bộ.
 
 **Giai đoạn Mở rộng:** Khi nhu cầu tăng cao hoặc cần các tài nguyên chuyên biệt/môi trường đa dạng (ví dụ: GPU cho AI, Public Cloud specific services), xem xét tích hợp với Public Cloud thông qua các mô hình Hybrid hoặc Bursting. Điều này cho phép mở rộng linh hoạt mà không cần đầu tư phần cứng liên tục.
 
@@ -739,7 +739,7 @@ def analyze_and_classify_labs(
     -   **Phân loại Nhóm Doanh nghiệp**: Ví dụ: Ngân hàng, Viễn thông, Sản xuất, Chăm sóc sức khỏe, Chính phủ, Startup công nghệ, SMBs...
     -   **Phân loại lĩnh vực hoạt động Doanh nghiệp, nghiệp vụ của Doanh nghiệp (nếu có)**: Ví dụ: FinTech, HealthTech, E-commerce, Supply Chain, R&D, IT Operations, Compliance & Audit...
     -   **Phân loại Các Chương trình đào tạo, tập huấn phù hợp với từng loại Doanh nghiệp (nếu có)**: Ví dụ: Đào tạo về An toàn thông tin cho khối Ngân hàng, Nâng cao năng lực DevSecOps cho Startup, Triển khai Data Lake cho Doanh nghiệp sản xuất...
-    -   **Phân loại các công nghệ và môi trường phù hợp với các nhóm Doanh nghiệp**: Ví dụ: AWS, Azure, GCP, VMware, Kubernetes, OpenStack, Power Platform, SAP, Oracle, SQL Server, Python, Java, .NET...
+    -   **Phân loại các công nghệ và môi trường phù hợp với các nhóm Doanh nghiệp**: Ví dụ: AWS, Azure, GCP, VMware, Kubernetes, CloudStack, OpenStack, Power Platform, SAP, Oracle, SQL Server, Python, Java, .NET...
     -   **Mục tiêu phổ biến**: Liệt kê các mục tiêu chính mà doanh nghiệp hoặc cá nhân thường mong muốn khi thuê/sử dụng Labs (ví dụ: hỗ trợ đào tạo nội bộ Doanh nghiệp, nâng cao năng lực đội ngũ CNTT, tiết kiệm thời gian và tận dụng tối đa tài nguyên nội bộ sẵn có, thử nghiệm công nghệ mới, phát triển sản phẩm...).
     -   **Viết các kịch bản, thử nghiệm, các bài thực hành labs theo nghiệp vụ của từng nhóm Doanh nghiệp**: Đưa ra ít nhất 3-5 ví dụ cụ thể cho các kịch bản labs.
     -   **Tóm tắt các PoC, Showcase, hoặc Case study có trong các nhóm Sách Mastering, Cookbook hoặc các tài liệu hướng dẫn cài đặt, triển khai**: Tổng hợp các ví dụ thực tế về triển khai và ứng dụng.
