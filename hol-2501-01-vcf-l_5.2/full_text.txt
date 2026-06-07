@@ -1,0 +1,4081 @@
+﻿=== PAGE 1 ===
+HOL-2501-01-VCF-L_5.2
+Getting Started
+H A N D S - O N  L A B S  M A N U A L  - 2 0 2 4
+2 0 2 4
+
+
+=== PAGE 2 ===
+Table of contents
+Table of contents
+Lab Overview - HOL-2501-01-VCF-L - VCF Operations - Getting Started             4
+Lab Description.................................................................................4
+Lab Guidance ...................................................................................4
+Module 1 - Maximize Your Value with Aria Operations (15 minutes) Basic               6
+Introduction..................................................................................... 6
+Log in to Aria Operations.................................................................. 6
+Introduction to the Aria Operations Home Page................................. 9
+Using the Aria Operations Navigation Menu ..................................... 12
+Using the Search Bar and Object Detail .............................................17
+Log out of Aria Operations .............................................................. 21
+Conclusion......................................................................................22
+Module 2 - Gaining Insights into your Capacity (15 minutes) Basic                        23
+Introduction....................................................................................23
+Log in to Aria Operations.................................................................23
+Capacity Dashboards Overview........................................................26
+Log out of Aria Operations ..............................................................37
+
+=== PAGE 3 ===
+Module 5 - Understand your Cloud Costs and Save Money (30 minutes) Basic   121
+Introduction................................................................................... 121
+Log in to Aria Operations................................................................ 121
+Virtual Machine (VM) Costing with VMware Aria Operations .............124
+Cost Drivers and More....................................................................144
+Log out of Aria Operations .............................................................163
+Conclusion.....................................................................................163
+Module 6 - Generating Reports for Cost, Capacity, Compliance and More (30
+minutes) Basic                                                                                                            165
+Introduction.................................................................................. 165
+Log in to Aria Operations............................................................... 166
+Introduction to Reports ................................................................. 169
+Generate Basic Reports..................................................................174
+Log out of Aria Operations ............................................................ 186
+Conclusion.................................................................................... 186
+Module 7 - Visualizing the Health of your Private Cloud with VCF Diagnostics (15
+minutes) Basic     
+
+=== PAGE 4 ===
+Lab Overview - HOL-2501-01-VCF-L - VCF Operations - Getting Started
+Lab Overview - HOL-2501-01-VCF-L - VCF Operations - Getting Started
+[2]
+[2]
+Lab Description
+Lab Description
+Want to know the fastest way to get value from Aria Operations? Take this lab to get quick insight into capacity, troubleshooting,
+security, and efficiency.
+[3]
+[3]
+Lab Guidance
+Lab Guidance
+Welcome! This lab is available for you to repeat as many times as you want. To start somewhere other than the beginning, use the Table
+Welcome! This lab is available for you to repeat as many times as you want. To start somewhere other than the beginning, use the Table
+of Contents in the upper right-hand corner of the Lab Manual or click on one of the modules below.
+of Contents in the upper right-hand corner of the Lab Manual or click on one of the modules below.
+òModule 1 - Maximize Your Value with Aria Operations
+Module 1 - Maximize Your Value with Aria Operations (15 minutes) (Basic).
+òModule 2 - Gaining Insights into Your Capacity
+Module 2 - Gaining Insights into Your Capacity (15 minutes) (Basic).
+òModule 3 - Mastering Monitoring and Troubleshooting Essentials
+Module 3 - Mastering Monitoring and Troubleshooting Essentials (30 minutes) (Basic).
+òModule 4 - Running a Safe and Compliant Cloud
+Module 4 - Running a Safe and Compliant Cloud (30minutes) (Basic).
+òModule 5 - Understand Your Cloud Costs and Save Money
+Module 5 - Understand Your Cloud Costs and Save Money (30 minutes) (Basic).
+òModule 6 - Generating Repo
+
+=== PAGE 5 ===
+[4]
+[4]
+You are ready....is your lab?
+You are ready....is your lab?
+The lab console will indicate when your lab has finished all the startup routines and is ready for you to start. If you see anything other
+than "Ready", please wait for the status to update. If after 5 minutes your lab has not changed to "Ready", please ask for assistance.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5
+
+
+=== PAGE 6 ===
+Module 1 - Maximize Your Value with Aria Operations (15 minutes) Basic
+Module 1 - Maximize Your Value with Aria Operations (15 minutes) Basic
+[6]
+[6]
+Introduction
+Introduction
+Welcome to the VMware Aria Operations - Getting Started
+VMware Aria Operations - Getting Started Hands-on Lab.
+VMware Aria Operations delivers intelligent operations management with application-to-storage visibility across physical, virtual, and
+cloud infrastructures. Using policy-based automation, Operations Teams can automate key processes and improve IT efficiency.
+Using data collected from system resources (objects), VMware Aria Operations identifies issues in any monitored system component,
+often before the customer notices a problem. Aria Operations also frequently suggests corrective actions we can take to fix the problem
+right away. For more challenging problems, Aria Operations offers rich analytical tools that allow us to review and manipulate object
+data to reveal hidden issues, investigate complex technical problems, identify trends, or drill down to gauge the health of a single
+object.
+In this exercise, we will log in to Aria Operations, review the user interface, and reference topics covered in later modules in this lab
+along with other labs in the series.
+Lab Captain(s):
+Lab Captain(s):
+òShannon Fitzpatrick - Staff Technical Adoption Manager, US
+[7]
+[7]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will walk through the process for logging in to Aria O
+
+=== PAGE 7 ===
+[9]
+[9]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7
+
+
+=== PAGE 8 ===
+[10]
+[10]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8
+
+
+=== PAGE 9 ===
+[11]
+[11]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[12]
+[12]
+Introduction to the Aria Operations Home Page
+Introduction to the Aria Operations Home Page
+The enhanced user interface makes Aria Operations easier to use, featuring a use case and persona-based Quick Start page to help us
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9
+
+
+=== PAGE 10 ===
+quickly perform operational tasks.
+After logging in to Aria Operations, we will be taken to the Home screen.
+[13]
+[13]
+Aria Operations Home Screen
+Aria Operations Home Screen
+The Aria Operations Home screen includes several components.
+1. The left side navigation menu is used to navigate through the various sections of Aria Operations
+sections of Aria Operations. The menu can be collapsed
+using the >>
+>> icon if needed (located in the upper right corner of the highlighted area).
+2.The Launchpad tab of the main window, features several tiles starting with the 5 Pillars of Operations
+Pillars of Operations. We will review each of
+these pillars in this exercise.
+3.The top bar includes a search field for quick navigation
+quick navigation. We will review the search field later in this module.
+Let's review each of the Pillars of Aria Operations now.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0
+
+
+=== PAGE 11 ===
+[14]
+[14]
+Pillars of Operations
+Pillars of Operations
+The Aria Operations Pillars of Operations represent several groups of functionality.
+Note:
+Note: If we click on any of the tiles we will be taken to a page with more detail. To return to this Launchpad tab on the home screen, we
+can click Home in the navigation menu on the left.
+1. Observability
+Observability includes monitoring and troubleshooting components to assist with identifying and solving issues in the
+environment. These components are covered starting in Module 3 of this lab, and in later labs in the series.
+2.Capacity
+Capacity includes rightsizing and reclamation options for optimizing the existing environment, as well as capacity
+management tools to assist in determining future capacity needs. These components are covered starting in Module 2 of this
+lab, and in later labs in the series.
+3.Cost
+Cost includes tools for determining the cost of running the environment, as well as rate cards and the ability to determine the
+cost of actions such as adding workloads or migrating to new environments. These components are covered starting in
+Module 5 of this lab, and in later labs in the series.
+4.Compliance
+Compliance includes options for applying pre-configured or customized compliance standards to the environment, and
+monitoring against those standards. These components are covered in Module 4 of this lab.
+5.Sustainability
+Sustainability provides the VMware Green Score for our environment, allowing us to determine t
+
+=== PAGE 12 ===
+[15]
+[15]
+Additional Launchpad Sections
+Additional Launchpad Sections
+1. Scroll down through the launch pad screen. (Not shown.)
+As we scroll down through the Launchpad, we will see additional categories including:
+òApplication monitoring and management
+òInfrastructure monitoring and management
+òVMware Cloud options
+òIntegrations, including options for scheduled automation and extensibility to allow Aria Operations to monitor more than the
+default vSphere environment.
+Several of these categories are covered in later labs in this series.
+[16]
+[16]
+Using the Aria Operations Navigation Menu
+Using the Aria Operations Navigation Menu
+The navigation menu on the left side of the Aria Operations interface will be used throughout the labs in this series. Let's review this
+navigation menu now.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2
+
+
+=== PAGE 13 ===
+[17]
+[17]
+Navigation Menu
+Navigation Menu
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3
+
+
+=== PAGE 14 ===
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4
+
+
+=== PAGE 15 ===
+The navigation menu includes several categories for easy access to all of the Aria Operations functionality.
+1. To collapse the navigation menu, click the <<
+<< icon at the top. To expand the menu again, click the >> icon (not shown).
+2.We can return to the Aria Operations Launchpad at any time by clicking Home
+Home in the navigation menu.
+3.The menu is divided into several categories. We can expand each category by clicking on the > next to the category name, or
+on the name itself. Click on Inventory
+Inventory to expand this category.
+[18]
+[18]
+Inventory Overview
+Inventory Overview
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5
+
+
+=== PAGE 16 ===
+The Inventory is a collection of all objects discovered and monitored by Aria Operations. We can navigate this inventory in a tree view
+similar to the one found in the vSphere Client.
+1. Under vSphere World, click the > next to VCF_mgmt-domain
+VCF_mgmt-domain to expand the inventory.
+2.Click the > next to the mgmt-datacenter-01
+mgmt-datacenter-01 data center to expand the inventory further. Note that this list will include vSphere
+clusters as well as virtual machine folders.
+3.Click the > next to wld-cluster-01
+wld-cluster-01 to expand the inventory for this vSphere cluster.
+4.Click on one of the ESXi hosts (esxi-12.vcf.sddc.lab
+esxi-12.vcf.sddc.lab in this example). This will open the object view for this host. We will review
+the object detail later in this exercise.
+5.In the left navigation menu, click on Inventory
+Inventory to collapse this category.
+[19]
+[19]
+Administration Overview
+Administration Overview
+1. In the navigation menu, click on Administration
+Administration.
+2.Click on Control Panel.
+Control Panel.
+The Control Panel of the Administration section allows for management and customization of several options for Aria Operations, such
+as: user access and certificate management, management of the Aria Operations nodes (virtual appliances), and configuration/
+customization of capacity and cost calculations. We will not be reviewing each of these sections in detail, but some exercises in this lab
+series do leverage Administration settings. Feel free to explore the va
+
+=== PAGE 17 ===
+[20]
+[20]
+Using the Search Bar and Object Detail
+Using the Search Bar and Object Detail
+We have already explored the Aria Operations Launchpad and navigation menu. But what can we use if we need to locate an object
+quickly in the inventory and we do not know where it is? Well, just like in VMware vCenter, there is a search feature in Aria Operations.
+The search bar is the fastest place to start when we know the name of an object that we want to research in more detail.
+Due to the dynamic nature of this lab environment and the host naming policy applied to deployed resources, the 6 numbers within the
+name of a virtual machine may differ between the instructions provided, what is shown within the associated picture and the lab
+environment.
+[21]
+[21]
+The Global Search Feature
+The Global Search Feature
+1. The search field is at the top of the Aria Operations interface. Using this field we can quickly search for objects in the
+environment inventory.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7
+
+
+=== PAGE 18 ===
+[22]
+[22]
+Perform a Search
+Perform a Search
+1. Type windows
+windows into the search field, but do not press Enter.
+Note that several types of objects are displayed as possible options. In this list, search results include (not all shown):
+òA Windows OS monitoring object.
+òA Windows VM Template, as well as a running Windows Virtual Machine.
+òA Windows deployment managed by VMware Aria Automation.
+òVMware Aria Automation Blueprint and Workflows for Windows VMs.
+The search field can be used to quickly navigate to any of these components, or other components in the Aria Operations inventory. In
+this lab, we will view the running VM next.
+2.Click on windows-001202
+windows-001202.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8
+
+
+=== PAGE 19 ===
+[23]
+[23]
+Object Detail Page
+Object Detail Page
+The object detail page includes detailed information on the object in the Aria Operations inventory (in this case, the windows-001202
+windows-001202
+VM). We could have navigated through the Inventory to find this VM, but the search field allows us to locate it quickly.
+1. Click the <<
+<< to collapse the left navigation menu.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9
+
+
+=== PAGE 20 ===
+[24]
+[24]
+Object Detail Page (Continued)
+Object Detail Page (Continued)
+1. The Inventory
+Inventory view allows for visibility into the entire environment. By navigating this view, we can view additional information
+on which infrastructure resources this VM is using, which objects it contains, as well as the health of each. This can be useful in
+troubleshooting issues that may be impacting this VM.
+2.The Summary
+Summary tab for this object shows several tiles providing base information about the VM, the status of alerts related to
+this VM, and information on capacity remaining based on existing utilization.
+We can scroll down through the Summary tab to view additional information, or click any of the other tabs to view more detail for this
+object. Several of these tabs will be covered in later modules in this lab, as well as later labs in the series.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0
+
+
+=== PAGE 21 ===
+[25]
+[25]
+Navigate to Launchpad
+Navigate to Launchpad
+1. Click the >>
+>> above the left navigation menu to expand the menu.
+2.Click Home
+Home to return to the Aria Operations Launchpad.
+Again, the navigation menu can be used to move to any section in Aria Operations quickly, or to return to this Home screen.
+[26]
+[26]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 1
+
+
+=== PAGE 22 ===
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[27]
+[27]
+Conclusion
+Conclusion
+In this module, we started to explore the VMware Aria Operations interface using the basic navigation functions. We introduced the
+Search function which gave us the ability to search and quickly locate the objects in the Inventory. We also reviewed the Object Details
+of a VM to briefly note the depth of detail available in this tool. By reviewing each of the different functions of the VMware Aria
+Operations interface we can see how comprehensive a toolset it can be for managing our virtual infrastructure.
+[28]
+[28]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module!
+Congratulations on completing the lab module!
+If you are looking for additional information, visit the VMware Aria Operations: Journey to Success
+VMware Aria Operations: Journey to Success guide on the Apps & Cloud
+Apps & Cloud
+Management Tech Zone
+Management Tech Zone as well as the VMware Aria Operations
+VMware Aria Operations documentation.
+From here you can:
+1. Continue with the next lab module.
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab.
+3.End your lab and return in the future.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 2
+
+
+=== PAGE 23 ===
+Module 2 - Gaining Insights into your Capacity (15 minutes) Basic
+Module 2 - Gaining Insights into your Capacity (15 minutes) Basic
+[30]
+[30]
+Introduction
+Introduction
+Managing and estimating available capacity in a dynamic virtualized environment can be a challenge. Aria Operations provides several
+out-of-the-box dashboards that provide additional insights into available capacity as well as estimates of time remaining based on
+observed growth in the environment.
+In this module, we will begin to review some of the preconfigured capacity dashboards in Aria Operations.
+Lab Captain(s):
+Lab Captain(s):
+òShannon Fitzpatrick - Staff Technical Adoption Manager, US
+[31]
+[31]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will walk through the process for logging in to Aria Operations
+Aria Operations.
+[32]
+[32]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 3
+
+
+=== PAGE 24 ===
+[33]
+[33]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 4
+
+
+=== PAGE 25 ===
+[34]
+[34]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 5
+
+
+=== PAGE 26 ===
+[35]
+[35]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[36]
+[36]
+Capacity Dashboards Overview
+Capacity Dashboards Overview
+Capacity quantifies the resources used, resources remaining, and opportunities to reclaim unused resources. Projections of the demand
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 6
+
+
+=== PAGE 27 ===
+provide a proactive view of capacity. The Capacity Dashboards
+Capacity Dashboards show capacity in terms of time remaining before capacity is projected to
+run out, the amount of capacity remaining, the number of VMs that may fit in the remaining capacity, and reclaimable resources that can
+increase the available capacity.
+There are currently seven Capacity Dashboards
+Capacity Dashboards included in Aria Operations. Below is a list and brief description of each one:
+òCluster Capacity Dashboard
+Cluster Capacity Dashboard -- The Cluster Capacity dashboard includes the capacity and configuration information regarding
+the vSphere clusters. In addition, this dashboard also contains corresponding ESXi host and resource pools as they impact
+cluster capacity.
+òDatastore Capacity Dashboard
+Datastore Capacity Dashboard -- The Datastore Capacity dashboard complements out of the box capacity pages and
+dashboards. It focuses on storage, provides an overall picture, and highlights the datastores that need attention.
+òReclamation Dashboard
+Reclamation Dashboard -- The Reclamation dashboard helps us manage various types of reclamation that can be carried out
+on VMs and datastore. It is designed for both the Capacity team and the Operations team.
+òVM Rightsizing Dashboard
+VM Rightsizing Dashboard -- The VM Rightsizing dashboard helps us adjust the VM size for optimal performance at the
+lowest cost. It covers both undersized and oversized scenarios. The dashboard looks at the long term trend an
+
+=== PAGE 28 ===
+[37]
+[37]
+How to locate the Capacity Dashboards
+How to locate the Capacity Dashboards
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 8
+
+
+=== PAGE 29 ===
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 9
+
+
+=== PAGE 30 ===
+To locate the Capacity Dashboards
+Capacity Dashboards, do the following from the Home Screen:
+1. Select Operations.
+Operations.
+2.Select Dashboards.
+Dashboards.
+3.In the Dashboard search field, type capacity.
+capacity.
+4.Select the down arrow
+down arrow next to Capacity
+Capacity to review the various available dashboards.
+[38]
+[38]
+Capacity Pillar of Aria Operations Overview
+Capacity Pillar of Aria Operations Overview
+The Capacity Pillar
+Capacity Pillar in Aria Operations is designed to assess workload status and how much capacity is remaining in data centers across
+our environment. To access the Capacity Pillar,
+Capacity Pillar, do the following:
+1. Select Home.
+Home.
+2.Select Capacity
+Capacity in the Pillars of Operations window frame.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 0
+
+
+=== PAGE 31 ===
+[39]
+[39]
+Capacity Launchpad Overview
+Capacity Launchpad Overview
+In the Capacity Launchpad
+Capacity Launchpad window, there are three main components: Assess, Optimize,
+Assess, Optimize, and Plan
+Plan. We won't review each component
+in-depth in this lab, but below is a general overview of each:
+1. Assess
+Assess -- Use this component to determine if there is sufficient capacity in our VMware Cloud environment for current and
+future workloads.
+2.Optimize
+Optimize -- Use this component to optimize our data center for optimal workload performance by ensuring our workloads
+have the resources they need (includes the Rightsize
+Rightsize and Reclaim
+Reclaim features).
+3.Plan
+Plan -- Use this component to plan for the addition/removal of capacity or workloads in the environment, as well as evaluate
+the possibility of moving workloads across supported clouds.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 1
+
+
+=== PAGE 32 ===
+[40]
+[40]
+Open the Assess Capacity Component
+Open the Assess Capacity Component
+In the lab, we will focus on the Assess
+Assess Capacity
+Capacity Component to determine if we need to add additional resources to our current
+environment.
+1. In the Capacity Launchpad
+Capacity Launchpad window under the Assess
+Assess section, click View
+View.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 2
+
+
+=== PAGE 33 ===
+[41]
+[41]
+Assess Capacity - Select a Datacenter
+Assess Capacity - Select a Datacenter
+1. In the Assess Capacity
+Assess Capacity window, select the mgmt-datacenter-01
+mgmt-datacenter-01 datacenter (notice the "buildings" icon to the left of the name)
+as this will be the one we analyze in the lab.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 3
+
+
+=== PAGE 34 ===
+[42]
+[42]
+Datacenter Capacity Time Remaining and Optimization Recommendations
+Datacenter Capacity Time Remaining and Optimization Recommendations
+The first two components in the Datacenter Capacity window are Time Remaining
+Time Remaining and Optimization Recommendations.
+Optimization Recommendations. Below are brief
+overviews of both:
+1. Time Remaining --
+Time Remaining -- using advanced calculations, Aria Operations determines if any additional resources need to be added to
+maintain the current state of the environment. Note:
+Note: Depending upon the available resources of the lab, we may see
+different results than what is shown in this example.
+2.Optimization Recommendations
+Optimization Recommendations -- this component identifies available resources that could be reclaimed and provides an
+associated cost savings estimate. Note:
+Note: Depending upon the available resources of the lab, we may see different results than
+what is shown in this example.
+3.Use the slide bar on the right side to scroll down and see other options which are discussed on the next page.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 4
+
+
+=== PAGE 35 ===
+[43]
+[43]
+Datacenter Capacity Cluster Utilization
+Datacenter Capacity Cluster Utilization
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 5
+
+
+=== PAGE 36 ===
+As we scroll down further on the Datacenter Capacity page, notice the Cluster Utilization
+Cluster Utilization widget and how it provides a graphical chart
+estimating the time remaining of current resources (at current rate of growth). Additionally, the chart shows a history of resources for
+the past month and a forecast of resources for the next three months. Several options can be explored in this widget by doing the
+following:
+1. Change the Sort By
+Sort By selection (defaults to Most Constrained
+Most Constrained) -- in addition to Most Constrained, we can also sort by CPU
+Demand, Memory Demand, and Disk Space Demand.
+2.This widget shows the capacity data for each vSphere cluster in the datacenter. We can change our selection in this area by
+selecting another cluster. In the current lab, we have two clusters to choose from.
+3.The vertical dotted lines represent today and the day resources will run out (based upon current consumption). In this
+example, the two lines overlap, as resources will run out today. Everything to the right of the dotted lines represent a trend
+based on the data Aria Operations has collected previously from the environment.
+4.Change the resource selection across the top of the menu (change view between CPU, Memory, and Disk Space). In our
+screenshot, Memory is alerting as constrained as noted by the "red dot" next to the option while the CPU and Disk Space
+resources are showing a "green check" noting those resources are currently fine. Note:
+Note: Depe
+
+=== PAGE 37 ===
+[44]
+[44]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[45]
+[45]
+Conclusion
+Conclusion
+In this module, we introduced capacity management and monitoring options available in Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 7
+
+
+=== PAGE 38 ===
+[46]
+[46]
+You have finished this module
+You have finished this module
+Congratulations on completing the lab module!
+Congratulations on completing the lab module!
+For more information on getting started with Aria Operations, see the VMware Aria Operations: Journey to Success
+VMware Aria Operations: Journey to Success guide at the
+VMware Apps & Cloud Management Tech Zone
+VMware Apps & Cloud Management Tech Zone.
+From here you can:
+1. Advance to the next page and continue with the next lab module
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab manual
+3.End your lab and come back and start it again in the future
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 8
+
+
+=== PAGE 39 ===
+Module 3 - Mastering Monitoring and Troubleshooting Essentials (30 minutes) Basic
+Module 3 - Mastering Monitoring and Troubleshooting Essentials (30 minutes) Basic
+[48]
+[48]
+Introduction
+Introduction
+Aria Operations gives administrators in depth reporting and alerting capabilities. With the ability to create customized alerts designed
+for specific objects, applications or systems, administrators can eliminate the noise of an environment and instead focus on what's
+important. Let's take a look at the basic alerting capabilities with more advanced topics covered in additional Labs.
+This Module contains the following lessons:
+- Introduction to Alert Components
+- Working with Alerts
+Lab Captain(s):
+Lab Captain(s):
+William De Marigny - Staff NSX Technical Adoption Manager, US
+Due to the dynamic nature of this lab environment and the host naming policy applied to deployed resources, the 6 numbers within the
+name of a virtual machine may differ between the instructions provided, what is shown within the associated picture and the lab
+environment.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  3 9
+
+
+=== PAGE 40 ===
+[49]
+[49]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will log in to Aria Operations
+Aria Operations.
+[50]
+[50]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 0
+
+
+=== PAGE 41 ===
+[51]
+[51]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 1
+
+
+=== PAGE 42 ===
+[52]
+[52]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 2
+
+
+=== PAGE 43 ===
+[53]
+[53]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[54]
+[54]
+Introduction To Alert Components
+Introduction To Alert Components
+Aria Operations Alerts are similar to rules used for years in monitoring critical IT resources. However, previous rule-based systems
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 3
+
+
+=== PAGE 44 ===
+tended to be static and difficult to build, deploy, and maintain. Aria Operations leverages built-in analytics and pre-defined content to
+provide a dynamic, effective, and scalable approach for identifying and resolving issues in our environment.
+For this lesson, we will start by exploring a Symptom Definition. Symptom Definitions enable Aria Operations to identify problems with
+objects in our environment. These Symptom Definitions can be used to build alerts in our environment. Let's get started.
+[55]
+[55]
+Locate Alert Configuration
+Locate Alert Configuration
+Symptom Definitions are conditions that evaluate the state of our environment that, if met, trigger a symptom which can result in a
+generated alert. Symptom definitions can be created using attributes such as metrics, super metrics, properties, message events, fault
+events, or metric events. We can create a symptom definition as we create an alert definition or as an individual item in the appropriate
+symptom definition list.
+Let's explore existing symptom definitions:
+1. On the left hand side menu, click on the chevron to expand Operations.
+Operations.
+2.Click the Configurations
+Configurations tab.
+3.Under Alerts, click the Symptom Definitions
+Symptom Definitions box.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 4
+
+
+=== PAGE 45 ===
+[56]
+[56]
+What is a Symptom
+What is a Symptom
+Symptoms are conditions that indicate problems in our environment. We define symptoms that we add to alert definitions so that we
+know when a problem occurs with our monitored objects.
+As data is collected from our monitored objects, the data is compared to the defined symptom condition. If the condition is true, then
+the symptom is triggered.
+We can define symptoms based on metrics, super metrics, properties, message events, fault events, and metric events.
+Defined symptoms in our environment are managed in the Symptom Definitions. When the symptoms that are added to an alert
+definition are triggered, they contribute to a generated alert.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 5
+
+
+=== PAGE 46 ===
+[57]
+[57]
+Metrics and Properties
+Metrics and Properties
+Metric and super metric symptoms are based on the operational or performance values that VMware Aria Operations collects from
+target objects in our environment. We can configure the symptoms to evaluate static thresholds or dynamic thresholds.
+We define symptoms based on metrics so that we can create alert definitions that let us know when the performance of an object in our
+environment is adversely affected.
+Static Thresholds
+Static Thresholds
+Metric symptoms that are based on a static threshold compare the currently collected metric value against the fixed value we configure
+in the symptom definition.
+For example, we can configure a static metric symptom where, when the virtual machine CPU workload is greater than 90, a critical
+symptom is triggered.
+Dynamic Thresholds
+Dynamic Thresholds
+Metric symptoms that are based on dynamic thresholds compare the currently collected metric value against the trend identified
+by VMware Aria Operations , evaluating whether the current value is above, below, or generally outside the trend.
+For example, we can configure a dynamic metric symptom where, when the virtual machine CPU workload is above the trended normal
+value, a critical symptom is triggered.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 6
+
+
+=== PAGE 47 ===
+[58]
+[58]
+Message Events
+Message Events
+Message event symptoms are based on events received as messages from a component of VMware Aria Operations or from an external
+monitored system through the system's REST API. We define symptoms based on message events to include in alert definitions that
+use these symptoms. When the configured symptom condition is true, the symptom is triggered.
+The adapters for the external monitored systems and the REST API are inbound channels for collecting events from external sources.
+Adapters and the REST server both run in the Aria Operations system. The external system sends the messages, and Aria
+Operations collects them.
+We can create message event symptoms for the supported event types.
+Below is a list of supported event types with example events:
+System Performance Degradation
+System Performance Degradation - This message event type corresponds to the EVENT_CLASS_SYSTEM and
+EVENT_SUBCLASS_PERFORM_DEGRADATION type and subtype in the Aria Operations API SDK.
+Change
+Change - The VMware adapter sends a change event when the CPU limit for a virtual machine is changed from unlimited to 2 GHz. We
+can create a symptom to detect CPU contention issues as a result of this configuration change. This message event type corresponds to
+the EVENT_CLASS_CHANGE and EVENT_SUBCLASS_CHANGE type and subtype in the Aria Operations API SDK.
+Environment Down
+Environment Down - The Aria Operations adapter sends an environment down event when the collector component 
+
+=== PAGE 48 ===
+[59]
+[59]
+Faults
+Faults
+Fault symptoms are based on events published by monitored systems. Aria Operations correlates a subset of these events and delivers
+them as faults. Faults are intended to signify events in the monitored systems that affect the availability of objects in our environment.
+We define symptoms based on faults to include in alert definitions that use these symptoms. When the configured symptom condition is
+true, the symptom is triggered.
+We can create fault symptoms for the supported published faults. Some object types have multiple fault definitions from which to
+choose, while others have no fault definitions.
+If the adapter published fault definitions for an object type, we can select one or more fault events for a given fault while we define the
+symptom. The symptom is triggered if the fault is active because of any of the chosen events. If we do not select a fault event, the
+symptom is triggered if the fault is active because of a fault event.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 8
+
+
+=== PAGE 49 ===
+[60]
+[60]
+Examine a Definition
+Examine a Definition
+1. Click on Message Event
+Message Event.
+2.In the filter search field, type DNS and press Enter.
+3.Locate the definition "A DNS forwarder is down"
+"A DNS forwarder is down" and click the 3 dots
+3 dots
+4.From the drop down menu, select Edit
+Edit (not shown).
+[61]
+[61]
+Symptom Definition Syntax
+Symptom Definition Syntax
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  4 9
+
+
+=== PAGE 50 ===
+Symptoms are conditions that indicate problems in our environment. We define symptoms that we add to alert definitions so that we
+know when a problem occurs with our monitored objects.
+As data is collected from our monitored objects, the data is compared to the defined symptom condition. If the condition is true, then
+the symptom is triggered.
+1. Notice our Condition selection: Matches regular expression
+Matches regular expression
+2.Notice our Value Expression Value: DNS forwarder (?s).* is not running. This is impacting the identified DNS Forwarder that is
+DNS forwarder (?s).* is not running. This is impacting the identified DNS Forwarder that is
+currently enabled.(?s).*
+currently enabled.(?s).*
+3.Notice our Trigger Condition: Immediate Criticality
+Immediate Criticality
+4.Notice the Object this symptom definition is associated with.
+5.At the bottom of the page, click CANCEL
+CANCEL (not shown).
+[62]
+[62]
+Examine Alert Definitions
+Examine Alert Definitions
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 0
+
+
+=== PAGE 51 ===
+Let's now examine what these Symptom Definitions are used for when creating alerts to monitor our environment.
+1. Click on the chevron next to Operations
+Operations (optional).
+2.Click on Configurations.
+Configurations.
+3.Under Alerts, click on Alert Definitions.
+Alert Definitions.
+[63]
+[63]
+Open DNS Alert Definition
+Open DNS Alert Definition
+Sticking with our DNS example, let's examine how our DNS forwarder is down Symptom Definition is being used to create an Alert
+Definition.
+1. In the filter search field, type DNS and press Enter.
+2.Click the 3 dots
+3 dots next to the existing Alert Definition with the name A DNS forwarder is down.
+A DNS forwarder is down.
+3.From the drop down menu, select Edit
+Edit (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 1
+
+
+=== PAGE 52 ===
+[64]
+[64]
+View Base Object Types in an Alert Definition
+View Base Object Types in an Alert Definition
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 2
+
+
+=== PAGE 53 ===
+When defining an Alert Definition, we need to select the object type that this Alert will cover. These object types are all the objects that
+Aria Operations can monitor and collect data for. This includes VMware components as well as non-VMware components which allows
+Aria Operations to serve as the monitoring hub for our entire data center.
+1. Click the down carrot
+down carrot next to the NSX Base Object Type.
+NSX Base Object Type.
+2.Click the chevron
+chevron next to NSX
+NSX to minimize the menu.
+3.Scroll down the list and view some of the object types available in this lab.
+4.Click the down carrot
+down carrot used in Step 1 to close this menu (not shown).
+In a real-world environment, this list could be much more extensive based on what additional components, management packs and
+application monitors one has added to Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 3
+
+
+=== PAGE 54 ===
+[65]
+[65]
+View Symptoms/Conditions for an Alert Defintion
+View Symptoms/Conditions for an Alert Defintion
+In Aria Operations, there are some important definitions that help to clarify how alerts work. Let's go over some of these items that we
+see here in the screenshot.
+1. Click on the down carrot
+down carrot to expand Advanced Settings
+Advanced Settings and observe the various fields.
+2.Click on Symptoms / Conditions.
+Symptoms / Conditions.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 4
+
+
+=== PAGE 55 ===
+The Advanced Settings
+Advanced Settings of an Alert Definition include:
+Impact
+Impact: Impact refers to the type of alert that needs to be addressed, the options are Health, Risk or Efficiency.
+Criticality
+Criticality: Criticality refers to how severe the alert is and ranges from Informational to Critical.
+Alert Type & Subtype
+Alert Type & Subtype: This refers to which type of alert should be generated, is it, for instance, an application performance alarm or a
+hardware capacity alarm.
+Wait Cycle:
+Wait Cycle: The symptoms included in the alert definition remain triggered for this number of collection cycles before the alert is
+generated. A default collection cycle is 5 minutes, but it can be adjusted.
+The wait cycle for the alert definition goes into effect after the wait cycle for the symptom definition results in a triggered symptom. In
+most alert definitions, we configure the sensitivity at the symptom level and configure the wait cycle of alert definition to 1. This
+configuration ensures that the alert is immediately generated after all of the symptoms are triggered at the desired symptom sensitivity
+level.
+Cancel Cycle:
+Cancel Cycle: The symptoms are cancelled for this number of collection cycles after which the alert is cancelled.
+The cancel cycle for the alert definition goes into effect after the cancel cycle for the symptom definition results in a cancelled symptom.
+In most definitions, we configure the sensitivity at the symptom level and configure the cancel cycle 
+
+=== PAGE 56 ===
+When creating an alert definition, we first need to decide what symptoms the alert will trigger from. We spent time going over the
+different types of symptom and condition definitions earlier in the lab and here is where we consume them.
+An Alert may have one or more conditions or symptoms that need to be met in order to be triggered. By selecting one or more
+symptoms and tying them together to either all be true or any one of them be true, we're able to handle multi symptom alerts using
+logical 'AND' and 'OR' operations. Let's take a look at how that works in the User Interface.
+1. Click Symptoms
+Symptoms.
+2.Click the down carrot
+down carrot and change our symptom list to Message Event.
+Message Event.
+3.In the search field, type DNS and press Enter.
+4.Observe that the Symptom named 'A DNS forwarder is down' is already associated to this Alert.
+To associate a symptom to an alert, we simply drag the item over to the center screen. Once this is complete, this Alert now will trigger
+if the conditions are met as outlined by our symptom.
+Additional symptoms can be added and tied together so that either all the conditions must be met, or only a single one.
+[67]
+[67]
+Recommendations in an Alert Definition
+Recommendations in an Alert Definition
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 6
+
+
+=== PAGE 57 ===
+Recommendations are created by the administrator and consist of simple text instructions, links to internal and external resources like
+knowledge base articles or more complex actions, such as powering off or modifying a virtual machine.
+The power here is that standardized instructions or actions can be associated with alerts allowing end users to know what to do with an
+alert, but also automate remediation in response to an alert.
+These Recommendations can either be created ahead of time or as part of the workflow when creating this Alert.
+1. Click on Recommendations.
+Recommendations.
+While outside of the scope of this lab, there are additional modules and labs that delve into automated workflow remediation using Aria
+Operations Manager.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 7
+
+
+=== PAGE 58 ===
+[68]
+[68]
+Policies in an Alert Definition
+Policies in an Alert Definition
+Policies are simply a way to designate where this Alert should be active. Rather than having an alert (and its recommendation) apply in
+our entire environment, Policies allow us to create subsets of infrastructure. We'll cover this and many of the other aspects of creating
+these alerts in later labs and modules.
+1. Click on Policies.
+Policies.
+2.Identify the Policy this Alert Definition is applied to.
+3.Click CANCEL
+CANCEL.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 8
+
+
+=== PAGE 59 ===
+[69]
+[69]
+Lesson End
+Lesson End
+In this lesson, we briefly looked at the major components of Alerts: we went over Symptom Definitions, Alert Definitions, association of
+Symptoms to Alerts, and Policies to activate Alerts in. These topics will be covered in greater detail in later labs and modules including
+how to create custom entries for all of these items.
+[70]
+[70]
+Working with Alerts
+Working with Alerts
+In the previous lab, we looked at the components that go into an alert and how they can be generated from a high level point of view. In
+later modules we'll expand more on creating custom alerts.
+In this lab, we will focus on working with Alerts that have already been generated and triggered. Let's get started.
+[71]
+[71]
+Ubuntu VM Status
+Ubuntu VM Status
+We first need to check on the status of the Ubuntu VM we want to work with for this alert. Let's log into the vCenter to check on the
+status of the VM.
+1. Click the plus
+plus sign to open a new browser tab.
+2.Click on the VCF Management
+VCF Management bookmark folder.
+3.Click on the Mgmt
+Mgmt vCenter
+vCenter item on the hotbar.
+4.If we have already logged into vCenter, the next step can be skipped.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  5 9
+
+
+=== PAGE 60 ===
+[72]
+[72]
+Log Into VMware vCenter
+Log Into VMware vCenter
+The username and password should be auto populated allowing us to simply login; if they are missing, please follow the below steps.
+1. Click in the username field and type administrator@vsphere.local
+2.Click in the password field and type VMware123!
+3.Once the username and password are filled in, click LOGIN.
+LOGIN.
+We may need to click our mouse in either the username or password field before the login button becomes actionable.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 0
+
+
+=== PAGE 61 ===
+[73]
+[73]
+Power on Ubuntu VM
+Power on Ubuntu VM
+Once we have logged into the virtual center, we need to locate our subject virtual machine and check its status. If the VM is powered
+off, please follow the below steps.
+1. Click the > next to the virtual center vcenter-mgmt.vcf.sddc.lab
+vcenter-mgmt.vcf.sddc.lab.
+2.click the > next to the virtual datacenter mgmt-datacenter-01
+mgmt-datacenter-01.
+3.click the > next to the cluster wld-cluster-01
+wld-cluster-01.
+4.Click on ubuntu-001218
+ubuntu-001218. Due to lab conditions, the VM name may differ.
+Due to lab conditions, the VM name may differ.
+5.Check the status of the VM.
+6.If powered off, press the green
+green play
+play key
+key to power the VM on.
+The VM may take a few moments to power on and fully boot up.
+[74]
+[74]
+PuTTY to Ubuntu VM
+PuTTY to Ubuntu VM
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 1
+
+
+=== PAGE 62 ===
+1. Click on the PuTTY
+PuTTY icon in the System tray.
+[75]
+[75]
+Start PuTTY Session
+Start PuTTY Session
+1. Scroll down
+Scroll down to the bottom of the Saved Sessions list.
+2.Click on ubuntu-001218.vcf.sddc.lab. Due to lab conditions, the VM name may differ.
+ubuntu-001218.vcf.sddc.lab. Due to lab conditions, the VM name may differ.
+3.Click Open
+Open to start the PuTTY session.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 2
+
+
+=== PAGE 63 ===
+[76]
+[76]
+Authenticate SSH Session (Optional)
+Authenticate SSH Session (Optional)
+The Virtual Machine should automatically authenticate and log in, but, if it does not, use the following steps to authenticate and log into
+the VM.
+1. Enter the username holuser and press Enter.
+2.Enter the password VMware123! and press Enter.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 3
+
+
+=== PAGE 64 ===
+[77]
+[77]
+Run CPU Load
+Run CPU Load
+We will now redirect dev/zero to dev/null to generate CPU load so that we can see the impact on the VM in Aria Operations.
+1. Type cat /dev/zero > /dev/null
+cat /dev/zero > /dev/null and press the Enter
+Enter key to start the CPU load.
+2.Return to Aria Operations (not shown).
+Leave this PuTTY window open, we'll come back to this later in the lesson.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 4
+
+
+=== PAGE 65 ===
+[78]
+[78]
+Symptom Definitions
+Symptom Definitions
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 5
+
+
+=== PAGE 66 ===
+In an earlier module, we explored symptom definitions, but, for this exercise, let's modify an existing symptom to help generate our
+CPU alert we've engineered by running our script on the Ubuntu Virtual Machine.
+1. Switch to the Aria Operations
+Aria Operations browser tab.
+2.Click on the chevron next to Operations
+Operations to expand the menu, if not already expanded.
+3.Click Configurations
+Configurations to go to the Alerts Main Page.
+4.Under Alerts, click Symptom Definitions
+Symptom Definitions.
+[79]
+[79]
+Locate High CPU Symptom
+Locate High CPU Symptom
+Let's locate the existing High CPU Symptom.
+1. In the Metric / Property page, click in the search filter bar, type high cpu and press Enter.
+2.Click the 3-dots
+3-dots next to High CPU
+High CPU and select Edit
+Edit (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 6
+
+
+=== PAGE 67 ===
+[80]
+[80]
+Edit Threshold Level
+Edit Threshold Level
+Update the Metric threshold.
+1. Replace the value of 90
+90 with a value of 50
+50.
+2.Click SAVE.
+SAVE.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 7
+
+
+=== PAGE 68 ===
+[81]
+[81]
+Alert Definition
+Alert Definition
+An Alert Definition is comprised of one or more Symptom Definitions, and the Alert Definition is associated with a set of
+recommendations and actions that help us resolve the problem. Alert Definitions include triggering Symptom Definitions and actionable
+recommendations. We create the Alert Definitions so that the generated alerts tell us about problems in the monitored environment.
+We can then respond to the alerts with effective solutions that are provided in the recommendations.
+We'll cover this in greater depth in another lab, for now we just need to enable this alert to run on our default vSphere policy.
+1. Click on the chevron next to Operations
+Operations to expand the menu, if not already expanded.
+2.Click Configurations
+Configurations to go back to the Alerts Main Page.
+3.Under Alerts, click Alert Definitions
+Alert Definitions.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 8
+
+
+=== PAGE 69 ===
+[82]
+[82]
+Locate Existing Alert
+Locate Existing Alert
+Let's edit the High CPU Alert Definition, again we'll cover this in more depth in another lab.
+1. In the search filter bar, type High CPU Alert and press Enter.
+2.Click the 3-dots
+3-dots next to Hands-On Labs High CPU Alert
+Hands-On Labs High CPU Alert and select Edit
+Edit (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  6 9
+
+
+=== PAGE 70 ===
+[83]
+[83]
+Assign Policy to Alert
+Assign Policy to Alert
+1. Click on 4-Policies.
+4-Policies.
+2.Click the checkbox
+checkbox next to the vSphere Solution's Default Policy.
+vSphere Solution's Default Policy.
+3.Click UPDATE.
+UPDATE.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 0
+
+
+=== PAGE 71 ===
+[84]
+[84]
+Locate Alerts
+Locate Alerts
+Now, let's locate the Alerts section of the Aria Operations User Interface.
+1. Click on Home.
+Home.
+2.Click on the chevron next to Operations
+Operations to expand the menu.
+3.Click on Alerts.
+Alerts.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 1
+
+
+=== PAGE 72 ===
+[85]
+[85]
+Alert Grouping
+Alert Grouping
+Alerts by default are grouped together by Time. There are additional options that can be used for grouping, including Criticality,
+Definition, Object Type and Scope.
+Let's change the grouping and view our alerts based on Criticality.
+1. Click the down carrot
+down carrot next to Group By.
+Group By.
+2.Select Criticality.
+Criticality.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 2
+
+
+=== PAGE 73 ===
+[86]
+[86]
+View Alerts
+View Alerts
+Let's dive into what the Alerts look like by opening a Critical level alert. It may take a few moments for the "Hands-On Labs High CPU
+Hands-On Labs High CPU
+Alert
+Alert" to appear. If we are not seeing it, let's click the refresh button every few minutes.
+1. Click the chevron
+chevron and expand the Critical group of alerts.
+2.(Optional) Click the REFRESH
+REFRESH button until the Hands-On Labs High CPU Alert
+Hands-On Labs High CPU Alert appears.
+3.Locate and click on the Hands-On Labs High CPU Alert
+Hands-On Labs High CPU Alert for Virtual Machine ubuntu-001218. Due to lab conditions, the VM
+ubuntu-001218. Due to lab conditions, the VM
+name may differ.
+name may differ.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 3
+
+
+=== PAGE 74 ===
+[87]
+[87]
+Alert Details
+Alert Details
+Each Alert provides in-depth information to assist in not just knowing an alert was triggered, but why it was triggered. Additionally, as
+we examine the symptoms that were triggered we also see the ability to troubleshoot with logs. This helps us correlate log events to the
+performance metrics and alarms we see in Aria Operations.
+1. Click the chevron
+chevron to expand the symptom. This will display a graphic of the symptom.
+2.Locate and view Recommendations
+Recommendations. While this is currently set to 'No Recommendation Available', we'll revisit this later.
+3.Scroll down to see that we can add notes for others to view when they open this alert (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 4
+
+
+=== PAGE 75 ===
+[88]
+[88]
+Potential Evidence
+Potential Evidence
+Potential evidence shows us the impacted events, property changes and anomalous metrics that correspond to this High CPU Alert.
+While not covered in this module, we can start a troubleshooting workbench session from here as well as examine all the data
+presented to us. We'll cover this in another lab and module.
+1. Click on Potential Evidence.
+Potential Evidence.
+2.Click and drag the scroll bar
+the scroll bar downwards to explore all potential evidence.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 5
+
+
+=== PAGE 76 ===
+[89]
+[89]
+Locate Ubuntu VM
+Locate Ubuntu VM
+1. In the search field near the top of the page, type ubuntu
+2.Select ubuntu-001218. Due to lab conditions, the VM name may differ.
+ubuntu-001218. Due to lab conditions, the VM name may differ.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 6
+
+
+=== PAGE 77 ===
+[90]
+[90]
+View Active Alerts
+View Active Alerts
+Here we see the detailed metrics for our ubuntu-001218 Virtual Machine.
+1. Focus in on the Active Alerts section and notice we have 1 Critical Active Alert.
+2.Click the Alerts
+Alerts tab.
+In addition to viewing the active alerts, we also can manage the alert by assigning it to personnel to investigate.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 7
+
+
+=== PAGE 78 ===
+[91]
+[91]
+Alert Management
+Alert Management
+1. Click the chevron
+chevron next to Critical.
+Critical.
+2.Select our alert, 'Hands-On Labs High CPU Alert'.
+, 'Hands-On Labs High CPU Alert'.
+3.Click the drop down for ACTIONS.
+ACTIONS.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 8
+
+
+=== PAGE 79 ===
+[92]
+[92]
+Alert Options
+Alert Options
+Here we see that, with this alert, we have the ability to assign ownership, take ownership, release ownership and cancel the alert.
+Additionally, we can go directly to the Virtual Machine in the vSphere Web Client or open corresponding log entries in Aria Operations
+for Logs. This allows for an administrator to have full life cycle control over an Alert. While outside of the scope of this lesson, additional
+modules will cover Alert lifecycle management.
+1. Click the ACTIONS
+ACTIONS button again to close the menu.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  7 9
+
+
+=== PAGE 80 ===
+[93]
+[93]
+Edit Recommendations
+Edit Recommendations
+Earlier we viewed that the recommendation for this alert was blank, let's edit that recommendation to include Powering off the Virtual
+Machine. Let's go ahead and explore how that works.
+1. Click on the chevron next to Operations
+Operations to expand the menu, if not already expanded.
+2.Click Configurations
+Configurations to go back to the Alerts Main Page.
+3.Under Alerts, click Alert Definitions
+Alert Definitions.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 0
+
+
+=== PAGE 81 ===
+[94]
+[94]
+Locate Existing Alert
+Locate Existing Alert
+Let's edit the High CPU Alert definition, again we'll cover this more in depth in another lab.
+1. In the search field, type High CPU Alert and press Enter.
+2.Click the 3-dots
+3-dots next to Hands-On Labs High CPU Alert
+Hands-On Labs High CPU Alert and select Edit
+Edit (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 1
+
+
+=== PAGE 82 ===
+[95]
+[95]
+Assign a recommendation
+Assign a recommendation
+Let's edit the recommendation to power off this Virtual Machine.
+1. Click on Recommendations
+Recommendations.
+2.Type power off and press Enter.
+3.Find and Click on the "Power off this virtual machine
+Power off this virtual machine....." option.
+4.Drag
+Drag the action to the left to the "Drop recommendation here
+Drop recommendation here" area.
+5.Press UPDATE
+UPDATE.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 2
+
+
+=== PAGE 83 ===
+[96]
+[96]
+Locate Ubuntu Virtual Machine
+Locate Ubuntu Virtual Machine
+1. In the search field near the top of the page, type ubuntu.
+2.Select ubuntu-001218. Due to lab conditions, the VM name may differ.
+ubuntu-001218. Due to lab conditions, the VM name may differ.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 3
+
+
+=== PAGE 84 ===
+[97]
+[97]
+Power Off our Virtual Machine
+Power Off our Virtual Machine
+Earlier we viewed the recommendation for this alert included the Power off VM action. Let's go ahead and explore how that looks while
+also cleaning up our Alert.
+1. Click on Alerts.
+Alerts.
+2.Click the chevron
+chevron next to Critical.
+Critical.
+3.Click on the Hands-On Labs High CPU Alert
+Hands-On Labs High CPU Alert alert from earlier.
+4.Click the POWER OFF VM
+POWER OFF VM recommendation.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 4
+
+
+=== PAGE 85 ===
+[98]
+[98]
+Begin Action
+Begin Action
+Earlier we viewed the recommendation for this alert included the Power off VM action. Let's go ahead and explore how that looks while
+also cleaning up our Alert.
+1. Click BEGIN ACTION.
+BEGIN ACTION.
+2.Click OK
+OK on the confirmation screen that follows (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 5
+
+
+=== PAGE 86 ===
+[99]
+[99]
+Cancel Alert
+Cancel Alert
+While we've powered off our Virtual Machine, let's go ahead and cancel the alert.
+1. Click ACTIONS.
+ACTIONS.
+2.Select Cancel Alert.
+Cancel Alert.
+3.Click YES
+YES to confirm the action in the pop up screen that follows (not shown).
+4.Click OK
+OK to acknowledge that the selected alert was canceled in the subsequent screen (not shown).
+[100]
+[100]
+Lesson End
+Lesson End
+In this lesson, we briefly looked at alerts in VMware Aria Operations and how to interact with them. We briefly touched on
+recommendations, actions, potential evidence and our Alert Basis criteria. Lastly, we took the action our alert recommended and
+powered off the Virtual Machine and canceled the alert.
+Creating, working with and handling Alerts is covered in greater detail in later modules and labs, but, for now, we have seen the basis
+for working with alerts.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 6
+
+
+=== PAGE 87 ===
+[101]
+[101]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[102]
+[102]
+Conclusion
+Conclusion
+In this module, we explored the Aria Operations alerting capability. We learned about the components that make up an Alert as well as
+actions that we can perform with Alerts.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 7
+
+
+=== PAGE 88 ===
+[103]
+[103]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module.
+If you are looking for additional information, visit the Operations Manager Documentation.
+Operations Manager Documentation.
+From here you can:
+1. Continue with the next lab module
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab
+3.End your lab and return in the future
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 8
+
+
+=== PAGE 89 ===
+Module 4 - Running a Safe and Compliant Cloud (30 minutes) Basic
+Module 4 - Running a Safe and Compliant Cloud (30 minutes) Basic
+[105]
+[105]
+Introduction
+Introduction
+Aria Operations gives administrators advanced capabilities like managing and reporting on VMware environments. One of these
+capabilities allows administrators to validate the environment configuration against industry benchmarks such as PCI-DSS, HIPPA or
+DISA. In this module, we'll work on creating assessments, generating reports and alerts, assigning alerts to users and creating custom
+benchmarks. Let's get started.
+Lab Captain(s):
+Lab Captain(s):
+William De Marigny - Staff NSX Technical Adoption Manager, US
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  8 9
+
+
+=== PAGE 90 ===
+[106]
+[106]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will walk through the process for logging in to Aria Operations
+Aria Operations.
+[107]
+[107]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 0
+
+
+=== PAGE 91 ===
+[108]
+[108]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 1
+
+
+=== PAGE 92 ===
+[109]
+[109]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 2
+
+
+=== PAGE 93 ===
+[110]
+[110]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[111]
+[111]
+Introduction to Compliance
+Introduction to Compliance
+Aria Operations empowers IT professionals to audit, report and ultimately remediate VMware environments according to an industry
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 3
+
+
+=== PAGE 94 ===
+accepted compliance standard. In addition to industry and private compliance standards, we can create custom compliance reports that
+may more closely suit our organization's needs.
+For this lesson we'll first take a look at some of the built-in compliance packs with Aria Operations and how to enable their use. This will
+allow us to create reports and identify areas where remediation of our environment may be needed.
+In this lesson, we'll go through the process of taking existing compliance standards and creating a new custom standard as well.
+[112]
+[112]
+Locating The Compliance Area
+Locating The Compliance Area
+In a brand new deployment of Aria Operations, the compliance modules must be activated before they can be used. Multiple
+compliance packs can be enabled at the same time allowing organizations to have differing compliance standards depending on their
+needs.
+1. Click on Compliance
+Compliance under the Pillars of Operations part of the User Interface.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 4
+
+
+=== PAGE 95 ===
+[113]
+[113]
+Overview of Compliance Workflow
+Overview of Compliance Workflow
+Aria Operations supports multiple VMware and industry regulatory benchmarks, each designed to identify best practices, standards and
+industry regulations. From here we can see Benchmarks for both VMware as well as common Industry Benchmarks. Let's take a look at
+the DISA Compliance Benchmark.
+1. Click on DISA Compliance
+DISA Compliance.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 5
+
+
+=== PAGE 96 ===
+[114]
+[114]
+Benchmark Overview
+Benchmark Overview
+Each compliance benchmark will come with a description of what is monitored and what the benchmark delivers within Aria Operations.
+Let's take a look at the components that this benchmark applies to.
+1. Click on the Control Set
+Control Set tab.
+[115]
+[115]
+Viewing what is validated
+Viewing what is validated
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 6
+
+
+=== PAGE 97 ===
+The control set shows what symptoms or check list items the benchmark is validating. Notice the DISA benchmark we are viewing here
+is broken up into sections covering virtual machines, hosts, switches and vCenters covering all aspects of a VMware environment.
+1. Click on Host System
+Host System to more closely analyze some of the monitored values and settings.
+[116]
+[116]
+Activating DISA Compliance - Part 1
+Activating DISA Compliance - Part 1
+To activate the DISA Compliance benchmark, we need to go over to the Repository of Aria Operations. Here all modules covering
+external software, hardware and services are installed and activated as modules within Aria Operations. This allows third parties to
+create modules to interact with Aria Operations in a much more streamlined manner than waiting for each VMware release. Let's
+activate the DISA benchmark now.
+1. Click on the chevron
+chevron next to Administration.
+2.Click Integrations
+Integrations.
+3.Click on Repository.
+Repository.
+4.Click on Compliance
+Compliance filter to only view compliance tiles.
+5.Locate and click the DISA Compliance
+DISA Compliance tile.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 7
+
+
+=== PAGE 98 ===
+[117]
+[117]
+Activating DISA Compliance - Part 2
+Activating DISA Compliance - Part 2
+1. Click ACTIVATE
+ACTIVATE (shown in background).
+2.Click Yes
+Yes on the confirmation window to activate the DISA Compliance benchmark.
+Activation of the compliance pack may take a few minutes in our environment. An "Integration activated successfully." message in
+green will appear on the screen above the DISA Compliance icon to indicate the same.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 8
+
+
+=== PAGE 99 ===
+[118]
+[118]
+Enable DISA for vCenter
+Enable DISA for vCenter
+In an Aria Operations environment, we can enable benchmarks for specific environments, be they on-premise data centers or a VMware
+Cloud on AWS environment. Let's enable the DISA benchmark for our on-premise vCenter environment.
+1. Click on the chevron
+chevron next to Operations.
+2.Click on Compliance
+Compliance.
+3.Locate and click on the VMware Cloud Foundation
+VMware Cloud Foundation tile.
+4.Scroll down
+Scroll down to locate the Regulatory Benchmarks
+Regulatory Benchmarks section.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  9 9
+
+
+=== PAGE 100 ===
+[119]
+[119]
+Enable DISA for vCenter (cont&#39;d)
+Enable DISA for vCenter (cont&#39;d)
+1. Locate the DISA Security Standards tile and click ENABLE.
+ENABLE.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 0
+
+
+=== PAGE 101 ===
+[120]
+[120]
+Choose DISA Policy for vSphere
+Choose DISA Policy for vSphere
+Aria Operations can manage multiple vCenter and VMware Cloud Foundation environments, but we may only want to monitor for DISA
+compliance on one of them in this example. This Enable policy screen allows us to select the policies we wish to enable DISA for.
+1. Tick the checkbox next to the vSphere Solution's Default Policy
+vSphere Solution's Default Policy section.
+2.Click ENABLE.
+ENABLE.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 1
+
+
+=== PAGE 102 ===
+[121]
+[121]
+Running Initial Assessment
+Running Initial Assessment
+Once the DISA Benchmark has been enabled for our default vSphere policy, we will see the user interface update to indicate that the
+initial assessment has started. Depending on the environment size, this initial assessment can take some time, but in our lab it should
+only take around 5-10 minutes.
+[122]
+[122]
+Lesson Ends
+Lesson Ends
+This concludes the introduction to the compliance benchmarks for this module. In later lessons, we will evaluate the report and create
+actions to remedy findings.
+[123]
+[123]
+Viewing Compliance Reports
+Viewing Compliance Reports
+In our first lesson, we learned how Aria Operations enables administrators to benchmark VMware environments against Industry
+standard frameworks to monitor compliance and best practices. We enabled the DISA Benchmark and ran the initial assessment against
+our default vSphere Profile.
+In this lesson, we will view the completed assessment and navigate the compliance report to learn what within our environment may
+need attention. Let's get started.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 2
+
+
+=== PAGE 103 ===
+[124]
+[124]
+Locate Compliance Report
+Locate Compliance Report
+Building on the previous lesson, let's view the outcome of our initial assessment of our vSphere environment using the DISA
+benchmark.
+If we are logging in for the first time, we should go back to the first lesson and Enable the DISA Compliance Benchmark.
+1. Click on the chevron
+chevron next to Operations.
+Operations.
+2.Click on Compliance.
+Compliance.
+3.Scroll down and click on the DISA Security Standards
+DISA Security Standards Benchmark tile.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 3
+
+
+=== PAGE 104 ===
+[125]
+[125]
+View Compliance Report
+View Compliance Report
+The compliance reports are very easy to understand and place VMware components into 2 categories, compliant and non-compliant.
+The percentage of compliance is easily identified as well as an object breakdown identifying where we have issues.
+Alerts are grouped by multiple categories, but the default is Time. Let's change our view from the default Time to a view that shows us
+impacted objects.
+1. Click the down chevron next to Group By.
+Group By.
+2.Select Object Type.
+Object Type.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 4
+
+
+=== PAGE 105 ===
+[126]
+[126]
+Investigating Objects
+Investigating Objects
+Let's start by viewing the Host Systems that are violating the DISA benchmark. In the above image, please note that the size of the
+columns has been shrunk to make viewing easier, so the screen we are presented with while we are going through the lab may differ
+slightly.
+When we expand the Host Systems object we see information pertaining to the hypervisor, the alert type, last update time and the
+criticality of the violation. Let's open up one of the hosts to view more detail.
+1. Click the chevron next to Host System
+Host System to expand the list.
+2.Click on the host esxi-4.vcf.sddc.lab
+esxi-4.vcf.sddc.lab
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 5
+
+
+=== PAGE 106 ===
+[127]
+[127]
+Viewing Alerts
+Viewing Alerts
+When we open a non-compliant host, we are presented with a list of all the violated rules. Each listing details the symptom, the time
+that the alert was generated as well as the detailed information or metric the Benchmark is looking for. Let's open up one of the
+violations.
+1. Click on the Alert The SSH connection banner is not set
+The SSH connection banner is not set to view the alert.
+2.Identify the detailed alert description.
+3.Identify the Information pointing out that the SSH connection banner message is not configured.
+4.Identify the last changed details that can indicate if a value was changed to cause the violation (the date may vary depending
+on when we run this lab).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 6
+
+
+=== PAGE 107 ===
+[128]
+[128]
+Taking Ownership of Alerts
+Taking Ownership of Alerts
+Now that we've identified our host has configurations that violate the DISA policy, let's view the alert and assign it to a user for
+remediation.
+1. Click on the Alerts
+Alerts tab for this host.
+2.Under alerts, click the down chevron to expand the Group By options.
+3.From the drop down menu, select Group By Object Type
+Object Type (shown after selection).
+4.Click the chevron
+chevron to expand the host system.
+5.Click on the Alert name ESXi Host is violating DISA (v8 and above)
+ESXi Host is violating DISA (v8 and above).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 7
+
+
+=== PAGE 108 ===
+[129]
+[129]
+Adding Notes to Alerts
+Adding Notes to Alerts
+The Alert Details give us a nice comprehensive view of every alert on our hypervisor. As an auditor, it may be useful to add notes to an
+alert to provide context. Once an alert is assigned to an administrator for remediation, having this extra context may be required to
+successfully address the alert. Let's add a quick note here.
+1. Scroll down on the right side until we see the Notes field.
+2.Type into the Notes field SSH should be our priority.
+3.Click SUBMIT.
+SUBMIT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 8
+
+
+=== PAGE 109 ===
+[130]
+[130]
+Assigning Ownership of Alerts - Part 1
+Assigning Ownership of Alerts - Part 1
+Assigning ownership of alerts allows for administrators to identify that they've seen the alert and can take actions including adding
+additional notes. Let's assign the alert to our holadmin user.
+1. Click on ACTIONS
+ACTIONS.
+2.Click on Assign To.
+Assign To.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 0 9
+
+
+=== PAGE 110 ===
+[131]
+[131]
+Assigning Ownership of Alerts - Part 2
+Assigning Ownership of Alerts - Part 2
+1. Type hol and wait for auto-complete to populate users.
+2.Click on the holadmin@vcf....
+holadmin@vcf.... user.
+3.Click on SAVE
+SAVE (button will no longer be greyed out after user selection).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 0
+
+
+=== PAGE 111 ===
+[132]
+[132]
+Changing Ownership and Acknowledging Alerts
+Changing Ownership and Acknowledging Alerts
+In addition to assigning ownership of an alert, users can perform actions such as canceling an alert, suspending the alert, taking
+ownership or releasing ownership of the alert. This allows for users to share and interact with the alert allowing for multiple parties to
+work with alerts and their remediation.
+If we click again at the specific ESXi Host is violating DISA (v8 and above)
+ESXi Host is violating DISA (v8 and above) alert:
+1. Click ACTIONS
+ACTIONS to show the available options.
+2.Observe that the Take Ownership option is greyed out, after we, as the holadmin user, assigned the alert to ourselves.
+[133]
+[133]
+End of lesson
+End of lesson
+In this lesson, we looked at viewing Compliance reports, interacting with the alert to create notes and assign ownership of the alert to a
+user.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 1
+
+
+=== PAGE 112 ===
+[134]
+[134]
+Creating Custom Compliance Benchmarks
+Creating Custom Compliance Benchmarks
+Industry or organizational benchmarks provide a standard framework to measure an environment against when working with
+compliance. Many times, however, organizations may want to implement a custom benchmark or carve out exceptions to existing
+benchmarks.
+In this lesson, we'll take a look at how to create a customer benchmark and apply it to our vCenter environment. Let's get started.
+[135]
+[135]
+Restore All Benchmarks View
+Restore All Benchmarks View
+Depending on when we start this portion of the lab, we may need to close out our previous exercise activating the DISA compliance
+benchmark (optional).
+1. Click on ALL BENCHMARKS
+ALL BENCHMARKS to return to the main compliance screen (optional).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 2
+
+
+=== PAGE 113 ===
+[136]
+[136]
+Create a Custom Benchmark
+Create a Custom Benchmark
+A custom compliance benchmark allows businesses and organizations to create a standard benchmark that suits their individual needs.
+These can be modified from existing benchmarks or created entirely from scratch. Let's take a look at how we do this.
+1. Click the chevron
+chevron next to Operations
+Operations.
+2.Click Compliance.
+Compliance.
+3.Scroll down to locate and click on Add Custom Compliance.
+Add Custom Compliance.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 3
+
+
+=== PAGE 114 ===
+[137]
+[137]
+Chose our Custom Compliance
+Chose our Custom Compliance
+Aria Operations allows us to either create a new custom benchmark or to import an existing one. Let's create a new custom benchmark.
+1. Click on CREATE A NEW CUSTOM BENCHMARK
+CREATE A NEW CUSTOM BENCHMARK.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 4
+
+
+=== PAGE 115 ===
+[138]
+[138]
+Name our Benchmark
+Name our Benchmark
+1. Next to Name, type HOL Custom Benchmark
+2.Next to Add Description, type This benchmark is a custom subset of the DISA benchmark
+3.Click on NEXT
+NEXT
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 5
+
+
+=== PAGE 116 ===
+[139]
+[139]
+Select the Alert Definitions - Part 1
+Select the Alert Definitions - Part 1
+We want to create a compliance definition that is only concerned about our ESXi hosts. This removes any reporting or compliance for
+anything other than our ESXi hosts.
+1. Click on the Show Columns Filter
+Show Columns Filter.
+2.Click Select All
+Select All.
+3.Click OK
+OK (button will no longer be greyed out after column selection).
+4.Under Defined By, select DISA Compliance
+DISA Compliance.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 6
+
+
+=== PAGE 117 ===
+[140]
+[140]
+Select the Alert Definitions - Part 2
+Select the Alert Definitions - Part 2
+1. Scroll down on the right side of the screen.
+2.Check the box next to ESXi Host is violating DISA (v8 and above).
+ESXi Host is violating DISA (v8 and above).
+3.Click Next.
+Next.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 7
+
+
+=== PAGE 118 ===
+[141]
+[141]
+Select Policies
+Select Policies
+As in our previous exercise, a benchmark can be selectively applied to VMware environments even within the same vCenter.
+1. Check the box next to vSphere Solution's Default Policy.
+vSphere Solution's Default Policy.
+2.Click FINISH.
+FINISH.
+[142]
+[142]
+End of Lesson
+End of Lesson
+In this lesson, we explored creating a custom Benchmark from a subset of the DISA Benchmark. Once applied to our vCenter, the initial
+assessment will run with reporting, alerting, ownership and metrics like standard built-in benchmarks available within Aria Operations.
+Utilizing these custom benchmarks, administrators can pinpoint only the items that need their attention to meet compliance for their
+business needs.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 8
+
+
+=== PAGE 119 ===
+[143]
+[143]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[144]
+[144]
+Conclusion
+Conclusion
+In this module, we explored the Aria Operations compliance benchmark capability. Using this capability, administrators can monitor and
+determine their environment's compliance against Industry and Organizational benchmarks such as HIPPA, DISA or PCI-DSS. Assigning
+alerts, adding notes and creating custom benchmarks gives administrators great flexibility in maintaining compliance in a complex
+VMware environment.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 1 9
+
+
+=== PAGE 120 ===
+[145]
+[145]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module.
+If you are looking for additional information, visit the Aria Operations Manager Documentation
+Operations Manager Documentation.
+From here you can:
+1. Continue with the next lab module
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab
+3.End your lab and return in the future
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 0
+
+
+=== PAGE 121 ===
+Module 5 - Understand your Cloud Costs and Save Money (30 minutes) Basic
+Module 5 - Understand your Cloud Costs and Save Money (30 minutes) Basic
+[147]
+[147]
+Introduction
+Introduction
+IT Staff are often asked how much a Virtual Machine (VM) "costs" an organization. With Virtual Machine Costing in VMware Aria
+Operations, we can track how much we are paying for CPU, Memory, and Disk/Storage resources on each VM. Additionally, with the
+out-of-the-box (OOTB) dashboards, we can see not only specific VM costs, but also track total costs across our datacenter(s).
+In this lab, we will briefly show how to set the currency in Aria Operations, and how to access some of the more common (OOTB)
+dashboards used for costing and provide a general overview of each.
+Lab Captain(s):
+Lab Captain(s):
+- Shannon Fitzpatrick - Staff Technical Adoption Manager, US
+[148]
+[148]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will walk through the process for logging in to Aria Operations
+Aria Operations.
+[149]
+[149]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 1
+
+
+=== PAGE 122 ===
+[150]
+[150]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 2
+
+
+=== PAGE 123 ===
+[151]
+[151]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 3
+
+
+=== PAGE 124 ===
+[152]
+[152]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[153]
+[153]
+Virtual Machine (VM) Costing with VMware Aria Operations
+Virtual Machine (VM) Costing with VMware Aria Operations
+In this exercise, we will review VM costing in VMware Aria Operations and some of the methods for reviewing the overall cost as well as
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 4
+
+
+=== PAGE 125 ===
+the cost of reclaiming and rightsizing.
+[154]
+[154]
+Set The Currency in Aria Operations
+Set The Currency in Aria Operations
+The first step in configuring Aria Operations
+Aria Operations to support Virtual Machine costing is to configure the currency
+currency the system should use.
+Arguably, this should be one of the first configuration items we set when deploying Aria Operations irrespective of whether we are
+interested in VM cost.
+If the currency
+currency has not been set in Aria Operations, a banner will appear noting that we must choose a currency in Global Settings
+Global Settings.
+The currency has already been configured in the lab environment.
+[155]
+[155]
+Review the Currency Setting
+Review the Currency Setting
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 5
+
+
+=== PAGE 126 ===
+As the currency has already been configured, we are going to be reviewing where to find the currency setting, so that when we need to
+build a new Aria Operations deployment in the future, we know where to find the setting.
+To access the Currency Settings in Aria Operations, first we must navigate to the Global Settings
+Global Settings menu:
+1. In the sidebar menu, click Administration
+Administration to expand the menu.
+2.Click Global Settings
+Global Settings.
+3.Under the Global Settings
+Global Settings page, select Cost/Price
+Cost/Price.
+4.As we can see the currency is set to US Dollars
+US Dollars in our environment.
+Setting the Currency
+Currency in Aria Operations is a one time operation. Once set, the only way to change the currency is to rebuild the
+environment!
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 6
+
+
+=== PAGE 127 ===
+[156]
+[156]
+Open the Assess Cost Dashboard
+Open the Assess Cost Dashboard
+We are going to review our first cost-related dashboard, the Assess Cost dashboard
+Assess Cost dashboard.
+To select the Assess Cost dashboard, do the following:
+1. From the navigation menu, select Operations.
+Operations.
+2.Select Dashboards.
+Dashboards.
+3.In the search bar, type assess cost.
+4.Select the Assess Cost
+Assess Cost dashboard.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 7
+
+
+=== PAGE 128 ===
+[157]
+[157]
+Review the Assess Cost Dashboard
+Review the Assess Cost Dashboard
+The Assess Cost
+Assess Cost dashboard provides an overview of the scale of our infrastructure in terms of physical capacity available. We can see
+that the lab environment has a small number of workloads running, therefore the depth of cost savings listed is less than we may see in
+a Production environment.
+1. Click >>
+>> to reduce the Dashboards
+Dashboards menu.
+2.Click >>
+>> to reduce the navigation
+navigation menu.
+Now that we can see a fullscreen version of the Assess Cost dashboard, we observe that it provides high level cost information for the
+environment, including:
+3.Total Cost of Ownership
+4.Potential Cost Saving Opportunities
+5.Datacenter Resource Cost
+6.Top Most Expensive Clusters
+7.Top Least Expensive Clusters
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 8
+
+
+=== PAGE 129 ===
+[158]
+[158]
+Open the Total Cost of Ownership Dashboard
+Open the Total Cost of Ownership Dashboard
+The Total Cost of Ownership dashboard
+Total Cost of Ownership dashboard helps us understand the total cost of ownership of our environment from multiple perspectives.
+We can use this dashboard to learn how cost drivers, capacity, and data centers affect the total cost of ownership for our organization.
+To select the Total Cost of Ownership dashboard, do the following:
+1. Click >>
+>> to expand the Dashboards
+Dashboards menu.
+2.In the Dashboard menu search bar, type total cost.
+3.Click the Total Cost of Ownership
+Total Cost of Ownership dashboard.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 2 9
+
+
+=== PAGE 130 ===
+[159]
+[159]
+About the Total Cost of Ownership Dashboard
+About the Total Cost of Ownership Dashboard
+As noted earlier, the Total Cost of Ownership dashboard helps us understand the total cost of ownership of our environment from
+multiple perspectives. The lab environment is minimal, so we won't see the depth of information we would normally see in a Production
+environment.
+This dashboard is comprised of multiple widgets as shown in the screenshot. In this overview, we will show each one over the next few
+pages. As we navigate this dashboard, we will need to scroll down using the slider bar on the right side of the screen (not shown) to
+view all the available widgets.
+1. Click << to minimize the Dashboards
+Dashboards menu.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 0
+
+
+=== PAGE 131 ===
+[160]
+[160]
+Cost Driver Breakdown
+Cost Driver Breakdown
+1. Scroll down the dashboard.
+Now that we have scrolled down a little, we can see the set of widgets on Cost Driver Breakdown
+Cost Driver Breakdown. This set of widgets shows how cost
+drivers affect the total cost of ownership. As noted in the reference pane, to customize the Cost Drivers that are impacting this widget
+requires Advanced or Enterprise editions of Aria Operations.
+To increase the accuracy of the information in this set of widgets, we need to modify the Cost Drivers
+Cost Drivers. We will review how to modify the
+cost drivers later in this module.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 1
+
+
+=== PAGE 132 ===
+[161]
+[161]
+Review Cost of Capacity Used and Capacity Remaining
+Review Cost of Capacity Used and Capacity Remaining
+1. Scroll down the dashboard to the Cost of Capacity Used and Capacity remaining
+Cost of Capacity Used and Capacity remaining section/widgets.
+These widgets are comprised of several components:
+2.Cost of Capacity Used vs. Remaining Capacity
+Cost of Capacity Used vs. Remaining Capacity - definitions of each component in the widgets.
+3.Cost of Capacity Used
+Cost of Capacity Used - identifies compute and storage costs of existing VMs as well as costs remaining (not being used by
+VMs) for both components.
+4.Capacity Remaining
+Capacity Remaining - estimated number of VMs that could be added to the environment based upon current capacity
+averages.
+5.Cost of Capacity Used
+Cost of Capacity Used - graphical chart identifying capacity and storage costs of existing VMs as well as costs remaining
+(unused by current VMs). Note: Clicking on individual costs below the chart allows us to hide/unhide specific items to be
+displayed in the chart.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 2
+
+
+=== PAGE 133 ===
+[162]
+[162]
+Review Cost per Datacenter
+Review Cost per Datacenter
+As we scroll down to the bottom of the Total Cost of Ownership dashboard, we can then see a visual representation of the Cost per
+Cost per
+Datacenter
+Datacenter.
+1. Scroll down the dashboard to the Cost per Datacenter
+Cost per Datacenter section/widgets.
+As we only have a single Datacenter configured, we only see one entry in both widgets.
+2.This widget identifies the total costs (currently running VMs) in a datacenter.
+This can be used to identify potential outliers where datacenter costs are higher than other datacenters and which may require follow-
+up to assist with controlling costs.
+3.This widget shows the trend over time of how the cost per data center has changed.
+The cost per datacenter would be affected by adding/removing more capacity, adjusting cost drivers or having more workloads.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 3
+
+
+=== PAGE 134 ===
+[163]
+[163]
+Open the Potential Cost Savings Dashboard
+Open the Potential Cost Savings Dashboard
+We can open the Potential Cost Savings dashboard
+Potential Cost Savings dashboard via the Dashboards
+Dashboards menu :
+1. Click >>
+>> to maximise the Dashboards
+Dashboards menu.
+2.In the search bar, type potential.
+3.Select the Potential Cost Savings
+Potential Cost Savings dashboard.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 4
+
+
+=== PAGE 135 ===
+[164]
+[164]
+Review the Potential Cost Savings Dashboard - Part 1
+Review the Potential Cost Savings Dashboard - Part 1
+The Potential Cost Savings dashboard
+Potential Cost Savings dashboard helps us to measure the cost savings as reported by Aria Operations. We can evaluate the
+potential savings to track recommendations and improve cost efficiency over time. The dashboard shows both cost savings and capacity
+savings for idle VMs, powered off VMs, VM snapshots, orphaned disks, oversized VMs, and reclaimable hosts.
+This dashboard is comprised of multiple widgets as shown in the image. In this overview, we will show each one over the next few
+pages.
+Reviewing the Potential Cost Savings dashboard, we first see the Cost Savings Breakdown
+Cost Savings Breakdown widget. This widget displays potential
+savings and reclaimable capacity opportunities identified by Aria Operations for idle VMs, powered off VMs, VM snapshots, orphaned
+disks, oversized VMs, and reclaimable hosts.
+1. Click <<
+<< to minimize the Dashboards
+Dashboards menu.
+The first part of this dashboard is comprised of several metrics widgets:
+2.Potential Savings
+Potential Savings - currency savings for identified Idle VMs, Powered Off VMs, VM Snapshots, Orphaned Disks, etc.
+3.Potential Savings
+Potential Savings - graphical chart depicting savings of each identified metric.
+Clicking on individual costs below the chart would allow us to hide/unhide specific items to be displayed in the chart.
+HOL-2501-01-VCF-L_5.2: Getting St
+
+=== PAGE 136 ===
+[165]
+[165]
+Review the Potential Cost Savings Dashboard - Part 2
+Review the Potential Cost Savings Dashboard - Part 2
+As we scroll down, the dashboard displays more widgets around cost savings that help us understand the potential cost savings.
+1. Scroll down in the Potential Cost Savings
+Potential Cost Savings dashboard to show the additional widgets.
+We can see new widgets, including:
+2.Reclaimable Capacity
+Reclaimable Capacity - provides the metric details for the reclaimable vCPU, reclaimable memory, and reclaimable disk
+space.
+3.Allocation Changes for Oversized VMs
+Allocation Changes for Oversized VMs - If we have any VMs that are oversized (consistently not using allocated resources),
+Aria Operations will report the total number of vCPUs and/or Memory that could be removed from VMs in the environment.
+4.Potential Savings Reduction
+Potential Savings Reduction - a list view of the potential total cost savings available.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 6
+
+
+=== PAGE 137 ===
+[166]
+[166]
+Review the Potential Cost Savings Dashboard - Part 3
+Review the Potential Cost Savings Dashboard - Part 3
+1. Scroll down in the Potential Cost Savings
+Potential Cost Savings dashboard to show the Reclaimable
+Reclaimable widgets.
+These widgets provide the following information:
+2.Reclaimable vCPUs
+Reclaimable vCPUs - total number of vCPUs identified to reclaim over the past 30 days.
+3.Reclaimable Memory
+Reclaimable Memory - total Memory identified to reclaim over the past 30 days.
+4.Reclaimable Disk Space
+Reclaimable Disk Space - total amount of Disk Space (GB) identified to reclaim over the past 30 days.
+Clicking on individual costs below the chart would allow us to hide/unhide specific items to be displayed in the chart.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 7
+
+
+=== PAGE 138 ===
+[167]
+[167]
+Review the Potential Cost Savings Dashboard - Part 4
+Review the Potential Cost Savings Dashboard - Part 4
+1. Scroll down in the Potential Cost Savings
+Potential Cost Savings dashboard to show the Optimization Opportunities Breakdown
+Optimization Opportunities Breakdown widgets.
+Scrolling down to the bottom of the Potential Cost Savings Dashboard, we have the Optimization Opportunities Breakdown
+Optimization Opportunities Breakdown widget. This
+widget covers the projected costs to improve performance as identified by Aria Operations. This widget provides the metric details for
+the following:
+2.Optimization Opportunities Cost
+Optimization Opportunities Cost - covers the projected costs to improve performance.
+3.Allocation Changes for Undersized VMs
+Allocation Changes for Undersized VMs - Shows the number of vCPUs and GB of memory to add to undersized VMs.
+4.Optimization Opportunities Cost
+Optimization Opportunities Cost - graphical interface identifying cost increases/decreases over the past 30 days. Note:
+Clicking on individual costs below the chart allows us to hide/unhide specific items to be displayed in the chart.
+Due to the nature of the Hands-on Labs environment, we may or may not have any totals identified and will likely differ from the
+screenshot shown.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 8
+
+
+=== PAGE 139 ===
+[168]
+[168]
+Open the Realized Cost Savings Dashboard
+Open the Realized Cost Savings Dashboard
+We can open the Realized Cost Savings dashboard
+Realized Cost Savings dashboard via the Dashboards
+Dashboards menu :
+1. Click >>
+>> to maximise the Dashboards
+Dashboards menu.
+2.In the search bar, type realized.
+3.Select the Realized Cost Savings
+Realized Cost Savings dashboard.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 3 9
+
+
+=== PAGE 140 ===
+[169]
+[169]
+Review the Realized Cost Savings Dashboard - Part 1
+Review the Realized Cost Savings Dashboard - Part 1
+The Realized Cost Savings dashboard
+Realized Cost Savings dashboard helps us quantify the realized cost savings from actions performed that are related to
+recommendations provided by Aria Operations. We can analyze the realized savings to track improvements to cost efficiency over time.
+Realized savings covers powered off VMs that were flagged as idle, deleted VMs that were flagged as idle or powered off, deleted
+snapshots that were flagged as reclaimable, deleted disks that were flagged as orphaned, oversized VMs that were rightsized, and
+deleted hosts that were flagged as reclaimable.
+1. Click <<
+<< to minimize the Dashboards
+Dashboards menu.
+This dashboard is comprised of multiple widgets as shown in the image. In this overview, we will show each one over the next few
+pages. As we navigate this dashboard, we will need to scroll down using the slider bar on the right side of the screen (not shown) in
+order to view all the available widgets.
+Reviewing the Realized Cost Savings dashboard
+Realized Cost Savings dashboard we first see the Realized
+Realized Savings
+Savings widget. This widget is comprised of several metrics:
+2.Realized Costs Savings and Capacity
+Realized Costs Savings and Capacity - definitions of each metric in the widget.
+3.Realized Savings
+Realized Savings - currency savings from reclamation opportunities recommended by VMware Aria Operations.
+4.
+
+=== PAGE 141 ===
+[170]
+[170]
+Review the Realized Cost Savings Dashboard - Part 2
+Review the Realized Cost Savings Dashboard - Part 2
+1. Scroll down in the Realized Cost Savings
+Realized Cost Savings dashboard to show the Reclaimed Capacity
+Reclaimed Capacity and Allocation Changes for Oversized
+Allocation Changes for Oversized
+VMs
+VMs widgets.
+This dashboard is comprised of multiple widgets as shown in the image. In this overview, we will show each one over the next few
+pages. As we navigate this dashboard, we will need to scroll down using the slider bar on the right side of the screen (not shown) in
+order to view all the available widgets.
+The purpose of these widgets are:
+2.Reclaimed Capacity
+Reclaimed Capacity - provides the metric details for previously reclaimed vCPU/Memory from Idle VMs, Disk Space from Idle
+VMs/Powered Off VMs/Snapshots/Orphaned Disks, and Memory reclaimed from Oversized VMs.
+3.Allocation Changes for Oversized VMs -
+Allocation Changes for Oversized VMs - shows the number of vCPUs and GB of memory removed from formerly oversized
+VMs.
+Due to the nature of the Hands-on Labs environment, we may or may not have any totals identified and will likely differ from the
+screenshot shown.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 1
+
+
+=== PAGE 142 ===
+[171]
+[171]
+Review the Realized Cost Savings Dashboard - Part 3
+Review the Realized Cost Savings Dashboard - Part 3
+1. Scroll down in the Realized Cost Savings
+Realized Cost Savings dashboard to show the Reclaimed vCPUs, Reclaimed Memory and Reclaimed Disk
+Reclaimed vCPUs, Reclaimed Memory and Reclaimed Disk
+Space
+Space widgets.
+This dashboard is comprised of multiple widgets as shown in the image. In this overview, we will show each one over the next few
+pages. As we navigate this dashboard, we will need to scroll down using the slider bar on the right side of the screen (not shown) in
+order to view all the available widgets.
+The purpose of these widgets are:
+2.Reclaimed vCPUs
+Reclaimed vCPUs - total number of vCPUs reclaimed over the past 30 days based on recommendations from VMware Aria
+Operations.
+3.Reclaimed Memory
+Reclaimed Memory - total Memory (GB) reclaimed over the past 30 days based on recommendations from VMware Aria
+Operations.
+4.Reclaimed Disk Space
+Reclaimed Disk Space - total amount of Disk Space (GB) reclaimed over the past 30 days based on recommendations from
+VMware Aria Operations.
+Clicking on individual costs below the chart would allow us to hide/unhide specific items to be displayed in the chart.
+Due to the nature of the Hands-on Labs environment, we may or may not have any totals identified and will likely differ from the
+screenshot shown.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 2
+
+
+=== PAGE 143 ===
+[172]
+[172]
+Cost of Deleted VMs
+Cost of Deleted VMs
+1. Scroll down in the Realized Cost Savings
+Realized Cost Savings dashboard to show the Cost of Deleted VMs
+Cost of Deleted VMs section.
+This section of the dashboard provides the metric details for the following:
+2.Cost of Deleted VMs in Past 30 days
+Cost of Deleted VMs in Past 30 days - currency cost for deleted VMs over the past 30 days.
+3.Cost of Deleted VMs (Year to Date)
+Cost of Deleted VMs (Year to Date) - currency cost for deleted VMs during the current calendar year.
+4.Cost of Deleted VMs by Cluster (30 Days)
+Cost of Deleted VMs by Cluster (30 Days) - graphical interface identifying currency cost for deleted VMs over the past 30 days
+on a per cluster basis.
+5.Cost of Deleted VMs by Cluster (Year to Date) -
+Cost of Deleted VMs by Cluster (Year to Date) - graphical interface identifying currency cost for deleted VMs during the
+current calendar year on a per cluster basis.
+Due to the nature of the Hands-on Labs environment, we may or may not have any totals identified and will likely differ from the
+screenshot shown.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 3
+
+
+=== PAGE 144 ===
+[173]
+[173]
+Lesson Recap
+Lesson Recap
+In this lesson, we started to review ways in which we can see the cost of running the private cloud. As part of that, we:
+òConfirmed that a Currency was configured in Global Settings.
+òReviewed the Total Cost of Ownership
+Total Cost of Ownership dashboard.
+òReviewed the Potential Cost Savings
+Potential Cost Savings dashboard.
+òReviewed the Realized Cost Savings
+Realized Cost Savings dashboard.
+[174]
+[174]
+Cost Drivers and More
+Cost Drivers and More
+In this lesson we will review Cost Drivers and how having accurate costs can make positive impacts to understand the cost of Private
+Cloud.
+Cost Drivers
+Cost Drivers are the aspect that contributes to the expense of our business operations. Cost Drivers provide a link between a pool of
+costs. To provide a granular cost visibility and to track our expenses of virtual machines accurately in a private cloud, VMware Aria
+Operations has identified eight key cost drivers. We can see the total projected expense on our private cloud accounts for the current
+month and the trend of cost over time and is reflected in the dashboards we previously viewed in this module.
+According to the industry standard, VMware Aria Operations maintains a reference cost for these cost drivers. This reference cost helps
+calculate the cost of our setup, but they might not be accurate. For example, we might have received some special discounts during a
+bulk purchase that might not match the socket-based pricing available in t
+
+=== PAGE 145 ===
+[176]
+[176]
+Modifying Cost Drivers
+Modifying Cost Drivers
+To modify Cost Drivers
+Cost Drivers and input data that more accurately reflects our environment:
+1. Click >>
+>> to expand the navigation
+navigation menu.
+2.Scroll down to navigation menu
+3.Click Configurations
+Configurations.
+4.Scroll down in the Configurations
+Configurations page to locate the Cost
+Cost category.
+5.Click Cost Drivers
+Cost Drivers.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 5
+
+
+=== PAGE 146 ===
+[177]
+[177]
+Review the Cost Drivers Settings
+Review the Cost Drivers Settings
+1. Click <<
+<< to minimize the navigation menu.
+In the Cost Drivers
+Cost Drivers page, notice the following:
+2.The Infrastructure Type
+Infrastructure Type dropdown means we can choose between the two different supported Infrastructure Type
+Infrastructure Type's; vCenter
+or VMware Cloud.
+3.We can import
+import an existing set of Cost Drivers via a csv file.
+4.The Select Datacenter
+Select Datacenter dropdown means we can differentiate between Cost Drivers of in different datacenters
+5.There is a a number of different Cost Drivers that can be configured to help get us to an accurate cost of Private Cloud
+(including Server Hardware: Traditional or Hyper-Converged, Storage, License, Network, etc).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 6
+
+
+=== PAGE 147 ===
+[178]
+[178]
+Access the Cost Drivers Component: Server Hardware
+Access the Cost Drivers Component: Server Hardware
+We can edit any of the components listed in the Cost Drivers Settings, but for this lab, let's edit the second component listed by clicking
+on the component name:
+1. Click Server Hardware: Hyper-Converged
+Server Hardware: Hyper-Converged.
+We only have Hyper-Converged Hardware in the lab, thus the reason the Server Hardware: Traditional
+Server Hardware: Traditional option is showing as US$0
+US$0.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 7
+
+
+=== PAGE 148 ===
+[179]
+[179]
+Expand the Cost Drivers Component: Server Hardware
+Expand the Cost Drivers Component: Server Hardware
+We can now see more information on the Server Hardware : Hyper-Converged
+Server Hardware : Hyper-Converged Cost Driver:
+1. We see a Summary
+Summary of this Cost Driver.
+In this instance we can see the environment has 7 servers with a combined monthly hardware cost of US$2.13K
+US$2.13K.
+2.In the Server Group Description
+Server Group Description column, we can see the more detail about each of the servers.
+We can see there are two types of server configuration that are subtly different, the first server type has 4 CPU sockets and 32GB RAM,
+the second type has 1 CPU and 96GB RAM).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 8
+
+
+=== PAGE 149 ===
+[180]
+[180]
+Edit the Cost Drivers Component: Server Hardware
+Edit the Cost Drivers Component: Server Hardware
+We can edit the Cost Per Server
+Cost Per Server do the following:
+1. Click > to expand the server grouping.
+2.Scroll down to see all of the information on the server grouping.
+3.At the Cost Per Server
+Cost Per Server field, type 25000.
+4.At the Compute Percentage (%)
+Compute Percentage (%) field, type 80.
+5.Click SAVE
+SAVE.
+If we look at the cost values on this page now, we can see that:
+6.The Monthly Cost
+Monthly Cost for the server group has increased.
+7.The Summary
+Summary cost for all servers within this datacenter has increased.
+By changing the Cost Per Server
+Cost Per Server and the Compute Percentage(%)
+Compute Percentage(%) this will impact the cost of storage when VMs are being deployed to
+this vSAN cluster.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 4 9
+
+
+=== PAGE 150 ===
+[181]
+[181]
+Realized Cost Savings Reclamation Suggestions
+Realized Cost Savings Reclamation Suggestions
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 0
+
+
+=== PAGE 151 ===
+In VMware Aria Operations we can track the cost savings using reclamation suggestions. Using the reclamation option, we can view the
+cost, capacity, and allocation metrics related to individual data centers. The metrics provide an estimate of the potential savings
+achieved through VMware Aria Operations.
+We can track the realized cost savings and actual capacity reclaimed for data centers, in the following scenarios.
+òReclaim the cost for Idle VMs by deleting the VM.
+òReclaim the cost for Powered off VMs by deleting the VM.
+òReclaim the cost for Idle VMs by powering off the VM.
+òReclaim the cost for snapshots VMs by deleting the snapshot.
+òReclaim the cost for orphaned disks by deleting the orphaned disk space.
+òReclaim the cost by removing vCPU and Memory from an oversized VM.
+òReclaim the cost by removing a host from the vCenter.
+To view Realized Cost Savings Reclamation Suggestions, we need to navigate to the Reclaim
+Reclaim page:
+1. Click >>
+>> to expand the navigation menu.
+2.Click Operations
+Operations to minimize the navigation grouping.
+3.Click Capacity
+Capacity to expand the navigation grouping.
+4.Click Reclaim
+Reclaim.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 1
+
+
+=== PAGE 152 ===
+[182]
+[182]
+View the Reclaim Settings
+View the Reclaim Settings
+In the Reclaim pane, notice it identifies attached Datacenters and an overview of their current cost savings situation. We have a very
+small lab, but we can see there are still some potential cost savings we could make.
+1. Click SETTINGS
+SETTINGS.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 2
+
+
+=== PAGE 153 ===
+[183]
+[183]
+Reclamation Settings
+Reclamation Settings
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 3
+
+
+=== PAGE 154 ===
+At the Reclamation Settings
+Reclamation Settings dialogue, we can configure a number of different items to change the way in which the Reclamation
+algorithms work. This includes:
+1. The settings for VM Idleness Criteria
+VM Idleness Criteria.
+2.The criteria for Powered Off VMs
+Powered Off VMs.
+3.The criteria for Idle VMs
+Idle VMs.
+4.The criteria for Snapshots
+Snapshots.
+5.The criteria for Orphaned Disks
+Orphaned Disks.
+We currently have these set all for 1 day so that it is easier to show how the feature works, but these are not the default settings.
+When you are ready to continue with the lab:
+6.Click CANCEL
+CANCEL.
+[184]
+[184]
+View Reclaim options for selected datacenter
+View Reclaim options for selected datacenter
+1. Click the mgmt-datacenter-01
+mgmt-datacenter-01 datacenter.
+The datacenter
+datacenter has an icon that look like a building.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 4
+
+
+=== PAGE 155 ===
+As this is a small environment, we can see there are still some opportunities for improvement!
+2.We can see the overall Cost Savings (in our local currency) of savings we could make by completing all reclamation activities.
+3.We can see the Total Reclaimable Capacity
+Total Reclaimable Capacity in terms of CPUs, Memory and Diskspace we could achieve if we completed all of
+the reclamation activities.
+4.We can see we can save money by removing the Powered off VMs
+Powered off VMs.
+5.We can see that we also have some Idle VMs
+Idle VMs, and removing those could also save money.
+6.We can see that we have some Orphaned Disks
+Orphaned Disks that we could potentially remove.
+Whilst removing these items in our lab environment isn't practical, looking at we reclaiming resources (especially when resources are
+contended) is a good way to free up some much needed space.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 5
+
+
+=== PAGE 156 ===
+[185]
+[185]
+Navigate to the Cost Optimization | VM Rightsizing Details Dashboard
+Navigate to the Cost Optimization | VM Rightsizing Details Dashboard
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 6
+
+
+=== PAGE 157 ===
+Rightsizing is defined as changing the amount of resources allocated to a VM based on the Recommended Size for a VM.
+Recommended Size is the maximum projected utilization for the projection period from the current time to 30 days after the warning
+threshold value for time remaining. The warning threshold is the period during which the time remaining is green. If the warning
+threshold value for time remaining is 120 days, which is the default value, the recommended size is the maximum projected utilization
+150 days into the future. While rightsizing a VM can reclaim capacity, the change in allocation may not equal the amount of reclaimable
+capacity.
+To access the VM Rightsizing Details dashboard, do the following:
+1. Click >>
+>> to expand the navigation menu.
+2.Click Operations
+Operations.
+3.Click Dashboards
+Dashboards.
+4.At the Dashboards
+Dashboards menu search bar, type vm rightsizing.
+5.Click VM Rightsizing Details
+VM Rightsizing Details.
+[186]
+[186]
+Reviewing the VM Rightsizing Details Dashboard - Part 1
+Reviewing the VM Rightsizing Details Dashboard - Part 1
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 7
+
+
+=== PAGE 158 ===
+1. Click <<
+<< to minimize the navigation menu.
+2.Click <<
+<< to minimize the Dashboards
+Dashboards menu.
+Reviewing the VM Rightsizing Details dashboard we see several "read me" sections including:
+3.About this Dashboard
+About this Dashboard - definitions and details of the various metrics included in this dashboard.
+4.Rightsizing - Conservative
+Rightsizing - Conservative - graphical explanation of the conservative rightsizing setting.
+5.Rightsizing - Aggressive
+Rightsizing - Aggressive - graphical explanation of the aggressive rightsizing setting (not expanded).
+[187]
+[187]
+Reviewing the VM Rightsizing Details Dashboard - Select vSphere World
+Reviewing the VM Rightsizing Details Dashboard - Select vSphere World
+1. Scroll down to the Select Cluster, Datacenter, or World Object
+Select Cluster, Datacenter, or World Object list view widget.
+2.Select the vSphere World
+vSphere World from the Select Cluster, Datacenter, or World Object
+Select Cluster, Datacenter, or World Object list view.
+3.VIew the Select Undersized VM to View Recommendations
+Select Undersized VM to View Recommendations widget.
+There are no undersized VMs within our lab, so there should be no results shown.
+In a Production environment, we likely would see a list of VMs here that needed additional resources (CPU and/or RAM) that needed to
+be added
+added to VMs in the Undersized VM widget.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 8
+
+
+=== PAGE 159 ===
+In this instance, this may not be entirely accurate as the Virtual Machines have only been powered on for a short amount of time. But it
+does make for a great lab!
+[188]
+[188]
+Reviewing the VM Rightsizing Details Dashboard - Oversized VMs
+Reviewing the VM Rightsizing Details Dashboard - Oversized VMs
+1. Scroll down until the Select an Oversized VM to View Recommendations widget.
+Select an Oversized VM to View Recommendations widget.
+We can see a number (if not all) of our VMs running in the environment are considered by Aria Operations to be oversized.
+2.At the Select an Oversized VM to View Recommendations
+Select an Oversized VM to View Recommendations widget, click the auto
+auto row.
+Do NOT click on the highlighted/linked Virtual Machine name as this takes us to Object Details for that Virtual Machine.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 5 9
+
+
+=== PAGE 160 ===
+[189]
+[189]
+Reviewing the VM Rightsizing Details Dashboard - VM Status, Undersized Details &amp; Oversized Details
+Reviewing the VM Rightsizing Details Dashboard - VM Status, Undersized Details &amp; Oversized Details
+1. Scroll down the VM Rightsizing Details Dashboard
+VM Rightsizing Details Dashboard until we see the Search for a VM to View Recommendation
+Search for a VM to View Recommendation section.
+We can see the dashboard contains a number of widgets we can use to get more information on our selected virtual machine (auto
+auto).
+Including:
+2.VM Status
+VM Status - Provides reported projected monthly cost and VM Tools status of the selected VM.
+3.Oversized Details
+Oversized Details - Provides further details regarding resources to remove from the selected VM and potential cost savings of
+implementing recommended changes.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 0
+
+
+=== PAGE 161 ===
+[190]
+[190]
+Reviewing the VM Rightsizing Details Dashboard - VM CPU Configuration, VM Memory Configuration, et al
+Reviewing the VM Rightsizing Details Dashboard - VM CPU Configuration, VM Memory Configuration, et al
+1. Scroll down the VM Rightsizing Details Dashboard
+VM Rightsizing Details Dashboard.
+We can see the dashboard contains another set of widgets that we can use to get more information on our selected virtual machine
+(auto
+auto). Including:
+2.VM CPU Configuration
+VM CPU Configuration - Current CPU Configuration and if Hot Add/Remove are enabled on the selected VM.
+3.VM Memory Configuration
+VM Memory Configuration - Current Memory Configuration and if Hot Add is enabled on the selected VM.
+4.CPU Demand MHz (95th Percentile)
+CPU Demand MHz (95th Percentile)
+5.CPU Workload % (95th Percentile)
+CPU Workload % (95th Percentile)
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 1
+
+
+=== PAGE 162 ===
+[191]
+[191]
+Reviewing the VM Rightsizing Details Dashboard - Memory Utilization (GB) &amp; Memory Workload %
+Reviewing the VM Rightsizing Details Dashboard - Memory Utilization (GB) &amp; Memory Workload %
+1. Scroll down the VM Rightsizing Details Dashboard
+VM Rightsizing Details Dashboard.
+We can see the dashboard contains another set of widgets that we can use to get more information on our selected virtual machine
+(auto
+auto). Including:
+2.Memory Utilization GB (95th Percentile)
+Memory Utilization GB (95th Percentile)
+3.Memory Workload % (95th Percentile)
+Memory Workload % (95th Percentile)
+We could scroll down further on this dashboard to see other widgets but they are outside the remit of this lesson.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 2
+
+
+=== PAGE 163 ===
+[192]
+[192]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[193]
+[193]
+Conclusion
+Conclusion
+In this module, we discussed how to set the currency in VMware Aria Operations. Additionally, we covered how Virtual Machine
+Costing in VMware Aria Operations allows us to track how much we are paying for CPU, Memory, and Disk/Storage resources on a per
+VM basis. Finally, we covered a general overview of specific Out-of-the-box (OOTB) dashboards and how they allow us to see not only
+specific VM costs but also track total costs across our datacenter(s).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 3
+
+
+=== PAGE 164 ===
+[194]
+[194]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module.
+For more information on getting started with Aria Operations, see the VMware Aria Operations: Journey to Success
+VMware Aria Operations: Journey to Success guide at the
+VMware Apps & Cloud Management Tech Zone
+VMware Apps & Cloud Management Tech Zone.
+From here you can:
+1. Continue with the next lab module
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab
+3.End your lab and return in the future
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 4
+
+
+=== PAGE 165 ===
+Module 6 - Generating Reports for Cost, Capacity, Compliance and More (30 minutes) Basic
+Module 6 - Generating Reports for Cost, Capacity, Compliance and More (30 minutes) Basic
+[196]
+[196]
+Introduction
+Introduction
+VMware Aria Operations contains extensive capabilities around reporting in multiple formats including emails, dashboards and
+executive reports. In this module we will work through creating custom reports, views and dashboards. Let's get started.
+This Module contains the following lessons:
+òIntroduction to Reports
+òGenerate Basic Reports
+Lab Captain(s):
+Lab Captain(s):
+òWilliam De Marigny - Staff NSX Technical Adoption Manager, US
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 5
+
+
+=== PAGE 166 ===
+[197]
+[197]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will log in to Aria Operations
+Aria Operations.
+[198]
+[198]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 6
+
+
+=== PAGE 167 ===
+[199]
+[199]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 7
+
+
+=== PAGE 168 ===
+[200]
+[200]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 8
+
+
+=== PAGE 169 ===
+[201]
+[201]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[202]
+[202]
+Introduction to Reports
+Introduction to Reports
+In this lesson, we will Introduce Reporting in Aria Operations. A report is a scheduled snapshot of views and dashboards in the
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 6 9
+
+
+=== PAGE 170 ===
+environment. The report can represent objects and metrics and include formatting such as a table of contents, cover page, headers
+and footers.
+With the VMware Aria Operations reporting functions, we can generate a report to capture details related to current or predicted
+resource needs. Reports can be downloaded and shared in a variety of formats including PDF files, CSV files and Emails. Let's get
+started.
+[203]
+[203]
+Locating Reports
+Locating Reports
+1. Click on the chevron next to Operations.
+Operations.
+2.Click on Reports.
+Reports.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 0
+
+
+=== PAGE 171 ===
+[204]
+[204]
+Understanding Reports
+Understanding Reports
+In Aria Operations, Reports are a point in time view of metrics, objects and dashboards within the environment. Where dashboards can
+be dynamic, interactive and responsive to user views and inputs, reports only display information based on the time they are executed.
+Let's generate a report and view the output by doing the following:
+1. In the search field of the Report Templates pane, type Capacity Report
+Capacity Report and press enter.
+2.Locate the Capacity Report - Datastores
+Capacity Report - Datastores report in the list and select the check box
+select the check box next to the report name (view obstructed in
+the attached image).
+3.Notice the Subject of the report is the Cluster Compute Resource, Datacenter.
+Cluster Compute Resource, Datacenter.
+4.Click on the 3-dot
+3-dot action menu.
+5.Select Run.
+Run.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 1
+
+
+=== PAGE 172 ===
+[205]
+[205]
+Selecting the Object to Run the Report On
+Selecting the Object to Run the Report On
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 2
+
+
+=== PAGE 173 ===
+We are now presented with the Object Pane to select which Compute Resource we want to run our report on. In this lab, we want to
+run this report on the Workload Cluster, so do the following:
+1. The vSphere Hosts and Clusters should be selected by default, if not please select it.
+2.Click the chevron to expand the vSphere World
+vSphere World.
+3.Click the chevron to expand the VCF_mgmt-domain
+VCF_mgmt-domain vCenter.
+4.Click the chevron to expand the mgmt-datacenter-01
+mgmt-datacenter-01 Virtual Datacenter.
+5.Select the wld-cluster-01
+wld-cluster-01 Cluster.
+6.Click OK
+OK.
+[206]
+[206]
+Open Generated Report
+Open Generated Report
+The User Interface will update after a few moments and display the status of the report we just started. Let's take a look at some of the
+information displayed then open our report. In the Report Templates pane:
+1. Under the Generated Reports
+Generated Reports column, we're shown the number of reports that have been created using the template we
+picked.
+2.Under the Schedules
+Schedules column, we're shown any existing scheduled run times for the report.
+3.Under the Last Modified
+Last Modified column, we're shown the date the report template was last changed, this is not the same as when it
+was last run.
+4.Under the Last Run
+Last Run column, we're shown when then report was most recently generated.
+5.Click on the blue number under Generated Reports
+Generated Reports to open the generated report.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B
+
+=== PAGE 174 ===
+[207]
+[207]
+Delete or Download and View Report
+Delete or Download and View Report
+In a large environment, many administrators will use tools other than the UI to interact and view information from Aria Operations. To
+facilitate this, every object is given a unique identifier allowing for programmatic access. When we opened this generated report, we're
+automatically shown the unique identifier. Let's take a look at the identifier and also download and view our report.
+1. In our search bar, we see that the UUID has automatically been displayed.
+2.Click on the PDF icon (in the Download Column) to download and view the generated report. Note:
+Note: It may take a minute, but
+the PDF report should automatically open in your browser. Feel free to review the report as time permits.
+[208]
+[208]
+Finished with this lab
+Finished with this lab
+In this lab we had a brief introduction to Reports and Views in VMware Aria Operations. In follow up labs we'll explore creating views
+and reports and using them to create deliverable documents within your organization .
+[209]
+[209]
+Generate Basic Reports
+Generate Basic Reports
+VMware Aria Operations contains extensive capabilities around reporting. From CSV files to executive summaries, VMware Aria
+Operations contains the tools to gain deep insights into your VMware environment.
+In this lab, we'll generate reports showing the cost and cost drivers in our environment as well as an overall capacity and utilization
+report, Let's get started.
+HOL-2501-
+
+=== PAGE 175 ===
+[210]
+[210]
+Locate Reports
+Locate Reports
+1. Click on the chevron next to Operations.
+Operations.
+2.Click on Reports.
+Reports.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 5
+
+
+=== PAGE 176 ===
+[211]
+[211]
+Locate Cluster Cost Report
+Locate Cluster Cost Report
+1. In the search field, type Cluster Cost
+2.Click the 3-dots next to Cluster Cost Report.
+Cluster Cost Report.
+3.Click Clone
+Clone (Not Shown).
+[212]
+[212]
+Edit Cloned Report
+Edit Cloned Report
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 6
+
+
+=== PAGE 177 ===
+Reports consist of pregenerated Views and Dashboards that can be combined to create deliverable reports. Views are representations
+of data available within Aria Operations and can be as simple or complex as the administrator needs. Views are covered in more depth
+in HOL-2402 but for now, we will work with basic preformed views.
+We see in this report (based upon the Description Field) that we're displaying the cost metrics across multiple categories for hosts in
+our environment. Let's add on an additional view to this cost report.
+1. Rename the report to HOL Cost Report
+2.Select NEXT
+NEXT.
+[213]
+[213]
+Add Views to Cloned Report
+Add Views to Cloned Report
+1. In the Views and Dashboards
+Views and Dashboards pane, type compute cost in the views filter field and press enter.
+2.Double-click or drag to the left pane the Compute Cost Drivers
+Compute Cost Drivers view.
+3.Click Create
+Create.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 7
+
+
+=== PAGE 178 ===
+[214]
+[214]
+Run The New Report
+Run The New Report
+1. Click on Manage
+Manage
+2.Clear our existing filter and type Cost
+3.Click the 3 dots
+3 dots next to our HOL Cost Report to open the report menu.
+4.Select Run
+Run (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 8
+
+
+=== PAGE 179 ===
+[215]
+[215]
+Select the Cluster for our Report
+Select the Cluster for our Report
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 7 9
+
+
+=== PAGE 180 ===
+In the Object Menu that appears:
+1. Ensure we are in the vSphere Hosts and Clusters
+vSphere Hosts and Clusters view which is the default.
+2.Select the chevron
+chevron to expand vSphere World.
+vSphere World.
+3.Select the chevron
+chevron to expand VCF_mgmt-domain.
+VCF_mgmt-domain.
+4.Select the chevron
+chevron to expand mgmt-datacenter-01.
+mgmt-datacenter-01.
+5.Select wld-cluster-01.
+wld-cluster-01.
+6.Select OK.
+OK.
+[216]
+[216]
+Locate and Schedule the Capacity Report
+Locate and Schedule the Capacity Report
+While the Cost metrics report runs, let's go ahead and schedule a capacity report to also run daily. This will show us how to run reports
+both at an immediate point in time as well as on a scheduled basis.
+1. Select Manage
+Manage under Reports (Optional).
+2.In the filter field, clear any existing entry, type capacity and press enter.
+3.Locate the Capacity Report - Environment
+Capacity Report - Environment and click the 3 dots.
+3 dots.
+4.Select Schedule
+Schedule (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 0
+
+
+=== PAGE 181 ===
+[217]
+[217]
+Select a Cluster for the Scheduled Report
+Select a Cluster for the Scheduled Report
+In the Object Menu that appears:
+1. Ensure we are in the vSphere Hosts and Clusters
+vSphere Hosts and Clusters view which is the default.
+2.Select the chevron
+chevron to expand vSphere World.
+vSphere World.
+3.Select the chevron
+chevron to expand VCF_mgmt-domain.
+VCF_mgmt-domain.
+4.Select the chevron
+chevron to expand mgmt-datacenter-01.
+mgmt-datacenter-01.
+5.Select wld-cluster-01.
+wld-cluster-01.
+6.Select OK.
+OK.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 1
+
+
+=== PAGE 182 ===
+[218]
+[218]
+Schedule a Time to Run the Report
+Schedule a Time to Run the Report
+1. Select the Pacific Time Zone
+Pacific Time Zone by clicking on the chevron
+chevron.
+2.Select the checkbox
+checkbox next to each day.
+3.Select FINISH.
+FINISH.
+Note: In addition to generating our reports, we can email them using a defined SMTP server or have the report placed on a drive
+connected to VMware Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 2
+
+
+=== PAGE 183 ===
+[219]
+[219]
+Run the Capacity Report
+Run the Capacity Report
+Now that we have scheduled our report to run daily, let's manually run the report again so we have an example of how the process
+works.
+1. Select Manage
+Manage under Reports (Optional).
+2.In the filter field, clear any existing entry, type capacity and press enter.
+3.Locate the Capacity Report - Environment
+Capacity Report - Environment and click the 3 dots.
+3 dots.
+4.Select Schedule
+Schedule (not shown).
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 3
+
+
+=== PAGE 184 ===
+[220]
+[220]
+Select A Cluster
+Select A Cluster
+In the Object Menu that appears:
+1. Ensure we are in the vSphere Hosts and Clusters
+vSphere Hosts and Clusters view which is the default.
+2.Select the chevron
+chevron to expand vSphere World.
+vSphere World.
+3.Select the chevron
+chevron to expand VCF_mgmt-domain.
+VCF_mgmt-domain.
+4.Select the chevron
+chevron to expand mgmt-datacenter-01.
+mgmt-datacenter-01.
+5.Select wld-cluster-01.
+wld-cluster-01.
+6.Select OK.
+OK.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 4
+
+
+=== PAGE 185 ===
+[221]
+[221]
+Open Reports
+Open Reports
+After a few moments, the report will be run and will be accessible from the Generated Reports section. From here we have the ability to
+download the report results as either a PDF or CSV file.
+1. Select Generated Reports
+Generated Reports
+2.Clear any existing filter fields and type either Capacity or Cost to filter down (Optional).
+3.Click on the PDF
+PDF icon next to any reports to open the PDF file in your browser (not shown).
+Note: The generated reports do not overwrite other reports of the same type. Instead you are presented a list of all the reports and can
+sort and filter based on Completion date and time.
+[222]
+[222]
+Conclusion
+Conclusion
+In this lab, we introduced you to creating a report in VMware Aria Operations focusing on Cluster Cost as well as scheduling a report
+focusing on capacity. We introduced Views and how you can clone existing reports and add existing views to start customization of your
+report.
+In later modules and labs we will go into more detail explaining how to create custom Views giving you complete control over your
+reports.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 5
+
+
+=== PAGE 186 ===
+[223]
+[223]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[224]
+[224]
+Conclusion
+Conclusion
+In this module, we created and schedule some basic reports in our VMware Aria Operations environment by using existing views and
+dashboards. In later modules, we will explore how to create custom views to use with your dashboards and reports.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 6
+
+
+=== PAGE 187 ===
+[225]
+[225]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module.
+If you are looking for additional information, visit the Aria Operations Manager Documentation
+Operations Manager Documentation.
+From here you can:
+1. Continue with the next lab module
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab
+3.End your lab and return in the future
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 7
+
+
+=== PAGE 188 ===
+Module 7 - Visualizing the Health of your Private Cloud with VCF Diagnostics (15 minutes) Basic
+Module 7 - Visualizing the Health of your Private Cloud with VCF Diagnostics (15 minutes) Basic
+[227]
+[227]
+Introduction
+Introduction
+In this module we will complete a high level walk through the VMware Cloud Foundation (VCF)
+VMware Cloud Foundation (VCF) Diagnostics
+Diagnostics.
+We will start the module by introducing a number of key terms related to VCF Diagnostics and complete the module by walking through
+the Diagnostics Page.
+Lab Captain(s):
+Lab Captain(s):
+òChristopher Lewis, Lead Solutions Architect, UK
+òShannon Fitzpatrick, Staff Technical Adoption Manager, US
+[228]
+[228]
+Introducing VCF Diagnostics
+Introducing VCF Diagnostics
+In this section we will provide an introduction to VCF Diagnostics.
+[229]
+[229]
+What is VCF Diagnostics?
+What is VCF Diagnostics?
+VMware Cloud Foundation (VCF) Diagnostics is a new feature within VCF Operations that provides a centralized platform that monitors
+the operational status of the VCF platform, including:
+- vCenter
+- ESXi
+- vSAN
+- SSL Certificates (VCF components only)
+- Workload Provisioning
+- Snapshot Activities
+- vSphere vMotion
+[230]
+[230]
+How Does VCF Diagnostics Work?
+How Does VCF Diagnostics Work?
+VCF Diagnostics combines the diagnostic capabilities of VMware Skyline Health Diagnostics, VMware Skyline Advisor with VMware Aria
+Operations for Logs.
+For VCF Diagnostics
+VCF Diagnostics to work, it requires both VMware Aria Operations
+VMwa
+
+=== PAGE 189 ===
+[231]
+[231]
+What is a Diagnostic Finding?
+What is a Diagnostic Finding?
+A Diagnostics Finding
+Diagnostics Finding is information that is derived from vCenter
+vCenter, ESXi
+ESXi, and vSAN
+vSAN events, properties, and log data that can help identify
+potential problems or informs you about existing issues in our environment.
+The following information is provided for each finding:
+- Severity
+Severity (Critical, Immediate, Warning)
+- VCF
+VCF Component
+Component (such a vCenter, ESXi, NSX, VMware Aria Operations, VMware Aria Automation, SDDC Manager or vSAN)
+- Capability
+Capability (such as vMotion, Snapshot, Workload Planning, Workload Domain Provisioning, DRS, HA)
+- Finding Type
+Finding Type (Availability, Security, Operations Diagnostics, Pre-Upgrade Check, Product Interoperability)
+- Category
+Category (Management, Compute, Storage, Network, Security)
+[232]
+[232]
+Log in to Aria Operations
+Log in to Aria Operations
+In the following few pages, we will walk through the process for logging in to Aria Operations
+Aria Operations.
+[233]
+[233]
+Open the Firefox Browser from Windows Quick Launch Task Bar
+Open the Firefox Browser from Windows Quick Launch Task Bar
+If the browser is not already open, launch Firefox
+Firefox.
+1. Click the Firefox
+Firefox icon on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 8 9
+
+
+=== PAGE 190 ===
+[234]
+[234]
+Log in to Aria Operations
+Log in to Aria Operations
+Once Firefox
+Firefox has loaded:
+1. Click on the VCF Cloud Management
+VCF Cloud Management bookmark folder.
+2.Click Aria Operations
+Aria Operations.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 0
+
+
+=== PAGE 191 ===
+[235]
+[235]
+Redirect to Workspace ONE Access for Sign-On
+Redirect to Workspace ONE Access for Sign-On
+Aria Operations is integrated with Workspace ONE Access (aka VMware Identity Manager). As we can see, Workspace ONE Access is
+listed as an authentication source in our live lab environment.
+1. Select Workspace ONE Access
+Workspace ONE Access from the dropdown.
+2.Click REDIRECT
+REDIRECT.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 1
+
+
+=== PAGE 192 ===
+[236]
+[236]
+Workspace ONE Access Login
+Workspace ONE Access Login
+The credentials for holadmin
+holadmin should already be cached in the browser window.
+At the Workspace ONE Access
+Workspace ONE Access prompt, type in the following user and password information.
+1. At the username
+username field, type holadmin.
+2.At the password
+password field, type VMware123!.
+3.Click Sign in
+Sign in.
+[237]
+[237]
+Exploring VCF Diagnostics
+Exploring VCF Diagnostics
+The Diagnostics
+Diagnostics page provides a high level overview of the health status of our VMware Cloud Foundation (VCF) environment.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 2
+
+
+=== PAGE 193 ===
+[238]
+[238]
+Navigate to Diagnostics
+Navigate to Diagnostics
+The Diagnostics
+Diagnostics feature is available from the navigation menu.
+1. Click Diagnostics
+Diagnostics.
+2.Click <<
+<< to minimize the navigation menu.
+More information on each of the high level information provided on the Diagnostics page can be accessed using the VIEW DETAILS
+VIEW DETAILS
+option on each card. Delving deeper is is out of scope of this VCF Operations - Getting Started
+VCF Operations - Getting Started Hands-on Lab, but is available via the
+VCF Operations - Getting More Out of it
+VCF Operations - Getting More Out of it hands-on lab.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 3
+
+
+=== PAGE 194 ===
+[239]
+[239]
+Reviewing the Diagnostics Page - Part 1
+Reviewing the Diagnostics Page - Part 1
+At the Diagnostics
+Diagnostics page, we can see a number of different cards that provide an overview of the health of our VMware Cloud
+Foundation (VCF) environment.
+1. Overall Findings
+Overall Findings - Using this card, we can see the total number of Diagnostic Findings
+Diagnostic Findings in our environment with a breakdown
+of the severity rating.
+2.Security Advisories
+Security Advisories - Using this card, we can see the number of Diagnostic Findings
+Diagnostic Findings that are specifically related to missing
+VMware Security Advisories
+VMware Security Advisories (VMSAs) in our VCF infrastructure. A breakdown of the severity rating is also provided.
+3.Certificates
+Certificates - Using this card, we can see an overview of the certificates are active (or expired) in our VCF infrastructure.
+As we can only see 1 critical Diagnostic Finding in the Diagnostic Findings widget and because there is also 1 showing in the Security
+Security
+Advisories
+Advisories widget, we can surmise that this is the same Diagnostic Finding
+Diagnostic Finding.
+4.Scroll down to see the next set of diagnostic information.
+More information on each of the high level information provided on the Diagnostics page can be accessed using the VIEW DETAILS
+VIEW DETAILS
+option on each card. Delving deeper is is out of scope of this VCF Operations - Getting Started
+VCF Operations - Getting Started Hands-on Lab, but is avail
+
+=== PAGE 195 ===
+[240]
+[240]
+Reviewing the Diagnostics Page - Part 2
+Reviewing the Diagnostics Page - Part 2
+As we move down the Diagnostics
+Diagnostics page we can see a number of additional cards that provide more insight into the health of our
+environment:
+1. vCenter Servers
+vCenter Servers - Using this card, we can view the overall health status of our vCenter Servers. We can see if any vCenter has
+either unhealthy services or whether there is an issue with reaching the vCenter over the network.
+2.ESXi Hosts
+ESXi Hosts - Using this card, we can see any a roll-up of any unresponsive hosts across all configured vCenters that are not
+currently in maintenance mode.
+3.Workload Provisioning
+Workload Provisioning - Using this card, we can monitor all current virtual machine (VM) provisioning operations in our
+environment.
+We can see that vCenter and the ESXi hosts seem to be in a healthy state with nothing in a not responding or unreachable state.
+4.Use the scrollbar to scroll down to see the next set of widgets.
+More information on each of the high level information provided on the Diagnostics page can be accessed using the VIEW DETAILS
+VIEW DETAILS
+option on each card. Delving deeper is is out of scope of this VCF Operations - Getting Started
+VCF Operations - Getting Started Hands-on Lab, but is available via the
+VCF Operations - Getting More Out of it
+VCF Operations - Getting More Out of it hands-on lab.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 5
+
+
+=== PAGE 196 ===
+[241]
+[241]
+Reviewing the Diagnostics Page - Part 3
+Reviewing the Diagnostics Page - Part 3
+Finally as we reach the bottom of the Diagnostics
+Diagnostics page, we can see the final set of cards that help us visualize the operational health of
+our environment:
+1. vMotions
+vMotions - In this card, we can see a fleet-wide overview of successful and failed vSphere vMotion activities.
+2.Snapshots
+Snapshots - In this card, we can the total number of snapshot events and, more importantly, the total number of failed
+snapshot events across the whole of the VCF environment.
+3.vSAN Clusters
+vSAN Clusters - In this card, we can see whether or not any of the vSAN clusters in VCF are having issues.
+More information on each of the high level information provided on the Diagnostics page can be accessed using the VIEW DETAILS
+VIEW DETAILS
+option on each card. Delving deeper is is out of scope of this VCF Operations - Getting Started
+VCF Operations - Getting Started Hands-on Lab, but is available via the
+VCF Operations - Getting More Out of it
+VCF Operations - Getting More Out of it hands-on lab.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 6
+
+
+=== PAGE 197 ===
+[242]
+[242]
+Log out of Aria Operations
+Log out of Aria Operations
+To log out of Aria Operations
+Aria Operations:
+1. Click the Preferences
+Preferences menu.
+2.Click Log Out
+Log Out.
+[243]
+[243]
+Conclusion
+Conclusion
+In this module, we started to explore the VCF Diagnostics
+VCF Diagnostics features within VMware Aria Operations. We started the module by
+introducing the concept of VCF Diagnostics
+VCF Diagnostics and discussed how it worked. Finally, we reviewed the Diagnostics
+Diagnostics Page to provide a high
+level overview of this feature.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 7
+
+
+=== PAGE 198 ===
+[244]
+[244]
+You&#39;ve finished the module
+You&#39;ve finished the module
+Congratulations on completing the lab module!
+Congratulations on completing the lab module!
+If you are looking for additional information, visit the VMware Aria Operations: Journey to Success
+VMware Aria Operations: Journey to Success guide on the Apps & Cloud
+Apps & Cloud
+Management Tech Zone
+Management Tech Zone as well as the VMware Aria Operations
+VMware Aria Operations documentation.
+From here you can:
+1. Continue with the next lab module.
+2.Click [vlp:table-of-contents|Show Table of Contents] to jump to any module or lesson in this lab.
+3.End your lab and return in the future.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 8
+
+
+=== PAGE 199 ===
+Appendix
+Appendix
+[246]
+[246]
+Hands-on Labs Interface (Windows Main Console)
+Hands-on Labs Interface (Windows Main Console)
+Welcome to Hands-on Labs! This overview of the interface and features will help you to get started quickly. Click next in the manual to
+explore the Main Console or use the Table of Contents to return to the Lab Overview page or another module.
+[247]
+[247]
+Location of the Main Console
+Location of the Main Console
+1. The area in the large RED box contains the Main Console. The Lab Manual is on the tab to the right of the Main Console.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  1 9 9
+
+
+=== PAGE 200 ===
+[248]
+[248]
+Extend Time
+Extend Time
+1. Your lab starts with a timer. The lab cannot be saved and will end when the timer expires. Click the drop down arrow next to
+the remaining time
+2.Select Extend Time
+Extend Timeto increase the time allowed. The amount of time you can extend will depend on the lab.
+[249]
+[249]
+Alternate Methods of Keyboard Data Entry
+Alternate Methods of Keyboard Data Entry
+In this lab you will input text into the Main Console. Besides directly typing in the console, two alternate methods make it easier to enter
+complex data.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 0
+
+
+=== PAGE 201 ===
+[250]
+[250]
+Click and Drag Lab Manual Content Into Console Active Window
+Click and Drag Lab Manual Content Into Console Active Window
+https://www.youtube.com/watch?v=xS07n6GzGuo
+https://www.youtube.com/watch?v=xS07n6GzGuo
+You can click and drag text and Command Line Interface (CLI) commands directly from the Lab Manual into the active window in the
+Main Console.
+[251]
+[251]
+Accessing the Online International Keyboard
+Accessing the Online International Keyboard
+You can also use the Online International Keyboard found in the Main Console.
+1. Click on the keyboard icon
+keyboard icon found on the Windows Quick Launch Task Bar.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 1
+
+
+=== PAGE 202 ===
+[252]
+[252]
+Click once in active console window
+Click once in active console window
+For example, to enter the "@" sign used in email addresses you can use the Online Keyboard. The "@" sign is Shift-2 on US keyboard
+layouts.
+1. Click once in the active console window.
+2.Click on the Shift
+Shift key.
+3.Click on the "@"
+@" key.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 2
+
+
+=== PAGE 203 ===
+[253]
+[253]
+Return to Lab Guidance
+Return to Lab Guidance
+Use the Table of Contents to return to the Lab Overview page or another module.
+[254]
+[254]
+Hands-on Labs Interface (Ubuntu Main Console)
+Hands-on Labs Interface (Ubuntu Main Console)
+Welcome to Hands-on Labs! This overview of the interface and features will help you to get started quickly. Click next in the manual to
+explore the Main Console or use the Table of Contents to return to the Lab Overview page or another module.
+[255]
+[255]
+Location of the Main Console
+Location of the Main Console
+1. The area in the large RED box contains the Main Console. The Lab Manual is on the tab to the right of the Main Console.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 3
+
+
+=== PAGE 204 ===
+[256]
+[256]
+Extend Time
+Extend Time
+1. Your lab starts with a timer. The lab cannot be saved and will end when the timer expires. Click the drop down arrow next to
+the remaining time
+2.Select Extend Time
+Extend Timeto increase the time allowed. The amount of time you can extend will depend on the lab.
+[257]
+[257]
+Alternate Methods of Keyboard Data Entry
+Alternate Methods of Keyboard Data Entry
+In this lab you will input text into the Main Console. Besides directly typing in the console, two alternate methods make it easier to enter
+complex data.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 4
+
+
+=== PAGE 205 ===
+[258]
+[258]
+Click and Drag Lab Manual Content Into Console Active Window
+Click and Drag Lab Manual Content Into Console Active Window
+https://www.youtube.com/watch?v=xS07n6GzGuo
+https://www.youtube.com/watch?v=xS07n6GzGuo
+You can click and drag text and Command Line Interface (CLI) commands directly from the Lab Manual into the active window in the
+Main Console.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 5
+
+
+=== PAGE 206 ===
+[259]
+[259]
+Accessing the Online International Keyboard
+Accessing the Online International Keyboard
+You can also use the Online International Keyboard found in the Main Console.
+1. Click on the Human icon (Universal Access)
+Human icon (Universal Access) on the top taskbar
+2.Enable Screen Keyboard
+Screen Keyboard
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 6
+
+
+=== PAGE 207 ===
+[260]
+[260]
+The Keyboard Is Now Enabled
+The Keyboard Is Now Enabled
+The keyboard will now be enabled and will autohide and appear when needed; e.g., when you click in a text field or terminal.
+[261]
+[261]
+Return to Lab Guidance
+Return to Lab Guidance
+Use the Table of Contents to return to the Lab Overview page or another module.
+HOL-2501-01-VCF-L_5.2: Getting Started
+H A N D S - O N  L A B S  M A N U A L  |  2 0 7
+
+
+=== PAGE 208 ===
+VMware, Inc. 3401 Hillview Avenue Palo Alto CA 94304 USA Tel 877-486-9273 Fax 650-427-5001 vmware.com.
+Copyright ⌐ 2024 VMware, Inc. All rights reserved. This product is protected by U.S. and international copyright and intellectual property laws. VMware products are covered by one or
+more patents listed at vmware.com/go/patents. VMware is a registered trademark or trademark of VMware, Inc. and its subsidiaries in the United States and other jurisdictions. All other
+marks and names mentioned herein may be trademarks of their respective companies. Lab SKU: HOL-2501-01-VCF-L_5.2 Version: 20241118-153521
+Lab SKU: HOL-2501-01-VCF-L_5.2 Version: 20241118-153521
+
+
