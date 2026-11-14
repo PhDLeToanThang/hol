@@ -15,37 +15,37 @@ rm /var/lib/dpkg/lock* &> /dev/null
 dpkg --configure -a &> /dev/null
 
 #URL_KERNEL=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
-URL_KERNEL=https://www.cloud.edu.vn/pnetlab6/Focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
+URL_KERNEL=https://atcom.vn/pnetlab6/Focal/L/linux-5.17.15-pnetlab-uksm/pnetlab_kernel.zip
 
 #URL_PRE_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/D/pre-docker.zip
-URL_PRE_DOCKER=https://www.cloud.edu.vn/pnetlab6/Focal/D/pre-docker.zip
+URL_PRE_DOCKER=https://atcom.vn/pnetlab6/Focal/D/pre-docker.zip
 
 #URL_PNET_GUACAMOLE=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_GUACAMOLE/pnetlab-guacamole_6.0.0-30_amd64.deb
-URL_PNET_GUACAMOLE=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_GUACAMOLE.zip
+URL_PNET_GUACAMOLE=https://atcom.vn/pnetlab6/Focal/P/PNET_GUACAMOLE.zip
 
 #URL_PNET_DYNAMIPS=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DYNAMIPS/pnetlab-dynamips_6.0.0-30_amd64.deb
-URL_PNET_DYNAMIPS=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DYNAMIPS.zip
+URL_PNET_DYNAMIPS=https://atcom.vn/pnetlab6/Focal/P/PNET_DYNAMIPS.zip
 
 #URL_PNET_SCHEMA=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_SCHEMA/pnetlab-schema_6.0.0-30_amd64.deb
-URL_PNET_SCHEMA=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_SCHEMA.zip
+URL_PNET_SCHEMA=https://atcom.vn/pnetlab6/Focal/P/PNET_SCHEMA.zip
 
 #URL_PNET_VPC=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_VPC/pnetlab-vpcs_6.0.0-30_amd64.deb
-URL_PNET_VPC=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_VPC.zip
+URL_PNET_VPC=https://atcom.vn/pnetlab6/Focal/P/PNET_VPC.zip
 
 #URL_PNET_QEMU=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_QEMU/pnetlab-qemu_6.0.0-30_amd64.deb
-URL_PNET_QEMU=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_QEMU.zip
+URL_PNET_QEMU=https://atcom.vn/pnetlab6/Focal/P/PNET_QEMU.zip
 
 #URL_PNET_DOCKER=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_DOCKER/pnetlab-docker_6.0.0-30_amd64.deb
-URL_PNET_DOCKER=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_DOCKER.zip
+URL_PNET_DOCKER=https://atcom.vn/pnetlab6/Focal/P/PNET_DOCKER.zip
 
 #URL_PNET_PNETLAB=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_PNETLAB/pnetlab_6.0.0-100_amd64.deb
-URL_PNET_PNETLAB=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_PNETLAB.zip
+URL_PNET_PNETLAB=https://atcom.vn/pnetlab6/Focal/P/PNET_PNETLAB.zip
 
 #URL_PNET_WIRESHARK=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/P/PNET_WIRESHARK/pnetlab-wireshark_6.0.0-30_amd64.deb
-URL_PNET_WIRESHARK=https://www.cloud.edu.vn/pnetlab6/Focal/P/PNET_WIRESHARK.zip
+URL_PNET_WIRESHARK=https://atcom.vn/pnetlab6/Focal/P/PNET_WIRESHARK.zip
 
 #URL_PNET_TPM=https://labhub.eu.org/api/raw/?path=/UNETLAB%20I/upgrades_pnetlab/Focal/T/swtpm-focal.zip
-URL_PNET_TPM=https://www.cloud.edu.vn/pnetlab6/Focal/T/swtpm-focal.zip
+URL_PNET_TPM=https://atcom.vn/pnetlab6/Focal/T/swtpm-focal.zip
 
 
 lsb_release -r -s | grep -q 20.04
